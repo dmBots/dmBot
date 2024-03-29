@@ -2,7 +2,7 @@
 
 DM-MC01 驱动多路DM-J4310 DEMO示例
 
-![92940a6d7a828699b95e848fd924ca4](D:\Install\Tencent\WeChat\WeChat Files\wxid_y5aj8ia3vm3e22\FileStorage\Temp\92940a6d7a828699b95e848fd924ca4.jpg)
+![image-20240322094002609](C:/Users/disno/AppData/Roaming/Typora/typora-user-images/image-20240322094002609.png)
 
 使用说明书 V1.0 2023.12.8
 
@@ -48,18 +48,20 @@ user key：短按使能电机，长按失能电机 (该按键在DM-MC01上)
 
 主控板控制多个电机，我们需要确保在一条CAN总线上：每个电机的 **CAN ID** 和 **Master ID** 不一样，具体可以通过达秒科技调试助手设置。
 
-`注意：Master ID 设置不该和电机返回的一些数据ID重复`。
+**注意：Master ID 设置不该和电机返回的一些数据ID重复，也就是在一条总线上 CAN ID 与 Master ID 都不能有相同的ID号**。
 
 ![image-20231208150846495](C:\Users\disno\AppData\Roaming\Typora\typora-user-images\image-20231208150846495.png)
 
 **CAN1 上可以挂载两个电机，需要将ID设置为：**
 
 + MOTOR1：CAN ID 0x01	Master ID 0x00
-+ MOTOR3：CAN ID 0x02	Master ID 0x01
++ MOTOR3：CAN ID 0x02	Master ID 0x00
 
 **CAN2 上可以挂载一个电机，需要将ID设置为：**
 
 + MOTOR2：CAN ID 0x01	Master ID 0x00
+
+
 
 ## 2. 在demo中添加电机
 

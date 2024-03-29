@@ -34,6 +34,7 @@ ctrboard/display.o: ..\User\module\display.c ..\User\module\lcd.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
-  ..\Core\Inc\spi.h ..\User\module\pic.h ..\User\module\display.h \
-  ..\User\motor\dm4310_ctrl.h ..\User\motor\dm4310_drv.h \
-  ..\Core\Inc\can.h ..\User\bsp\can_bsp.h ..\User\module\key_modlue.h
+  ..\Core\Inc\spi.h ..\Core\Inc\main.h ..\User\module\pic.h \
+  ..\User\module\display.h ..\User\motor\dm4310_ctrl.h \
+  ..\User\motor\dm4310_drv.h ..\Core\Inc\can.h ..\User\bsp\can_bsp.h \
+  ..\User\module\key_modlue.h ..\User\motor\dm4310_drv.h

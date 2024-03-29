@@ -38,5 +38,5 @@ ctrboard/adc_modlue.o: ..\User\module\adc_modlue.c \
   ..\User\driver\drivers.h ..\User\driver\adc_driver.h \
   ..\User\bsp\adc_bsp.h ..\User\driver\led_driver.h \
   ..\User\driver\key_driver.h ..\User\driver\can_driver.h \
-  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h \
+  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h ..\Core\Inc\main.h \
   D:\Install\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h

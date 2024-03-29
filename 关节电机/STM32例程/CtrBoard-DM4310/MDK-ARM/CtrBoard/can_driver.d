@@ -35,5 +35,5 @@ ctrboard/can_driver.o: ..\User\driver\can_driver.c \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
-  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h \
+  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h ..\Core\Inc\main.h \
   D:\Install\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h

@@ -34,12 +34,13 @@ ctrboard/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
-  ..\Core\Inc\adc.h ..\Core\Inc\can.h ..\Core\Inc\dma.h \
-  ..\Core\Inc\spi.h ..\Core\Inc\tim.h ..\Core\Inc\gpio.h \
-  ..\User\driver\can_driver.h ..\User\bsp\can_bsp.h \
+  ..\Core\Inc\adc.h ..\Core\Inc\main.h ..\Core\Inc\can.h \
+  ..\Core\Inc\dma.h ..\Core\Inc\spi.h ..\Core\Inc\tim.h \
+  ..\Core\Inc\gpio.h ..\User\driver\can_driver.h ..\User\bsp\can_bsp.h \
   ..\User\motor\dm4310_ctrl.h ..\User\motor\dm4310_drv.h \
   ..\User\module\scheduler.h ..\User\module\mcu_config.h \
   ..\User\driver\drivers.h ..\User\driver\adc_driver.h \
   ..\User\bsp\adc_bsp.h ..\User\driver\led_driver.h \
-  ..\User\driver\key_driver.h ..\User\module\adc_modlue.h \
-  ..\User\module\display.h ..\User\module\lcd.h
+  ..\User\driver\key_driver.h ..\User\driver\can_driver.h \
+  ..\User\module\adc_modlue.h ..\User\module\display.h \
+  ..\User\module\lcd.h

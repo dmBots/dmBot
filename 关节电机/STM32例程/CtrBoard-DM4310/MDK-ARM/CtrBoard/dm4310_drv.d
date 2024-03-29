@@ -35,4 +35,5 @@ ctrboard/dm4310_drv.o: ..\User\motor\dm4310_drv.c \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
-  ..\Core\Inc\can.h ..\User\bsp\can_bsp.h ..\User\driver\can_driver.h
+  ..\Core\Inc\can.h ..\Core\Inc\main.h ..\User\bsp\can_bsp.h \
+  ..\User\driver\can_driver.h

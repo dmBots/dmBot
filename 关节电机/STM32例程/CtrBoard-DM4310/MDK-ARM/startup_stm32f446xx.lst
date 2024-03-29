@@ -878,13 +878,12 @@ ARM Macro Assembler    Page 14
               00000800 
               00000400 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M4.fp.sp 
---depend=ctrboard\startup_stm32f446xx.d -octrboard\startup_stm32f446xx.o -I.\RT
-E\_CtrBoard -ID:\Install\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include -ID:\
-Install\Keil_v5\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4
-xx\Include --predefine="__UVISION_VERSION SETA 538" --predefine="_RTE_ SETA 1" 
---predefine="STM32F446xx SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm3
-2f446xx.lst startup_stm32f446xx.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --depen
+d=ctrboard\startup_stm32f446xx.d -octrboard\startup_stm32f446xx.o -I.\RTE\_CtrB
+oard -ID:\Install\Keil_v5\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include -ID:\Install
+\Keil_v5\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Incl
+ude --predefine="__UVISION_VERSION SETA 529" --predefine="_RTE_ SETA 1" --prede
+fine="STM32F446xx SETA 1" --list=startup_stm32f446xx.lst startup_stm32f446xx.s
 
 
 

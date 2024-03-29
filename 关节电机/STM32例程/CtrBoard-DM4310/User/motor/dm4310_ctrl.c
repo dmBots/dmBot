@@ -359,8 +359,15 @@ void can1_rx_callback(void)
 	canx_receive_data(&hcan1, &rec_id, rx_data);
 	switch (rec_id)
 	{
- 		case 0: dm4310_fbdata(&motor[Motor1], rx_data); break;
-		case 1: dm4310_fbdata(&motor[Motor3], rx_data); break;
+ 		case 0: 
+			{
+				switch ((rx_data[0])&0x0F)
+				{
+					case 1: dm4310_fbdata(&motor[Motor1], rx_data); break;
+					case 2: dm4310_fbdata(&motor[Motor3], rx_data); break;
+				}
+				
+			} break;
 	}
 }
 /**

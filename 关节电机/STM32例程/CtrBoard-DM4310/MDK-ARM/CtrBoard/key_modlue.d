@@ -38,5 +38,6 @@ ctrboard/key_modlue.o: ..\User\module\key_modlue.c \
   ..\User\driver\drivers.h ..\User\driver\adc_driver.h \
   ..\User\bsp\adc_bsp.h ..\User\driver\led_driver.h \
   ..\User\driver\key_driver.h ..\User\driver\can_driver.h \
-  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h ..\User\motor\dm4310_ctrl.h \
+  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h ..\Core\Inc\main.h \
+  ..\User\motor\dm4310_ctrl.h ..\User\motor\dm4310_drv.h \
   ..\User\motor\dm4310_drv.h

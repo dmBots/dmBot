@@ -38,7 +38,7 @@ ctrboard/mcu_config.o: ..\User\module\mcu_config.c \
   ..\User\driver\drivers.h ..\User\driver\adc_driver.h \
   ..\User\bsp\adc_bsp.h ..\User\driver\led_driver.h \
   ..\User\driver\key_driver.h ..\User\driver\can_driver.h \
-  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h ..\Core\Inc\adc.h \
-  ..\User\module\task.h ..\Core\Inc\tim.h ..\User\module\lcd.h \
-  ..\Core\Inc\spi.h ..\User\module\adc_modlue.h \
+  ..\User\bsp\can_bsp.h ..\Core\Inc\can.h ..\Core\Inc\main.h \
+  ..\Core\Inc\adc.h ..\User\module\task.h ..\Core\Inc\tim.h \
+  ..\User\module\lcd.h ..\Core\Inc\spi.h ..\User\module\adc_modlue.h \
   ..\User\motor\dm4310_ctrl.h ..\User\motor\dm4310_drv.h
