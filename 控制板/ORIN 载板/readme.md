@@ -25,7 +25,7 @@
 
 可以得到以下的文件结构
 
-![1](./图片/2.png)
+![1](https://gitee.com/kit-miao/damiao/raw/master/%E6%8E%A7%E5%88%B6%E6%9D%BF/ORIN%20%E8%BD%BD%E6%9D%BF/image/%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84.png)
 
 将以下命令写入你的`~/.bashrc`或者`~/.zshrc` ,以配置环境变量(注意修改为你自己解压的路径)
 
