@@ -38,7 +38,7 @@ export CROSS_COMPILE=$HOME/nv_src/aarch64--glibc--stable-final/bin/aarch64-build
 
 接下来可以解压源码，打开压缩包文件，解压`kernel_src`
 
-![1](图片/1.png)
+![1](https://gitee.com/kit-miao/damiao/raw/master/%E6%8E%A7%E5%88%B6%E6%9D%BF/ORIN%20%E8%BD%BD%E6%9D%BF/image/%E8%A7%A3%E5%8E%8B%E6%BA%90%E7%A0%81.png)
 
 然后可以执行一次编译测试一下,第一波会时间比较久（如果你知道在做啥，可以修改对应脚本，只编译dtbs相关）
 
