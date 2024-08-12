@@ -25,7 +25,7 @@
 
 可以得到以下的文件结构
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/620da7c7-dbf7-4f28-baed-8f503f462e97/39dfbe41-ab1b-4ec7-b159-6c317ba91b49/73330243-df00-4b0f-8b4b-b0918e8aca3b.png)
+![1](./图片/2.png)
 
 将以下命令写入你的`~/.bashrc`或者`~/.zshrc` ,以配置环境变量(注意修改为你自己解压的路径)
 
@@ -38,7 +38,7 @@ export CROSS_COMPILE=$HOME/nv_src/aarch64--glibc--stable-final/bin/aarch64-build
 
 接下来可以解压源码，打开压缩包文件，解压`kernel_src`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/620da7c7-dbf7-4f28-baed-8f503f462e97/6dbcdea6-ccf7-46f9-a25b-6869e54abc7c/image.png)
+![1](图片/1.png)
 
 然后可以执行一次编译测试一下,第一波会时间比较久（如果你知道在做啥，可以修改对应脚本，只编译dtbs相关）
 
