@@ -40,11 +40,11 @@ sudo candump can0
 
 发送CAN帧
 
-![1](./图片/3.png)
+![1](https://gitee.com/kit-miao/damiao/raw/master/%E6%8E%A7%E5%88%B6%E6%9D%BF/ORIN%20%E8%BD%BD%E6%9D%BF/%E5%9B%BE%E7%89%87/ORIN_CAN_SEND.png)
 
 
 
-![1](./图片/4.png)
+![1](.https://gitee.com/kit-miao/damiao/raw/master/%E6%8E%A7%E5%88%B6%E6%9D%BF/ORIN%20%E8%BD%BD%E6%9D%BF/%E5%9B%BE%E7%89%87/ORIN_CAN.png)
 
 
 
