@@ -1,6 +1,6 @@
 # Jetson Orin NX烧录+设备树更改？看这一篇就够了！
 
-> 搬运网友的：原文链接：https://www.cnblogs.com/SkyXZ/p/18572123
+> 搬运自网友，原文链接：https://www.cnblogs.com/SkyXZ/p/18572123
 >
 > 笔者的设备为Jetson Orin NX 16GB + 达妙科技的Orin NX载板
 >
