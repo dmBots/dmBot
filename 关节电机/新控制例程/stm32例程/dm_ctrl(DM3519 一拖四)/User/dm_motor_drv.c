@@ -41,12 +41,12 @@ void dm3519_fbdata(motor_t *motor, uint8_t *rx_data)
 }
 /**
 ************************************************************************
-* @brief:      	dm4310_enable: ÆôÓÃDM4310µç»ú¿ØÖÆÄ£Ê½º¯Êı
-* @param[in]:   hcan:    Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë
-* @param[in]:   motor:   Ö¸Ïòmotor_t½á¹¹µÄÖ¸Õë£¬°üº¬µç»úÏà¹ØĞÅÏ¢ºÍ¿ØÖÆ²ÎÊı
+* @brief:      	dm4310_enable: å¯ç”¨DM4310ç”µæœºæ§åˆ¶æ¨¡å¼å‡½æ•°
+* @param[in]:   hcan:    æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆ
+* @param[in]:   motor:   æŒ‡å‘motor_tç»“æ„çš„æŒ‡é’ˆï¼ŒåŒ…å«ç”µæœºç›¸å…³ä¿¡æ¯å’Œæ§åˆ¶å‚æ•°
 * @retval:     	void
-* @details:    	¸ù¾İµç»ú¿ØÖÆÄ£Ê½ÆôÓÃÏàÓ¦µÄÄ£Ê½£¬Í¨¹ıCAN×ÜÏß·¢ËÍÆôÓÃÃüÁî
-*               Ö§³ÖµÄ¿ØÖÆÄ£Ê½°üÀ¨Î»ÖÃÄ£Ê½¡¢Î»ÖÃËÙ¶È¿ØÖÆÄ£Ê½ºÍËÙ¶È¿ØÖÆÄ£Ê½
+* @details:    	æ ¹æ®ç”µæœºæ§åˆ¶æ¨¡å¼å¯ç”¨ç›¸åº”çš„æ¨¡å¼ï¼Œé€šè¿‡CANæ€»çº¿å‘é€å¯ç”¨å‘½ä»¤
+*               æ”¯æŒçš„æ§åˆ¶æ¨¡å¼åŒ…æ‹¬ä½ç½®æ¨¡å¼ã€ä½ç½®é€Ÿåº¦æ§åˆ¶æ¨¡å¼å’Œé€Ÿåº¦æ§åˆ¶æ¨¡å¼
 ************************************************************************
 **/
 void dm_motor_enable(hcan_t* hcan, motor_t *motor)
@@ -69,12 +69,12 @@ void dm_motor_enable(hcan_t* hcan, motor_t *motor)
 }
 /**
 ************************************************************************
-* @brief:      	dm4310_disable: ½ûÓÃDM4310µç»ú¿ØÖÆÄ£Ê½º¯Êı
-* @param[in]:   hcan:    Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë
-* @param[in]:   motor:   Ö¸Ïòmotor_t½á¹¹µÄÖ¸Õë£¬°üº¬µç»úÏà¹ØĞÅÏ¢ºÍ¿ØÖÆ²ÎÊı
+* @brief:      	dm4310_disable: ç¦ç”¨DM4310ç”µæœºæ§åˆ¶æ¨¡å¼å‡½æ•°
+* @param[in]:   hcan:    æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆ
+* @param[in]:   motor:   æŒ‡å‘motor_tç»“æ„çš„æŒ‡é’ˆï¼ŒåŒ…å«ç”µæœºç›¸å…³ä¿¡æ¯å’Œæ§åˆ¶å‚æ•°
 * @retval:     	void
-* @details:    	¸ù¾İµç»ú¿ØÖÆÄ£Ê½½ûÓÃÏàÓ¦µÄÄ£Ê½£¬Í¨¹ıCAN×ÜÏß·¢ËÍ½ûÓÃÃüÁî
-*               Ö§³ÖµÄ¿ØÖÆÄ£Ê½°üÀ¨Î»ÖÃÄ£Ê½¡¢Î»ÖÃËÙ¶È¿ØÖÆÄ£Ê½ºÍËÙ¶È¿ØÖÆÄ£Ê½
+* @details:    	æ ¹æ®ç”µæœºæ§åˆ¶æ¨¡å¼ç¦ç”¨ç›¸åº”çš„æ¨¡å¼ï¼Œé€šè¿‡CANæ€»çº¿å‘é€ç¦ç”¨å‘½ä»¤
+*               æ”¯æŒçš„æ§åˆ¶æ¨¡å¼åŒ…æ‹¬ä½ç½®æ¨¡å¼ã€ä½ç½®é€Ÿåº¦æ§åˆ¶æ¨¡å¼å’Œé€Ÿåº¦æ§åˆ¶æ¨¡å¼
 ************************************************************************
 **/
 void dm_motor_disable(hcan_t* hcan, motor_t *motor)
@@ -98,12 +98,12 @@ void dm_motor_disable(hcan_t* hcan, motor_t *motor)
 }
 /**
 ************************************************************************
-* @brief:      	dm4310_ctrl_send: ·¢ËÍDM4310µç»ú¿ØÖÆÃüÁîº¯Êı
-* @param[in]:   hcan:    Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë
-* @param[in]:   motor:   Ö¸Ïòmotor_t½á¹¹µÄÖ¸Õë£¬°üº¬µç»úÏà¹ØĞÅÏ¢ºÍ¿ØÖÆ²ÎÊı
+* @brief:      	dm4310_ctrl_send: å‘é€DM4310ç”µæœºæ§åˆ¶å‘½ä»¤å‡½æ•°
+* @param[in]:   hcan:    æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆ
+* @param[in]:   motor:   æŒ‡å‘motor_tç»“æ„çš„æŒ‡é’ˆï¼ŒåŒ…å«ç”µæœºç›¸å…³ä¿¡æ¯å’Œæ§åˆ¶å‚æ•°
 * @retval:     	void
-* @details:    	¸ù¾İµç»ú¿ØÖÆÄ£Ê½·¢ËÍÏàÓ¦µÄÃüÁîµ½DM4310µç»ú
-*               Ö§³ÖµÄ¿ØÖÆÄ£Ê½°üÀ¨Î»ÖÃÄ£Ê½¡¢Î»ÖÃËÙ¶È¿ØÖÆÄ£Ê½ºÍËÙ¶È¿ØÖÆÄ£Ê½
+* @details:    	æ ¹æ®ç”µæœºæ§åˆ¶æ¨¡å¼å‘é€ç›¸åº”çš„å‘½ä»¤åˆ°DM4310ç”µæœº
+*               æ”¯æŒçš„æ§åˆ¶æ¨¡å¼åŒ…æ‹¬ä½ç½®æ¨¡å¼ã€ä½ç½®é€Ÿåº¦æ§åˆ¶æ¨¡å¼å’Œé€Ÿåº¦æ§åˆ¶æ¨¡å¼
 ************************************************************************
 **/
 void dm_motor_ctrl_send(hcan_t* hcan, motor_t *motor)
@@ -127,11 +127,11 @@ void dm_motor_ctrl_send(hcan_t* hcan, motor_t *motor)
 
 /**
 ************************************************************************
-* @brief:      	dm4310_clear: Çå³ıDM4310µç»ú¿ØÖÆ²ÎÊıº¯Êı
-* @param[in]:   motor:   Ö¸Ïòmotor_t½á¹¹µÄÖ¸Õë£¬°üº¬µç»úÏà¹ØĞÅÏ¢ºÍ¿ØÖÆ²ÎÊı
+* @brief:      	dm4310_clear: æ¸…é™¤DM4310ç”µæœºæ§åˆ¶å‚æ•°å‡½æ•°
+* @param[in]:   motor:   æŒ‡å‘motor_tç»“æ„çš„æŒ‡é’ˆï¼ŒåŒ…å«ç”µæœºç›¸å…³ä¿¡æ¯å’Œæ§åˆ¶å‚æ•°
 * @retval:     	void
-* @details:    	½«DM4310µç»úµÄÃüÁî²ÎÊıºÍ¿ØÖÆ²ÎÊıÇåÁã£¬°üÀ¨Î»ÖÃ¡¢ËÙ¶È¡¢
-*               ±ÈÀıÔöÒæ(KP)¡¢Î¢·ÖÔöÒæ(KD)ºÍÅ¤¾Ø
+* @details:    	å°†DM4310ç”µæœºçš„å‘½ä»¤å‚æ•°å’Œæ§åˆ¶å‚æ•°æ¸…é›¶ï¼ŒåŒ…æ‹¬ä½ç½®ã€é€Ÿåº¦ã€
+*               æ¯”ä¾‹å¢ç›Š(KP)ã€å¾®åˆ†å¢ç›Š(KD)å’Œæ‰­çŸ©
 ************************************************************************
 **/
 void dm_motor_clear_para(motor_t *motor)
@@ -145,11 +145,11 @@ void dm_motor_clear_para(motor_t *motor)
 }
 /**
 ************************************************************************
-* @brief:      	dm4310_clear_err: Çå³ıDM4310µç»ú´íÎóº¯Êı
-* @param[in]:   hcan: 	 Ö¸ÏòCAN¿ØÖÆ½á¹¹ÌåµÄÖ¸Õë
-* @param[in]:  	motor:   Ö¸Ïòµç»ú½á¹¹ÌåµÄÖ¸Õë
+* @brief:      	dm4310_clear_err: æ¸…é™¤DM4310ç”µæœºé”™è¯¯å‡½æ•°
+* @param[in]:   hcan: 	 æŒ‡å‘CANæ§åˆ¶ç»“æ„ä½“çš„æŒ‡é’ˆ
+* @param[in]:  	motor:   æŒ‡å‘ç”µæœºç»“æ„ä½“çš„æŒ‡é’ˆ
 * @retval:     	void
-* @details:    	¸ù¾İµç»úµÄ¿ØÖÆÄ£Ê½£¬µ÷ÓÃ¶ÔÓ¦Ä£Ê½µÄÇå³ı´íÎóº¯Êı
+* @details:    	æ ¹æ®ç”µæœºçš„æ§åˆ¶æ¨¡å¼ï¼Œè°ƒç”¨å¯¹åº”æ¨¡å¼çš„æ¸…é™¤é”™è¯¯å‡½æ•°
 ************************************************************************
 **/
 void dm_motor_clear_err(hcan_t* hcan, motor_t *motor)
@@ -172,12 +172,12 @@ void dm_motor_clear_err(hcan_t* hcan, motor_t *motor)
 }
 /**
 ************************************************************************
-* @brief:      	dm4310_fbdata: »ñÈ¡DM4310µç»ú·´À¡Êı¾İº¯Êı
-* @param[in]:   motor:    Ö¸Ïòmotor_t½á¹¹µÄÖ¸Õë£¬°üº¬µç»úÏà¹ØĞÅÏ¢ºÍ·´À¡Êı¾İ
-* @param[in]:   rx_data:  Ö¸Ïò°üº¬·´À¡Êı¾İµÄÊı×éÖ¸Õë
+* @brief:      	dm4310_fbdata: è·å–DM4310ç”µæœºåé¦ˆæ•°æ®å‡½æ•°
+* @param[in]:   motor:    æŒ‡å‘motor_tç»“æ„çš„æŒ‡é’ˆï¼ŒåŒ…å«ç”µæœºç›¸å…³ä¿¡æ¯å’Œåé¦ˆæ•°æ®
+* @param[in]:   rx_data:  æŒ‡å‘åŒ…å«åé¦ˆæ•°æ®çš„æ•°ç»„æŒ‡é’ˆ
 * @retval:     	void
-* @details:    	´Ó½ÓÊÕµ½µÄÊı¾İÖĞÌáÈ¡DM4310µç»úµÄ·´À¡ĞÅÏ¢£¬°üÀ¨µç»úID¡¢
-*               ×´Ì¬¡¢Î»ÖÃ¡¢ËÙ¶È¡¢Å¤¾ØÒÔ¼°Ïà¹ØÎÂ¶È²ÎÊı
+* @details:    	ä»æ¥æ”¶åˆ°çš„æ•°æ®ä¸­æå–DM4310ç”µæœºçš„åé¦ˆä¿¡æ¯ï¼ŒåŒ…æ‹¬ç”µæœºIDã€
+*               çŠ¶æ€ã€ä½ç½®ã€é€Ÿåº¦ã€æ‰­çŸ©ä»¥åŠç›¸å…³æ¸©åº¦å‚æ•°
 ************************************************************************
 **/
 void dm_motor_fbdata(motor_t *motor, uint8_t *rx_data)
@@ -196,13 +196,13 @@ void dm_motor_fbdata(motor_t *motor, uint8_t *rx_data)
 
 /**
 ************************************************************************
-* @brief:      	float_to_uint: ¸¡µãÊı×ª»»ÎªÎŞ·ûºÅÕûÊıº¯Êı
-* @param[in]:   x_float:	´ı×ª»»µÄ¸¡µãÊı
-* @param[in]:   x_min:		·¶Î§×îĞ¡Öµ
-* @param[in]:   x_max:		·¶Î§×î´óÖµ
-* @param[in]:   bits: 		Ä¿±êÎŞ·ûºÅÕûÊıµÄÎ»Êı
-* @retval:     	ÎŞ·ûºÅÕûÊı½á¹û
-* @details:    	½«¸ø¶¨µÄ¸¡µãÊı x ÔÚÖ¸¶¨·¶Î§ [x_min, x_max] ÄÚ½øĞĞÏßĞÔÓ³Éä£¬Ó³Éä½á¹ûÎªÒ»¸öÖ¸¶¨Î»ÊıµÄÎŞ·ûºÅÕûÊı
+* @brief:      	float_to_uint: æµ®ç‚¹æ•°è½¬æ¢ä¸ºæ— ç¬¦å·æ•´æ•°å‡½æ•°
+* @param[in]:   x_float:	å¾…è½¬æ¢çš„æµ®ç‚¹æ•°
+* @param[in]:   x_min:		èŒƒå›´æœ€å°å€¼
+* @param[in]:   x_max:		èŒƒå›´æœ€å¤§å€¼
+* @param[in]:   bits: 		ç›®æ ‡æ— ç¬¦å·æ•´æ•°çš„ä½æ•°
+* @retval:     	æ— ç¬¦å·æ•´æ•°ç»“æœ
+* @details:    	å°†ç»™å®šçš„æµ®ç‚¹æ•° x åœ¨æŒ‡å®šèŒƒå›´ [x_min, x_max] å†…è¿›è¡Œçº¿æ€§æ˜ å°„ï¼Œæ˜ å°„ç»“æœä¸ºä¸€ä¸ªæŒ‡å®šä½æ•°çš„æ— ç¬¦å·æ•´æ•°
 ************************************************************************
 **/
 int float_to_uint(float x_float, float x_min, float x_max, int bits)
@@ -214,13 +214,13 @@ int float_to_uint(float x_float, float x_min, float x_max, int bits)
 }
 /**
 ************************************************************************
-* @brief:      	uint_to_float: ÎŞ·ûºÅÕûÊı×ª»»Îª¸¡µãÊıº¯Êı
-* @param[in]:   x_int: ´ı×ª»»µÄÎŞ·ûºÅÕûÊı
-* @param[in]:   x_min: ·¶Î§×îĞ¡Öµ
-* @param[in]:   x_max: ·¶Î§×î´óÖµ
-* @param[in]:   bits:  ÎŞ·ûºÅÕûÊıµÄÎ»Êı
-* @retval:     	¸¡µãÊı½á¹û
-* @details:    	½«¸ø¶¨µÄÎŞ·ûºÅÕûÊı x_int ÔÚÖ¸¶¨·¶Î§ [x_min, x_max] ÄÚ½øĞĞÏßĞÔÓ³Éä£¬Ó³Éä½á¹ûÎªÒ»¸ö¸¡µãÊı
+* @brief:      	uint_to_float: æ— ç¬¦å·æ•´æ•°è½¬æ¢ä¸ºæµ®ç‚¹æ•°å‡½æ•°
+* @param[in]:   x_int: å¾…è½¬æ¢çš„æ— ç¬¦å·æ•´æ•°
+* @param[in]:   x_min: èŒƒå›´æœ€å°å€¼
+* @param[in]:   x_max: èŒƒå›´æœ€å¤§å€¼
+* @param[in]:   bits:  æ— ç¬¦å·æ•´æ•°çš„ä½æ•°
+* @retval:     	æµ®ç‚¹æ•°ç»“æœ
+* @details:    	å°†ç»™å®šçš„æ— ç¬¦å·æ•´æ•° x_int åœ¨æŒ‡å®šèŒƒå›´ [x_min, x_max] å†…è¿›è¡Œçº¿æ€§æ˜ å°„ï¼Œæ˜ å°„ç»“æœä¸ºä¸€ä¸ªæµ®ç‚¹æ•°
 ************************************************************************
 **/
 float uint_to_float(int x_int, float x_min, float x_max, int bits)
@@ -233,12 +233,12 @@ float uint_to_float(int x_int, float x_min, float x_max, int bits)
 
 /**
 ************************************************************************
-* @brief:      	enable_motor_mode: ÆôÓÃµç»úÄ£Ê½º¯Êı
-* @param[in]:   hcan:     Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë
-* @param[in]:   motor_id: µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   mode_id:  Ä£Ê½ID£¬Ö¸¶¨Òª¿ªÆôµÄÄ£Ê½
+* @brief:      	enable_motor_mode: å¯ç”¨ç”µæœºæ¨¡å¼å‡½æ•°
+* @param[in]:   hcan:     æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆ
+* @param[in]:   motor_id: ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   mode_id:  æ¨¡å¼IDï¼ŒæŒ‡å®šè¦å¼€å¯çš„æ¨¡å¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòÌØ¶¨µç»ú·¢ËÍÆôÓÃÌØ¶¨Ä£Ê½µÄÃüÁî
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç‰¹å®šç”µæœºå‘é€å¯ç”¨ç‰¹å®šæ¨¡å¼çš„å‘½ä»¤
 ************************************************************************
 **/
 void enable_motor_mode(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
@@ -259,12 +259,12 @@ void enable_motor_mode(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
 }
 /**
 ************************************************************************
-* @brief:      	disable_motor_mode: ½ûÓÃµç»úÄ£Ê½º¯Êı
-* @param[in]:   hcan:     Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë
-* @param[in]:   motor_id: µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   mode_id:  Ä£Ê½ID£¬Ö¸¶¨Òª½ûÓÃµÄÄ£Ê½
+* @brief:      	disable_motor_mode: ç¦ç”¨ç”µæœºæ¨¡å¼å‡½æ•°
+* @param[in]:   hcan:     æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆ
+* @param[in]:   motor_id: ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   mode_id:  æ¨¡å¼IDï¼ŒæŒ‡å®šè¦ç¦ç”¨çš„æ¨¡å¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòÌØ¶¨µç»ú·¢ËÍ½ûÓÃÌØ¶¨Ä£Ê½µÄÃüÁî
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç‰¹å®šç”µæœºå‘é€ç¦ç”¨ç‰¹å®šæ¨¡å¼çš„å‘½ä»¤
 ************************************************************************
 **/
 void disable_motor_mode(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
@@ -285,12 +285,12 @@ void disable_motor_mode(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
 }
 /**
 ************************************************************************
-* @brief:      	save_pos_zero: ±£´æÎ»ÖÃÁãµãº¯Êı
-* @param[in]:   hcan:     Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë
-* @param[in]:   motor_id: µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   mode_id:  Ä£Ê½ID£¬Ö¸¶¨Òª±£´æÎ»ÖÃÁãµãµÄÄ£Ê½
+* @brief:      	save_pos_zero: ä¿å­˜ä½ç½®é›¶ç‚¹å‡½æ•°
+* @param[in]:   hcan:     æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆ
+* @param[in]:   motor_id: ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   mode_id:  æ¨¡å¼IDï¼ŒæŒ‡å®šè¦ä¿å­˜ä½ç½®é›¶ç‚¹çš„æ¨¡å¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòÌØ¶¨µç»ú·¢ËÍ±£´æÎ»ÖÃÁãµãµÄÃüÁî
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç‰¹å®šç”µæœºå‘é€ä¿å­˜ä½ç½®é›¶ç‚¹çš„å‘½ä»¤
 ************************************************************************
 **/
 void save_pos_zero(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
@@ -311,12 +311,12 @@ void save_pos_zero(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
 }
 /**
 ************************************************************************
-* @brief:      	clear_err: Çå³ıµç»ú´íÎóº¯Êı
-* @param[in]:   hcan:     Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë
-* @param[in]:   motor_id: µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   mode_id:  Ä£Ê½ID£¬Ö¸¶¨ÒªÇå³ı´íÎóµÄÄ£Ê½
+* @brief:      	clear_err: æ¸…é™¤ç”µæœºé”™è¯¯å‡½æ•°
+* @param[in]:   hcan:     æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆ
+* @param[in]:   motor_id: ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   mode_id:  æ¨¡å¼IDï¼ŒæŒ‡å®šè¦æ¸…é™¤é”™è¯¯çš„æ¨¡å¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòÌØ¶¨µç»ú·¢ËÍÇå³ı´íÎóµÄÃüÁî¡£
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç‰¹å®šç”µæœºå‘é€æ¸…é™¤é”™è¯¯çš„å‘½ä»¤ã€‚
 ************************************************************************
 **/
 void clear_err(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
@@ -337,16 +337,16 @@ void clear_err(hcan_t* hcan, uint16_t motor_id, uint16_t mode_id)
 }
 /**
 ************************************************************************
-* @brief:      	mit_ctrl: MITÄ£Ê½ÏÂµÄµç»ú¿ØÖÆº¯Êı
-* @param[in]:   hcan:			Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë£¬ÓÃÓÚÖ¸¶¨CAN×ÜÏß
-* @param[in]:   motor_id:	µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   pos:			Î»ÖÃ¸ø¶¨Öµ
-* @param[in]:   vel:			ËÙ¶È¸ø¶¨Öµ
-* @param[in]:   kp:				Î»ÖÃ±ÈÀıÏµÊı
-* @param[in]:   kd:				Î»ÖÃÎ¢·ÖÏµÊı
-* @param[in]:   torq:			×ª¾Ø¸ø¶¨Öµ
+* @brief:      	mit_ctrl: MITæ¨¡å¼ä¸‹çš„ç”µæœºæ§åˆ¶å‡½æ•°
+* @param[in]:   hcan:			æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆï¼Œç”¨äºæŒ‡å®šCANæ€»çº¿
+* @param[in]:   motor_id:	ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   pos:			ä½ç½®ç»™å®šå€¼
+* @param[in]:   vel:			é€Ÿåº¦ç»™å®šå€¼
+* @param[in]:   kp:				ä½ç½®æ¯”ä¾‹ç³»æ•°
+* @param[in]:   kd:				ä½ç½®å¾®åˆ†ç³»æ•°
+* @param[in]:   torq:			è½¬çŸ©ç»™å®šå€¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòµç»ú·¢ËÍMITÄ£Ê½ÏÂµÄ¿ØÖÆÖ¡¡£
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç”µæœºå‘é€MITæ¨¡å¼ä¸‹çš„æ§åˆ¶å¸§ã€‚
 ************************************************************************
 **/
 void mit_ctrl(hcan_t* hcan, motor_t *motor, uint16_t motor_id, float pos, float vel,float kp, float kd, float tor)
@@ -374,12 +374,12 @@ void mit_ctrl(hcan_t* hcan, motor_t *motor, uint16_t motor_id, float pos, float 
 }
 /**
 ************************************************************************
-* @brief:      	pos_speed_ctrl: Î»ÖÃËÙ¶È¿ØÖÆº¯Êı
-* @param[in]:   hcan:			Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë£¬ÓÃÓÚÖ¸¶¨CAN×ÜÏß
-* @param[in]:   motor_id:	µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   vel:			ËÙ¶È¸ø¶¨Öµ
+* @brief:      	pos_speed_ctrl: ä½ç½®é€Ÿåº¦æ§åˆ¶å‡½æ•°
+* @param[in]:   hcan:			æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆï¼Œç”¨äºæŒ‡å®šCANæ€»çº¿
+* @param[in]:   motor_id:	ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   vel:			é€Ÿåº¦ç»™å®šå€¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòµç»ú·¢ËÍÎ»ÖÃËÙ¶È¿ØÖÆÃüÁî
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç”µæœºå‘é€ä½ç½®é€Ÿåº¦æ§åˆ¶å‘½ä»¤
 ************************************************************************
 **/
 void pos_ctrl(hcan_t* hcan,uint16_t motor_id, float pos, float vel)
@@ -406,12 +406,12 @@ void pos_ctrl(hcan_t* hcan,uint16_t motor_id, float pos, float vel)
 }
 /**
 ************************************************************************
-* @brief:      	speed_ctrl: ËÙ¶È¿ØÖÆº¯Êı
-* @param[in]:   hcan: 		Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë£¬ÓÃÓÚÖ¸¶¨CAN×ÜÏß
-* @param[in]:   motor_id: µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   vel: 			ËÙ¶È¸ø¶¨Öµ
+* @brief:      	speed_ctrl: é€Ÿåº¦æ§åˆ¶å‡½æ•°
+* @param[in]:   hcan: 		æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆï¼Œç”¨äºæŒ‡å®šCANæ€»çº¿
+* @param[in]:   motor_id: ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   vel: 			é€Ÿåº¦ç»™å®šå€¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòµç»ú·¢ËÍËÙ¶È¿ØÖÆÃüÁî
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç”µæœºå‘é€é€Ÿåº¦æ§åˆ¶å‘½ä»¤
 ************************************************************************
 **/
 void spd_ctrl(hcan_t* hcan, uint16_t motor_id, float vel)
@@ -433,14 +433,14 @@ void spd_ctrl(hcan_t* hcan, uint16_t motor_id, float vel)
 
 /**
 ************************************************************************
-* @brief:      	pos_speed_ctrl: »ì¿ØÄ£Ê½
-* @param[in]:   hcan:			Ö¸ÏòCAN_HandleTypeDef½á¹¹µÄÖ¸Õë£¬ÓÃÓÚÖ¸¶¨CAN×ÜÏß
-* @param[in]:   motor_id:	µç»úID£¬Ö¸¶¨Ä¿±êµç»ú
-* @param[in]:   pos:			Î»ÖÃ¸ø¶¨Öµ
-* @param[in]:   vel:			ËÙ¶È¸ø¶¨Öµ
-* @param[in]:   i:				µçÁ÷¸ø¶¨Öµ
+* @brief:      	pos_speed_ctrl: æ··æ§æ¨¡å¼
+* @param[in]:   hcan:			æŒ‡å‘CAN_HandleTypeDefç»“æ„çš„æŒ‡é’ˆï¼Œç”¨äºæŒ‡å®šCANæ€»çº¿
+* @param[in]:   motor_id:	ç”µæœºIDï¼ŒæŒ‡å®šç›®æ ‡ç”µæœº
+* @param[in]:   pos:			ä½ç½®ç»™å®šå€¼
+* @param[in]:   vel:			é€Ÿåº¦ç»™å®šå€¼
+* @param[in]:   i:				ç”µæµç»™å®šå€¼
 * @retval:     	void
-* @details:    	Í¨¹ıCAN×ÜÏßÏòµç»ú·¢ËÍÎ»ÖÃËÙ¶È¿ØÖÆÃüÁî
+* @details:    	é€šè¿‡CANæ€»çº¿å‘ç”µæœºå‘é€ä½ç½®é€Ÿåº¦æ§åˆ¶å‘½ä»¤
 ************************************************************************
 **/
 void psi_ctrl(hcan_t* hcan, uint16_t motor_id, float pos, float vel, float cur)
@@ -472,68 +472,68 @@ void psi_ctrl(hcan_t* hcan, uint16_t motor_id, float pos, float vel, float cur)
 }
 /**
 ************************************************************************
-* @brief:      	read_motor_data: ·¢ËÍ¶ÁÈ¡¼Ä´æÆ÷ÃüÁî
-* @param[in]:   id:    µç»úcan id
-* @param[in]:   rid:   ¼Ä´æÆ÷µØÖ·
+* @brief:      	read_motor_data: å‘é€è¯»å–å¯„å­˜å™¨å‘½ä»¤
+* @param[in]:   id:    ç”µæœºcan id
+* @param[in]:   rid:   å¯„å­˜å™¨åœ°å€
 * @retval:     	void
-* @details:    	¶ÁÈ¡µç»ú²ÎÊı
+* @details:    	è¯»å–ç”µæœºå‚æ•°
 ************************************************************************
 **/
 void read_motor_data(uint16_t id, uint8_t rid) 
 {
-	uint8_t can_id_l = id & 0x0F;
-	uint8_t can_id_h = (id >> 4) & 0x0F;
+	uint8_t can_id_l = id & 0xFF;       // ä½ 8 ä½
+    uint8_t can_id_h = (id >> 8) & 0x07; // é«˜ 3 ä½
 	
 	uint8_t data[4] = {can_id_l, can_id_h, 0x33, rid};
 	fdcanx_send_data(&hfdcan1, 0x7FF, data, 8);
 }
 /**
 ************************************************************************
-* @brief:      	read_motor_ctrl_fbdata: ·¢ËÍ¶ÁÈ¡µç»ú·´À¡Êı¾İµÄÃüÁî
-* @param[in]:   id:    µç»úcan id
+* @brief:      	read_motor_ctrl_fbdata: å‘é€è¯»å–ç”µæœºåé¦ˆæ•°æ®çš„å‘½ä»¤
+* @param[in]:   id:    ç”µæœºcan id
 * @retval:     	void
-* @details:    	¶ÁÈ¡µç»ú¿ØÖÆ·´À¡µÄÊı¾İ
+* @details:    	è¯»å–ç”µæœºæ§åˆ¶åé¦ˆçš„æ•°æ®
 ************************************************************************
 **/
 void read_motor_ctrl_fbdata(uint16_t id) 
 {
-	uint8_t can_id_l = id & 0x0F;
-	uint8_t can_id_h = (id >> 4) & 0x0F;
+	uint8_t can_id_l = id & 0xFF;       // ä½ 8 ä½
+    uint8_t can_id_h = (id >> 8) & 0x07; // é«˜ 3 ä½
 	
 	uint8_t data[4] = {can_id_l, can_id_h, 0xCC, 0x00};
 	fdcanx_send_data(&hfdcan1, 0x7FF, data, 4);
 }
 /**
 ************************************************************************
-* @brief:      	write_motor_data: ·¢ËÍĞ´¼Ä´æÆ÷ÃüÁî
-* @param[in]:   id:    µç»úcan id
-* @param[in]:   rid:   ¼Ä´æÆ÷µØÖ·
-* @param[in]:   d0-d3: Ğ´ÈëµÄÊı¾İ
+* @brief:      	write_motor_data: å‘é€å†™å¯„å­˜å™¨å‘½ä»¤
+* @param[in]:   id:    ç”µæœºcan id
+* @param[in]:   rid:   å¯„å­˜å™¨åœ°å€
+* @param[in]:   d0-d3: å†™å…¥çš„æ•°æ®
 * @retval:     	void
-* @details:    	Ïò¼Ä´æÆ÷Ğ´ÈëÊı¾İ
+* @details:    	å‘å¯„å­˜å™¨å†™å…¥æ•°æ®
 ************************************************************************
 **/
 void write_motor_data(uint16_t id, uint8_t rid, uint8_t d0, uint8_t d1, uint8_t d2, uint8_t d3)
 {
-	uint8_t can_id_l = id & 0x0F;
-	uint8_t can_id_h = (id >> 4) & 0x0F;
+	uint8_t can_id_l = id & 0xFF;       // ä½ 8 ä½
+    uint8_t can_id_h = (id >> 8) & 0x07; // é«˜ 3 ä½
 	
 	uint8_t data[8] = {can_id_l, can_id_h, 0x55, rid, d0, d1, d2, d3};
 	fdcanx_send_data(&hfdcan1, 0x7FF, data, 8);
 }
 /**
 ************************************************************************
-* @brief:      	save_motor_data: ·¢ËÍ±£´æÃüÁî
-* @param[in]:   id:    µç»úcan id
-* @param[in]:   rid:   ¼Ä´æÆ÷µØÖ·
+* @brief:      	save_motor_data: å‘é€ä¿å­˜å‘½ä»¤
+* @param[in]:   id:    ç”µæœºcan id
+* @param[in]:   rid:   å¯„å­˜å™¨åœ°å€
 * @retval:     	void
-* @details:    	±£´æĞ´ÈëµÄµç»ú²ÎÊı
+* @details:    	ä¿å­˜å†™å…¥çš„ç”µæœºå‚æ•°
 ************************************************************************
 **/
 void save_motor_data(uint16_t id, uint8_t rid) 
 {
-	uint8_t can_id_l = id & 0x0F;
-	uint8_t can_id_h = (id >> 4) & 0x0F;
+	uint8_t can_id_l = id & 0xFF;       // ä½ 8 ä½
+    uint8_t can_id_h = (id >> 8) & 0x07; // é«˜ 3 ä½
 	
 	uint8_t data[4] = {can_id_l, can_id_h, 0xAA, 0x01};
 	fdcanx_send_data(&hfdcan1, 0x7FF, data, 4);
