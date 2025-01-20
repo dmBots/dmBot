@@ -28,3 +28,18 @@
 [submodule "1.关节电机/DM-J10010L-2EC"]
 	path = 1.关节电机/DM-J10010L-2EC
 	url = https://gitee.com/kit-miao/DM-J10010L-2EC.git
+[submodule "2.中空电机/DM-G6220"]
+	path = 2.中空电机/DM-G6220
+	url = https://gitee.com/kit-miao/DM-G6220.git
+[submodule "3.轮毂电机/DM-H6215"]
+	path = 3.轮毂电机/DM-H6215
+	url = https://gitee.com/kit-miao/DM-H6215.git
+[submodule "3.轮毂电机/DM-H3510"]
+	path = 3.轮毂电机/DM-H3510
+	url = https://gitee.com/kit-miao/DM-H3510.git
+[submodule "3.分立系列/DM-S3519-1EC"]
+	path = 3.分立系列/DM-S3519-1EC
+	url = https://gitee.com/kit-miao/DM-S3519-1EC.git
+[submodule "4.分立系列/DM-S3519-1EC"]
+	path = 4.分立系列/DM-S3519-1EC
+	url = https://gitee.com/kit-miao/DM-S3519-1EC.git
