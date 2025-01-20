@@ -1,7 +1,7 @@
 <h2 align="center">
     达妙科技资料导航
 </h2><br>
-## 📥 下载
+## 下载
 
 1. 如果您想下载整个库，推荐使用git来进行克隆，并且将所有子仓库一起克隆
 
@@ -18,17 +18,19 @@ git clone <url>
 
 ## 关节电机
 
-### 1. [DM-J4310-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4310-2EC)
-### 2. [DM-J4340-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4340-2EC)
-### 3. [DM-J4340P-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4340P-2EC)
-### 4. [DM-J6006-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J6006-2EC)
-### 5. [DM-J8006-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8006-2EC)
-### 6. [DM-J8009-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8009-2EC)
-### 7. [DM-J8009P-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8009P-2EC)
+### 1. [DM-J3507-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J3507-2EC)
 
+### 2. [DM-J4310-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4310-2EC)
+### 3. [DM-J4340-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4340-2EC)
+### 4. [DM-J4340P-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4340P-2EC)
+### 5. [DM-J6006-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J6006-2EC)
+### 6. [DM-J8006-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8006-2EC)
+### 7. [DM-J8009-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8009-2EC)
+### 8. [DM-J8009P-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8009P-2EC)
 
+### 9. [DM-J10010-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J10010-2EC)
 
-
+### 10. [DM-J10010L-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J10010L-2EC)
 
 
 
