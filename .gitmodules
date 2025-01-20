@@ -87,7 +87,7 @@
 	url  = https://gitee.com/kit-miao/damao-document.git
 
 [submodule "A.达妙开源系列/轮足"]
-	path = 10.达妙开源系列/轮足
+	path = A.达妙开源系列/轮足
 	url  = https://gitee.com/kit-miao/wheel-legged.git
 
 [submodule "A.达妙开源系列/双足机器人"]
