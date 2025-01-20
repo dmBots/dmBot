@@ -43,3 +43,6 @@
 [submodule "4.分立系列/DM-S3519-1EC"]
 	path = 4.分立系列/DM-S3519-1EC
 	url = https://gitee.com/kit-miao/DM-S3519-1EC.git
+[submodule "5.电机控制例程"]
+	path = 5.电机控制例程
+	url = https://gitee.com/kit-miao/motor-control-routine.git
