@@ -8,7 +8,9 @@
 
 ```c
 git clone https://gitee.com/kit-miao/damiao.git
-git submodule update
+git cd damiao/
+git submodule init
+git submodule update --recursive --remote
 ```
 
 2. 如果您只想下载某个子仓库，可以点击你想下载的文件夹跳转到某个子仓库进行下载。
