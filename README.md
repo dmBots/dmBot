@@ -8,7 +8,7 @@
 
 ```c
 git clone https://gitee.com/kit-miao/damiao.git
-git cd damiao/
+cd damiao/
 git submodule init
 git submodule update --recursive --remote
 ```
