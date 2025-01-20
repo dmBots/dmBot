@@ -86,26 +86,26 @@
 	path = 9.使用手册/文档
 	url  = https://gitee.com/kit-miao/damao-document.git
 
-[submodule "10.达妙开源系列/轮足"]
+[submodule "A.达妙开源系列/轮足"]
 	path = 10.达妙开源系列/轮足
 	url  = https://gitee.com/kit-miao/wheel-legged.git
 
 [submodule "A.达妙开源系列/双足机器人"]
-	path = 11.达妙开源系列/双足机器人
+	path = A.达妙开源系列/双足机器人
 	url  = https://gitee.com/kit-miao/bipedal-robot.git
 
-[submodule "11.达妙开源系列/桌面轮足和平衡车"]
-	path = 11.达妙开源系列/桌面轮足和平衡车
+[submodule "A.达妙开源系列/桌面轮足和平衡车"]
+	path = A.达妙开源系列/桌面轮足和平衡车
 	url  = https://gitee.com/kit-miao/balance_robot.git
 
-[submodule "11.达妙开源系列/AGV"]
-	path = 11.达妙开源系列/AGV
+[submodule "A.达妙开源系列/AGV"]
+	path = A.达妙开源系列/AGV
 	url  = https://gitee.com/kit-miao/agv.git
 
-[submodule "11.Canopen/Canopen"]
-	path = 11.Canopen/Canopen
+[submodule "A.Canopen/Canopen"]
+	path = A.Canopen/Canopen
 	url  = https://gitee.com/kit-miao/dm_-canopen.git
 
-[submodule "12.Canopen/Canopen"]
-	path = 12.Canopen/Canopen
+[submodule "B.Canopen/Canopen"]
+	path = B.Canopen/Canopen
 	url = https://gitee.com/kit-miao/dm_-canopen.git
