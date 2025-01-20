@@ -10,9 +10,8 @@ git commit -m "update"
 git push origin master
 
 更新子仓库
-1. 切换到想要更新的文件夹
-2. git add .
-2. git status: 如果提示 HEAD detached，说明你需要将修改应用到一个分支上
-3. git checkout master: 切换到 master 分支
-4. git merge --no-ff <>
-5. git 
+子仓库分支都切换到master
+可以切换到子仓库的文件夹
+git add .
+git commit -m "update"
+git push origin master
