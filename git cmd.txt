@@ -1,0 +1,18 @@
+拉取主仓库和子仓库
+git clone https://gitee.com/kit-miao/damiao.git
+cd damiao/
+git submodule init
+git submodule update --recursive --remote
+
+更新主仓库
+git add .
+git commit -m "update"
+git push origin master
+
+更新子仓库
+1. 切换到想要更新的文件夹
+2. git add .
+2. git status: 如果提示 HEAD detached，说明你需要将修改应用到一个分支上
+3. git checkout master: 切换到 master 分支
+4. git merge --no-ff <>
+5. git 
