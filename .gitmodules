@@ -74,6 +74,10 @@
 	path = 6.控制板/orin-board
 	url  = https://gitee.com/kit-miao/orin-board.git
 
+[submodule "6.控制板/spine"]
+	path = 6.控制板/spine
+	url  = https://gitee.com/kit-miao/spine.git
+
 [submodule "7.电机驱动板/驱动"]
 	path = 7.电机驱动板/驱动
 	url  = https://gitee.com/kit-miao/damao-motor-drive-board.git
