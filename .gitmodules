@@ -1,0 +1,30 @@
+[submodule "1.关节电机/DM-J4310-2EC"]
+	path = 1.关节电机/DM-J4310-2EC
+	url = https://gitee.com/kit-miao/DM-J4310-2EC.git
+[submodule "1.关节电机/DM-J4340-2EC"]
+	path = 1.关节电机/DM-J4340-2EC
+	url = https://gitee.com/kit-miao/DM-J4340-2EC.git
+[submodule "1.关节电机/DM-J4340P-2EC"]
+	path = 1.关节电机/DM-J4340P-2EC
+	url = https://gitee.com/kit-miao/DM-J4340P-2EC.git
+[submodule "1.关节电机/DM-J3507-2EC"]
+	path = 1.关节电机/DM-J3507-2EC
+	url = https://gitee.com/kit-miao/DM-J3507-2EC.git
+[submodule "1.关节电机/DM-J6006-2EC"]
+	path = 1.关节电机/DM-J6006-2EC
+	url = https://gitee.com/kit-miao/DM-J6006-2EC.git
+[submodule "1.关节电机/DM-J8006-2EC"]
+	path = 1.关节电机/DM-J8006-2EC
+	url = https://gitee.com/kit-miao/DM-J8006-2EC.git
+[submodule "1.关节电机/DM-J8009-2EC"]
+	path = 1.关节电机/DM-J8009-2EC
+	url = https://gitee.com/kit-miao/DM-J8009-2EC.git
+[submodule "1.关节电机/DM-J8009P-2EC"]
+	path = 1.关节电机/DM-J8009P-2EC
+	url = https://gitee.com/kit-miao/DM-J8009P-2EC.git
+[submodule "1.关节电机/DM-J10010-2EC"]
+	path = 1.关节电机/DM-J10010-2EC
+	url = https://gitee.com/kit-miao/DM-J10010-2EC.git
+[submodule "1.关节电机/DM-J10010L-2EC"]
+	path = 1.关节电机/DM-J10010L-2EC
+	url = https://gitee.com/kit-miao/DM-J10010L-2EC.git
