@@ -62,35 +62,35 @@
 	path = 5.控制例程/电机控制例程
 	url  = https://gitee.com/kit-miao/motor-control-routine.git
 
-[submodule "7.控制板/DM-MC01"]
-	path = 7.控制板/DM-MC01
+[submodule "6.控制板/DM-MC01"]
+	path = 6.控制板/DM-MC01
 	url  = https://gitee.com/kit-miao/dm-mc01.git
 
-[submodule "7.控制板/DM-MC02"]
-	path = 7.控制板/DM-MC02
+[submodule "6.控制板/DM-MC02"]
+	path = 6.控制板/DM-MC02
 	url  = https://gitee.com/kit-miao/dm-mc02.git
 
-[submodule "7.控制板/orin-board"]
-	path = 7.控制板/orin-board
+[submodule "6.控制板/orin-board"]
+	path = 6.控制板/orin-board
 	url  = https://gitee.com/kit-miao/orin-board.git
 
-[submodule "8.电机驱动板/驱动"]
-	path = 8.电机驱动板/驱动
+[submodule "7.电机驱动板/驱动"]
+	path = 7.电机驱动板/驱动
 	url  = https://gitee.com/kit-miao/damao-motor-drive-board.git
 
-[submodule "9.工具和上位机/dm-tools"]
-	path = 9.工具和上位机/dm-tools
+[submodule "8.工具和上位机/dm-tools"]
+	path = 8.工具和上位机/dm-tools
 	url  = https://gitee.com/kit-miao/dm-tools.git
 
-[submodule "10.使用手册/文档"]
-	path = 10.使用手册/文档
+[submodule "9.使用手册/文档"]
+	path = 9.使用手册/文档
 	url  = https://gitee.com/kit-miao/damao-document.git
 
-[submodule "11.达妙开源系列/轮足"]
-	path = 11.达妙开源系列/轮足
+[submodule "10.达妙开源系列/轮足"]
+	path = 10.达妙开源系列/轮足
 	url  = https://gitee.com/kit-miao/wheel-legged.git
 
-[submodule "11.达妙开源系列/双足机器人"]
+[submodule "A.达妙开源系列/双足机器人"]
 	path = 11.达妙开源系列/双足机器人
 	url  = https://gitee.com/kit-miao/bipedal-robot.git
 
