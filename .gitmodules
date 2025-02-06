@@ -113,3 +113,6 @@
 [submodule "B.Canopen/Canopen"]
 	path = B.Canopen/Canopen
 	url = https://gitee.com/kit-miao/dm_-canopen.git
+[submodule "0.固件"]
+	path = 0.固件
+	url = https://gitee.com/kit-miao/motor-firmware.git
