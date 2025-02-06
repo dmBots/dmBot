@@ -22,6 +22,10 @@ git submodule update --recursive --remote
 git clone <url>
 ```
 
+### 固件
+
+所有系列电机的最新固件都在这个文件夹里面
+
 ### 关节电机
 
 #### 1. [DM-J3507-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J3507-2EC)
@@ -133,6 +137,7 @@ git clone <url>
 ### 文件目录
 
 ```c
+├─0.固件
 ├─1.关节电机
 │  ├─DM-J10010-2EC
 │  ├─DM-J10010L-2EC
