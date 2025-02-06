@@ -123,6 +123,13 @@ git clone <url>
 
 3. [达妙动力](https://shop435275397.taobao.com/shop/view_shop.htm?spm=a21n57.1.5.1.7713523cwaTjrl&appUid=RAzN8HWY9YTdb3jgggxWzccgNQgVoFCRDFRS22jcz9yfCy9NDxZ)
 
+### 技术交流QQ群
+
+达妙科技-技术交流3群：1015902491
+达妙开源轮足交流群：461175473
+达妙双足开源交流群：428064389
+达妙AGV开源交流群：745091827
+
 ### 文件目录
 
 ```c
