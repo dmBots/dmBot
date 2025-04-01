@@ -87,6 +87,8 @@ git clone <url>
 
 #### 4. [SPINE](https://gitee.com/kit-miao/spine)
 
+#### 5. [DM-IMU](https://gitee.com/kit-miao/dm-imu)
+
 ### 电机驱动板
 
 #### 1. [DM电机驱动板总链接](https://gitee.com/kit-miao/damao-motor-drive-board)
