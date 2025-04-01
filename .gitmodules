@@ -117,3 +117,6 @@
 [submodule "0.固件/固件"]
 	path = 0.固件/固件
 	url = https://gitee.com/kit-miao/motor-firmware.git
+[submodule "6.控制板/DM-IMU模块"]
+	path = 6.控制板/DM-IMU模块
+	url = https://gitee.com/kit-miao/dm-imu.git
