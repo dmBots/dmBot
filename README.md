@@ -38,6 +38,7 @@ git clone <url>
 #### 8. [DM-J8009P-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8009P-2EC)
 #### 9. [DM-J10010-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J10010-2EC)
 #### 10. [DM-J10010L-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J10010L-2EC)
+#### 11. [DM-J6248P-2EC 电机资料链接](https://gitee.com/kit-miao/dm-j6248-p-2-ec)
 
 ### 中空电机
 
