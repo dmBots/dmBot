@@ -22,9 +22,12 @@ git submodule update --recursive --remote
 git clone <url>
 ```
 
+### 客户帮助中心
+https://gl1po2nscb.feishu.cn/wiki/MZ32w0qnnizTpOkNvAZcJ9SlnXb
+
 ### 固件
 
-所有系列[电机固件](https://gitee.com/kit-miao/motor-firmware/tree/0acb86002a2e9822963925e34154f4e9f662364d)都在这个文件夹里面
+所有系列[电机固件](https://gitee.com/kit-miao/motor-firmware)都在这个文件夹里面
 
 ### 关节电机
 
