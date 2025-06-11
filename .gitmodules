@@ -1,6 +1,6 @@
 [submodule "0.固件/固件"]
 	path = 0.固件/固件
-	url = https://gitee.com/kit-miao/motor-firmware.git
+	url = https://github.com/dmBots/motor-firmware.git
 
 [submodule "1.关节电机/DM-J4310-2EC"]
 	path = 1.关节电机/DM-J4310-2EC
@@ -84,7 +84,7 @@
 
 [submodule "6.控制板/DM-IMU模块"]
 	path = 6.控制板/DM-IMU模块
-	url = https://gitee.com/kit-miao/dm-imu.git
+	url = https://github.com/dmBots/dm-imu.git
 
 [submodule "7.电机驱动板/驱动"]
 	path = 7.电机驱动板/驱动
