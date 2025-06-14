@@ -1,3 +1,7 @@
+[submodule "0.固件/固件"]
+	path = 0.固件/固件
+	url = https://gitee.com/kit-miao/motor-firmware.git
+
 [submodule "1.关节电机/DM-J4310-2EC"]
 	path = 1.关节电机/DM-J4310-2EC
 	url  = https://gitee.com/kit-miao/DM-J4310-2EC.git
@@ -82,6 +86,10 @@
 	path = 6.控制板/spine
 	url = https://gitee.com/kit-miao/spine.git
 
+[submodule "6.控制板/DM-IMU模块"]
+	path = 6.控制板/DM-IMU模块
+	url = https://gitee.com/kit-miao/dm-imu.git
+
 [submodule "7.电机驱动板/驱动"]
 	path = 7.电机驱动板/驱动
 	url  = https://gitee.com/kit-miao/damao-motor-drive-board.git
@@ -118,9 +126,4 @@
 	path = B.Canopen/Canopen
 	url = https://gitee.com/kit-miao/dm_-canopen.git
 
-[submodule "0.固件/固件"]
-	path = 0.固件/固件
-	url = https://gitee.com/kit-miao/motor-firmware.git
-[submodule "6.控制板/DM-IMU模块"]
-	path = 6.控制板/DM-IMU模块
-	url = https://gitee.com/kit-miao/dm-imu.git
+
