@@ -18,6 +18,10 @@
 	path = 1.关节电机/DM-J6006-2EC
 	url  = https://gitee.com/kit-miao/DM-J6006-2EC.git
 
+[submodule "1.关节电机/DM-J6248P-2EC"]
+	path = 1.关节电机/DM-J6248P-2EC
+	url  = https://gitee.com/kit-miao/DM-J6248P-2EC.git
+
 [submodule "1.关节电机/DM-J8006-2EC"]
 	path = 1.关节电机/DM-J8006-2EC
 	url  = https://gitee.com/kit-miao/DM-J8006-2EC.git
