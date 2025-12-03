@@ -62,9 +62,14 @@
 	path = 3.分立系列/DM-S3519-1EC
 	url  = https://github.com/dmBots/DM-S3519-1EC.git
 
-[submodule "4.分立系列/DM-S3519-1EC"]
-	path = 4.分立系列/DM-S3519-1EC
-	url  = https://github.com/dmBots/DM-S3519-1EC.git
+[submodule "3.轮毂电机/DM-H6530-1EC"]
+	path = 3.轮毂电机/DM-H65-1EC
+	url  = https://github.com/dmBots/DM-H65-1EC
+
+[submodule "4.分立系列/DM-S2325-1EC"]
+	path = 4.分立系列/DM-S2325-1EC
+	url  = https://github.com/dmBots/DM-S2325-1EC.git
+
 
 [submodule "5.控制例程/电机控制例程"]
 	path = 5.控制例程/电机控制例程
@@ -121,5 +126,21 @@
 [submodule "B.Canopen/Canopen"]
 	path = B.Canopen/Canopen
 	url = https://github.com/dmBots/dm_canopen.git
+
+[submodule "10.直驱电机/DM-D5730-1EC"]
+	path = 10.直驱电机/DM-D5730-1EC
+	url  = https://github.com/dmBots/dm-D5730-1-ec
+
+[submodule "10.直驱电机/DM-D5730-1EE"]
+	path = 10.直驱电机/DM-D5730-1EE
+	url  = https://github.com/dmBots/DM-D5730-1EE
+
+[submodule "11.谐波电机/DM-JH11-51_101-2EC"]
+	path = 11.谐波电机/DM-JH11-51_101-2EC
+	url  = https://github.com/dmBots/DM-JH11-51_101-2EC
+
+
+
+
 
 
