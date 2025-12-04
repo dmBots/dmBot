@@ -1,151 +1,151 @@
 [submodule "0.固件/固件"]
 	path = 0.固件/固件
-	url  = https://gitee.com/kit-miao/motor-firmware.git
+	url  = https://github.com/dmBots/motor-firmware.git
 
 [submodule "1.关节电机/DM-J4310-2EC"]
 	path = 1.关节电机/DM-J4310-2EC
-	url  = https://gitee.com/kit-miao/DM-J4310-2EC.git
+	url  = https://github.com/dmBots/DM-J4310-2EC.git
 
 [submodule "1.关节电机/DM-J4340-2EC"]
 	path = 1.关节电机/DM-J4340-2EC
-	url  = https://gitee.com/kit-miao/DM-J4340-2EC.git
+	url  = https://github.com/dmBots/DM-J4340-2EC.git
 
 [submodule "1.关节电机/DM-J4340P-2EC"]
 	path = 1.关节电机/DM-J4340P-2EC
-	url  = https://gitee.com/kit-miao/DM-J4340P-2EC.git
+	url  = https://github.com/dmBots/DM-J4340P-2EC.git
 
 [submodule "1.关节电机/DM-J3507-2EC"]
 	path = 1.关节电机/DM-J3507-2EC
-	url  = https://gitee.com/kit-miao/DM-J3507-2EC.git
+	url  = https://github.com/dmBots/DM-J3507-2EC.git
 
 [submodule "1.关节电机/DM-J6006-2EC"]
 	path = 1.关节电机/DM-J6006-2EC
-	url  = https://gitee.com/kit-miao/DM-J6006-2EC.git
+	url  = https://github.com/dmBots/DM-J6006-2EC.git
 
 [submodule "1.关节电机/DM-J6248P-2EC"]
 	path = 1.关节电机/DM-J6248P-2EC
-	url  = https://gitee.com/kit-miao/DM-J6248P-2EC
+	url  = https://github.com/dmBots/DM-J6248P-2EC
 
 [submodule "1.关节电机/DM-J8006-2EC"]
 	path = 1.关节电机/DM-J8006-2EC
-	url  = https://gitee.com/kit-miao/DM-J8006-2EC.git
+	url  = https://github.com/dmBots/DM-J8006-2EC.git
 
 [submodule "1.关节电机/DM-J8009-2EC"]
 	path = 1.关节电机/DM-J8009-2EC
-	url  = https://gitee.com/kit-miao/DM-J8009-2EC.git
+	url  = https://github.com/dmBots/DM-J8009-2EC.git
 
 [submodule "1.关节电机/DM-J8009P-2EC"]
 	path = 1.关节电机/DM-J8009P-2EC
-	url  = https://gitee.com/kit-miao/DM-J8009P-2EC.git
+	url  = https://github.com/dmBots/DM-J8009P-2EC.git
 
 [submodule "1.关节电机/DM-J10010-2EC"]
 	path = 1.关节电机/DM-J10010-2EC
-	url  = https://gitee.com/kit-miao/DM-J10010-2EC.git
+	url  = https://github.com/dmBots/DM-J10010-2EC.git
 
 [submodule "1.关节电机/DM-J10010L-2EC"]
 	path = 1.关节电机/DM-J10010L-2EC
-	url  = https://gitee.com/kit-miao/DM-J10010L-2EC.git
+	url  = https://github.com/dmBots/DM-J10010L-2EC.git
 
 [submodule "2.中空电机/DM-G6220"]
 	path = 2.中空电机/DM-G6220
-	url  = https://gitee.com/kit-miao/DM-G6220.git
+	url  = https://github.com/dmBots/DM-G6220.git
 
 [submodule "3.轮毂电机/DM-H6215"]
 	path = 3.轮毂电机/DM-H6215
-	url  = https://gitee.com/kit-miao/DM-H6215.git
+	url  = https://github.com/dmBots/DM-H6215.git
 
 [submodule "3.轮毂电机/DM-H3510"]
 	path = 3.轮毂电机/DM-H3510
-	url  = https://gitee.com/kit-miao/DM-H3510.git
+	url  = https://github.com/dmBots/DM-H3510.git
 
 [submodule "3.分立系列/DM-S3519-1EC"]
 	path = 3.分立系列/DM-S3519-1EC
-	url  = https://gitee.com/kit-miao/DM-S3519-1EC.git
+	url  = https://github.com/dmBots/DM-S3519-1EC.git
 
 [submodule "4.分立系列/DM-S3519-1EC"]
 	path = 4.分立系列/DM-S3519-1EC
-	url  = https://gitee.com/kit-miao/DM-S3519-1EC.git
+	url  = https://github.com/dmBots/DM-S3519-1EC.git
 
 [submodule "5.控制例程/电机控制例程"]
 	path = 5.控制例程/电机控制例程
-	url  = https://gitee.com/kit-miao/motor-control-routine.git
+	url  = https://github.com/dmBots/motor-control-routine.git
 
 [submodule "6.控制板/DM-MC01"]
 	path = 6.控制板/DM-MC01
-	url  = https://gitee.com/kit-miao/dm-mc01.git
+	url  = https://github.com/dmBots/dm-mc01.git
 
 [submodule "6.控制板/DM-MC02"]
 	path = 6.控制板/DM-MC02
-	url  = https://gitee.com/kit-miao/dm-mc02.git
+	url  = https://github.com/dmBots/dm-mc02.git
 
 [submodule "6.控制板/orin-board"]
 	path = 6.控制板/orin-board
-	url  = https://gitee.com/kit-miao/orin-board.git
+	url  = https://github.com/dmBots/orin-board.git
 
 [submodule "6.控制板/spine"]
 	path = 6.控制板/spine
-	url  = https://gitee.com/kit-miao/spine.git
+	url  = https://github.com/dmBots/spine.git
 
 [submodule "6.控制板/DM-IMU模块"]
 	path = 6.控制板/DM-IMU模块
-	url  = https://gitee.com/kit-miao/dm-imu.git
+	url  = https://github.com/dmBots/dm-imu.git
 
 [submodule "7.电机驱动板/驱动"]
 	path = 7.电机驱动板/驱动
-	url  = https://gitee.com/kit-miao/damao-motor-drive-board.git
+	url  = https://github.com/dmBots/damao-motor-drive-board.git
 
 [submodule "8.工具和上位机/dm-tools"]
 	path = 8.工具和上位机/dm-tools
-	url  = https://gitee.com/kit-miao/dm-tools.git
+	url  = https://github.com/dmBots/dm-tools.git
 
 [submodule "9.使用手册/文档"]
 	path = 9.使用手册/文档
-	url  = https://gitee.com/kit-miao/damao-document.git
+	url  = https://github.com/dmBots/damao-document.git
 
 [submodule "A.达妙开源系列/轮足"]
 	path = A.达妙开源系列/轮足
-	url  = https://gitee.com/kit-miao/wheel-legged.git
+	url  = https://github.com/dmBots/wheel-legged.git
 
 [submodule "A.达妙开源系列/双足机器人"]
 	path = A.达妙开源系列/双足机器人
-	url  = https://gitee.com/kit-miao/bipedal-robot.git
+	url  = https://github.com/dmBots/bipedal-robot.git
 
 [submodule "A.达妙开源系列/桌面轮足和平衡车"]
 	path = A.达妙开源系列/桌面轮足和平衡车
-	url  = https://gitee.com/kit-miao/balance_robot.git
+	url  = https://github.com/dmBots/balance_robot.git
 
 [submodule "A.达妙开源系列/AGV"]
 	path = A.达妙开源系列/AGV
-	url  = https://gitee.com/kit-miao/agv.git
+	url  = https://github.com/dmBots/agv.git
 
 [submodule "A.Canopen/Canopen"]
 	path = A.Canopen/Canopen
-	url  = https://gitee.com/kit-miao/dm_-canopen.git
+	url  = https://github.com/dmBots/dm_-canopen.git
 
 [submodule "B.Canopen/Canopen"]
 	path = B.Canopen/Canopen
-	url  = https://gitee.com/kit-miao/dm_-canopen.git
+	url  = https://github.com/dmBots/dm_-canopen.git
 
 [submodule "4.分立系列/DM-S2325-1EC"]
 	path = 4.分立系列/DM-S2325-1EC
-	url  = https://gitee.com/kit-miao/dm-s2325-1-ec.git
+	url  = https://github.com/dmBots/dm-s2325-1-ec.git
 
 [submodule "10.直驱电机/DM-D5730-1EC"]
 	path = 10.直驱电机/DM-D5730-1EC
-	url  = https://gitee.com/kit-miao/dm-D5730-1-ec
+	url  = https://github.com/dmBots/dm-D5730-1-ec
 
 [submodule "11.谐波电机/DM-JH11-51_101-2EC"]
 	path = 11.谐波电机/DM-JH11-51_101-2EC
-	url  = https://gitee.com/kit-miao/DM-JH11-51_101-2EC
+	url  = https://github.com/dmBots/DM-JH11-51_101-2EC
 
 [submodule "3.轮毂电机/DM-H6530-1EC"]
 	path = 3.轮毂电机/DM-H65-1EC
-	url  = https://gitee.com/kit-miao/DM-H65-1EC
+	url  = https://github.com/dmBots/DM-H65-1EC
 
 [submodule "10.直驱电机/DM-D5730-1EE"]
 	path = 10.直驱电机/DM-D5730-1EE
-	url  = https://gitee.com/kit-miao/DM-D5730-1EE
+	url  = https://github.com/dmBots/DM-D5730-1EE
 
 [submodule "1.关节电机/DM-J4310P-2EC"]
 	path = 1.关节电机/DM-J4310P-2EC
-	url  = https://gitee.com/kit-miao/dm-j4310-p-2-ec
+	url  = https://github.com/dmBots/dm-j4310-p-2-ec
