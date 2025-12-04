@@ -59,3 +59,27 @@
 	path = 5.控制例程/电机控制例程
 	url = https://github.com/dmBots/motor-control-routine.git
 
+[submodule "6.控制板/dm-mc01"]
+	path = 6.控制板/dm-mc01
+	url = https://github.com/dmBots/dm-mc01.git
+[submodule "6.控制板/dm-mc02"]
+	path = 6.控制板/dm-mc02
+	url = https://github.com/dmBots/dm-mc02.git
+[submodule "6.控制板/orin-board"]
+	path = 6.控制板/orin-board
+	url = https://github.com/dmBots/orin-board.git
+[submodule "6.控制板/spine"]
+	path = 6.控制板/spine
+	url = https://github.com/dmBots/spine.git
+[submodule "6.控制板/dm-imu"]
+	path = 6.控制板/dm-imu
+	url = https://github.com/dmBots/dm-imu.git
+[submodule "7.电机驱动板/motor-drive-board"]
+	path = 7.电机驱动板/motor-drive-board
+	url = https://github.com/dmBots/motor-drive-board
+[submodule "8.工具和上位机/dm-tools"]
+	path = 8.工具和上位机/dm-tools
+	url = https://github.com/dmBots/dm-tools.git
+[submodule "9.使用手册/文档"]
+	path = 9.使用手册/文档
+	url = https://github.com/dmBots/damiao-document
