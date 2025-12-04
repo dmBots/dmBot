@@ -10,7 +10,7 @@ DAMIAO|达妙科技
 1. 如果您想下载整个库，推荐使用git来进行克隆，并且将所有子仓库一起克隆
 
 ```c
-git clone https://gitee.com/kit-miao/damiao.git
+git clone https://github.com/dmBots/damiao.git
 cd damiao/
 git submodule init
 git submodule update --recursive --remote
@@ -27,50 +27,50 @@ https://gl1po2nscb.feishu.cn/wiki/MZ32w0qnnizTpOkNvAZcJ9SlnXb
 
 ### 固件
 
-所有系列[电机固件](https://gitee.com/kit-miao/motor-firmware)都在这个链接里面：https://gitee.com/kit-miao/motor-firmware
+所有系列[电机固件](https://github.com/dmBots/motor-firmware)都在这个链接里面：https://github.com/dmBots/motor-firmware
 
 ### 关节电机
 
-#### 1. [DM-J3507-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J3507-2EC)
-#### 2. [DM-J4310-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4310-2EC)
-#### 3. [DM-J4310P-2EC 电机资料链接](https://gitee.com/kit-miao/dm-j4310-p-2-ec)
-#### 4. [DM-J4340-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4340-2EC)
-#### 5. [DM-J4340P-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J4340P-2EC)
-#### 6. [DM-J6006-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J6006-2EC)
-#### 7. [DM-J8006-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8006-2EC)
-#### 8. [DM-J8009-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8009-2EC)
-#### 9. [DM-J8009P-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J8009P-2EC)
-#### 10. [DM-J10010-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J10010-2EC)
-#### 11. [DM-J10010L-2EC 电机资料链接](https://gitee.com/kit-miao/DM-J10010L-2EC)
-#### 12. [DM-J6248P-2EC 电机资料链接](https://gitee.com/kit-miao/dm-j6248-p-2-ec)
+#### 1. [DM-J3507-2EC 电机资料链接](https://github.com/dmBots/DM-J3507-2EC)
+#### 2. [DM-J4310-2EC 电机资料链接](https://github.com/dmBots/DM-J4310-2EC)
+#### 3. [DM-J4310P-2EC 电机资料链接](https://github.com/dmBots/DM-J4310P-2EC)
+#### 4. [DM-J4340-2EC 电机资料链接](https://github.com/dmBots/DM-J4340-2EC)
+#### 5. [DM-J4340P-2EC 电机资料链接](https://github.com/dmBots/DM-J4340P-2EC)
+#### 6. [DM-J6006-2EC 电机资料链接](https://github.com/dmBots/DM-J6006-2EC)
+#### 7. [DM-J8006-2EC 电机资料链接](https://github.com/dmBots/DM-J8006-2EC)
+#### 8. [DM-J8009-2EC 电机资料链接](https://github.com/dmBots/DM-J8009-2EC)
+#### 9. [DM-J8009P-2EC 电机资料链接](https://github.com/dmBots/DM-J8009P-2EC)
+#### 10. [DM-J10010-2EC 电机资料链接](https://github.com/dmBots/DM-J10010-2EC)
+#### 11. [DM-J10010L-2EC 电机资料链接](https://github.com/dmBots/DM-J10010L-2EC)
+#### 12. [DM-J6248P-2EC 电机资料链接](https://github.com/dmBots/dm-j6248-p-2-ec)
 
 ### 中空电机
 
-#### 1. [DM-G6220 电机资料](https://gitee.com/kit-miao/DM-G6220)
+#### 1. [DM-G6220 电机资料](https://github.com/dmBots/DM-G6220)
 
 ### 轮毂电机
 
-#### 1. [DM-H3510 电机资料](https://gitee.com/kit-miao/DM-H3510)
+#### 1. [DM-H3510 电机资料](https://github.com/dmBots/DM-H3510)
 
-#### 2. [DM-H6215 电机资料](https://gitee.com/kit-miao/DM-H6215)
+#### 2. [DM-H6215 电机资料](https://github.com/dmBots/DM-H6215)
 
-#### 3. [DM-H6530 电机资料](https://gitee.com/kit-miao/DM-H6530-1EC)
+#### 3. [DM-H6530 电机资料](https://github.com/dmBots/DM-H6530-1EC)
 
 ### 分立系列
 
-#### 1. [DM-S3519-1EC 电机资料](https://gitee.com/kit-miao/DM-S3519-1EC)
+#### 1. [DM-S3519-1EC 电机资料](https://github.com/dmBots/DM-S3519-1EC)
 
-#### 2. [DM-S2325-1EC 电机资料](https://gitee.com/kit-miao/dm-s2325-1-ec)
+#### 2. [DM-S2325-1EC 电机资料](https://github.com/dmBots/dm-s2325-1-ec)
 
 ### 谐波电机
 
-#### 1. [DM-JH11-51_101 电机资料](https://gitee.com/kit-miao/DM-JH11-51_101-2EC)
+#### 1. [DM-JH11-51_101 电机资料](https://github.com/dmBots/DM-JH11-51_101-2EC)
 
 ### 直驱电机
 
-#### 1. [DM-D5730-1EC 电机资料](https://gitee.com/kit-miao/dm-D5730-1-ec)
+#### 1. [DM-D5730-1EC 电机资料](https://github.com/dmBots/dm-D5730-1-ec)
 
-#### 2. [DM-D5730-1EE 电机资料](https://gitee.com/kit-miao/DM-D5730-1EE)
+#### 2. [DM-D5730-1EE 电机资料](https://github.com/dmBots/DM-D5730-1EE)
 
 
 ### 客户帮助中心
@@ -87,55 +87,55 @@ https://gl1po2nscb.feishu.cn/wiki/MZ32w0qnnizTpOkNvAZcJ9SlnXb
 
 ### 电机控制例程
 
-#### 1. [电机控制例程总链接](https://gitee.com/kit-miao/motor-control-routine)
+#### 1. [电机控制例程总链接](https://github.com/dmBots/motor-control-routine)
 
-#### 2.[STM32 电机控制例程](https://gitee.com/kit-miao/motor-control-routine/tree/master/stm32例程)
+#### 2.[STM32 电机控制例程](https://github.com/dmBots/motor-control-routine/tree/master/stm32例程)
 
-#### 3. [C++ 电机控制SDK](https://gitee.com/kit-miao/motor-control-routine/tree/master/C++例程)
+#### 3. [C++ 电机控制SDK](https://github.com/dmBots/motor-control-routine/tree/master/C++例程)
 
-#### 4. [Python 电机控制SDK](https://gitee.com/kit-miao/motor-control-routine/tree/master/Python例程)
+#### 4. [Python 电机控制SDK](https://github.com/dmBots/motor-control-routine/tree/master/Python例程)
 
-#### 5. [Matlab 电机控制SDK](https://gitee.com/kit-miao/motor-control-routine/tree/master/Matlab例程)
+#### 5. [Matlab 电机控制SDK](https://github.com/dmBots/motor-control-routine/tree/master/Matlab例程)
 
 ### 控制板
 
-#### 1. [DM MC-01 开发板资料](https://gitee.com/kit-miao/dm-mc01)
+#### 1. [DM MC-01 开发板资料](https://github.com/dmBots/dm-mc01)
 
-#### 2. [DM_MC02 开发板资料](https://gitee.com/kit-miao/dm-mc02/tree/c5887bb4a67aa1b1881d358d7e9f92c7a9cdc379)
+#### 2. [DM_MC02 开发板资料](https://github.com/dmBots/dm-mc02/tree/c5887bb4a67aa1b1881d358d7e9f92c7a9cdc379)
 
-#### 3. [ORIN 载板资料](https://gitee.com/kit-miao/orin-board)
+#### 3. [ORIN 载板资料](https://github.com/dmBots/orin-board)
 
-#### 4. [SPINE](https://gitee.com/kit-miao/spine)
+#### 4. [SPINE](https://github.com/dmBots/spine)
 
-#### 5. [DM-IMU](https://gitee.com/kit-miao/dm-imu)
+#### 5. [DM-IMU](https://github.com/dmBots/dm-imu)
 
 ### 电机驱动板
 
-#### 1. [DM电机驱动板总链接](https://gitee.com/kit-miao/damao-motor-drive-board)
+#### 1. [DM电机驱动板总链接](https://github.com/dmBots/damao-motor-drive-board)
 
-#### 2. [DM43 电机驱动板](https://gitee.com/kit-miao/damao-motor-drive-board/tree/master/DM43)
+#### 2. [DM43 电机驱动板](https://github.com/dmBots/damao-motor-drive-board/tree/master/DM43)
 
-#### 3. [DM60 电机驱动板](https://gitee.com/kit-miao/damao-motor-drive-board/tree/master/DM60)
+#### 3. [DM60 电机驱动板](https://github.com/dmBots/damao-motor-drive-board/tree/master/DM60)
 
-#### 4. [DM80 电机驱动板](https://gitee.com/kit-miao/damao-motor-drive-board/tree/master/DM80)
+#### 4. [DM80 电机驱动板](https://github.com/dmBots/damao-motor-drive-board/tree/master/DM80)
 
-#### 5. [DM100 电机驱动板](https://gitee.com/kit-miao/damao-motor-drive-board/tree/master/DM100)
+#### 5. [DM100 电机驱动板](https://github.com/dmBots/damao-motor-drive-board/tree/master/DM100)
 
 ### 工具和上位机
 
-#### 1. [USB转FDCAN](https://gitee.com/kit-miao/dm-tools/tree/master/USB2FDCAN)
+#### 1. [USB转FDCAN](https://github.com/dmBots/dm-tools/tree/master/USB2FDCAN)
 
-#### 2. [USB转CAN](https://gitee.com/kit-miao/dm-tools/tree/master/USB%E8%BD%ACCAN)
+#### 2. [USB转CAN](https://github.com/dmBots/dm-tools/tree/master/USB%E8%BD%ACCAN)
 
 ### 开源项目
 
-#### 1. [轮足](https://gitee.com/kit-miao/wheel-legged)
+#### 1. [轮足](https://github.com/dmBots/wheel-legged)
 
-#### 2. [平衡小车](https://gitee.com/kit-miao/balance_robot/tree/master/平衡小车)
+#### 2. [平衡小车](https://github.com/dmBots/balance_robot/tree/master/平衡小车)
 
-#### 3. [桌面轮足](https://gitee.com/kit-miao/balance_robot/tree/master/桌面轮足)
+#### 3. [桌面轮足](https://github.com/dmBots/balance_robot/tree/master/桌面轮足)
 
-#### 4. [双足机器人](https://gitee.com/kit-miao/bipedal-robot)
+#### 4. [双足机器人](https://github.com/dmBots/bipedal-robot)
 
 ### 用户开源案例
 
@@ -143,7 +143,7 @@ https://gl1po2nscb.feishu.cn/wiki/MZ32w0qnnizTpOkNvAZcJ9SlnXb
 
 ### Canopen
 
-#### 1. [DM_CANOPEN](https://gitee.com/kit-miao/dm_-canopen)
+#### 1. [DM_CANOPEN](https://github.com/dmBots/dm_-canopen)
 
 ### 达妙淘宝店铺
 

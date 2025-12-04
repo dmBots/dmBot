@@ -83,3 +83,21 @@
 [submodule "9.使用手册/文档"]
 	path = 9.使用手册/文档
 	url = https://github.com/dmBots/damiao-document
+[submodule "A.达妙开源系列/wheel-legged"]
+	path = A.达妙开源系列/wheel-legged
+	url = https://github.com/dmBots/wheel-legged.git
+[submodule "A.达妙开源系列/bipedal-robot"]
+	path = A.达妙开源系列/bipedal-robot
+	url = https://github.com/dmBots/bipedal-robot.git
+[submodule "A.达妙开源系列/agv"]
+	path = A.达妙开源系列/agv
+	url = https://github.com/dmBots/agv.git
+[submodule "10.直驱电机/DM-D5730-1EC"]
+	path = 10.直驱电机/DM-D5730-1EC
+	url = https://github.com/dmBots/DM-D5730-1EC
+[submodule "10.直驱电机/DM-D5730-1EE"]
+	path = 10.直驱电机/DM-D5730-1EE
+	url = https://github.com/dmBots/DM-D5730-1EE
+[submodule "11.谐波电机/DM-JH11-51_101-2EC"]
+	path = 11.谐波电机/DM-JH11-51_101-2EC
+	url = https://github.com/dmBots/DM-JH11-51_101-2EC
