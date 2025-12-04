@@ -48,7 +48,7 @@
 	url = https://github.com/dmBots/DM-H3510.git
 [submodule "3.轮毂电机/DM-H65-1EC"]
 	path = 3.轮毂电机/DM-H65-1EC
-	url = https://github.com/dmBots/DM-H65-1EC
+	url = https://github.com/dmBots/DM-H65-1EC.git
 [submodule "4.分立系列/DM-S3519-1EC"]
 	path = 4.分立系列/DM-S3519-1EC
 	url = https://github.com/dmBots/DM-S3519-1EC.git
