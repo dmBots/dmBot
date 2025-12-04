@@ -58,4 +58,9 @@
 [submodule "5.控制例程/电机控制例程"]
 	path = 5.控制例程/电机控制例程
 	url = https://github.com/dmBots/motor-control-routine.git
-
+[submodule "6.控制板/DM-mc01"]
+	path = 6.控制板/DM-MC01
+	url = https://github.com/dmBots/dm-mc01.git
+[submodule "6.控制板/dm-mc02"]
+	path = 6.控制板/DM-MC02
+	url = https://github.com/dmBots/dm-mc02.git
