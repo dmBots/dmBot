@@ -5,6 +5,10 @@ DAMIAO|达妙科技
  Build with 💻<a href="https://space.bilibili.com/618189554?spm_id_from=333.337.search-card.all.click">达妙科技-dmbot</a> 
 </pre>
 
+### 特别注意
+
+因为使用的是子仓库形式，跳到子仓库时，务必切换到master分支
+
 ### 下载
 
 1. 如果您想下载整个库，推荐使用git来进行克隆，并且将所有子仓库一起克隆
