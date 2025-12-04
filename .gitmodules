@@ -99,3 +99,6 @@
 [submodule "11.谐波电机/DM-JH11-51_101-2EC"]
 	path = 11.谐波电机/DM-JH11-51_101-2EC
 	url = https://github.com/dmBots/DM-JH11-51_101-2EC
+[submodule "3.轮毂电机/DM-H65-1EC"]
+	path = 3.轮毂电机/DM-H65-1EC
+	url = https://github.com/dmBots/DM-H65-1EC
