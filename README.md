@@ -10,8 +10,8 @@ DAMIAO|达妙科技
 1. 如果您想下载整个库，推荐使用git来进行克隆，并且将所有子仓库一起克隆
 
 ```c
-git clone https://github.com/dmBots/damiao.git
-cd damiao/
+git clone https://github.com/dmBots/dmBot.git
+cd dmBot/
 git submodule init
 git submodule update --recursive --remote
 ```
