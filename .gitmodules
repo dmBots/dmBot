@@ -37,3 +37,25 @@
 [submodule "1.关节电机/DM-J10010L-2EC"]
 	path = 1.关节电机/DM-J10010L-2EC
 	url = https://github.com/dmBots/DM-J10010L-2EC.git
+[submodule "2.中空电机/DM-G6220"]
+	path = 2.中空电机/DM-G6220
+	url = https://github.com/dmBots/DM-G6220.git
+[submodule "3.轮毂电机/DM-H6215"]
+	path = 3.轮毂电机/DM-H6215
+	url = https://github.com/dmBots/DM-H6215.git
+[submodule "3.轮毂电机/DM-H3510"]
+	path = 3.轮毂电机/DM-H3510
+	url = https://github.com/dmBots/DM-H3510.git
+[submodule "3.轮毂电机/DM-H65-1EC"]
+	path = 3.轮毂电机/DM-H65-1EC
+	url = https://github.com/dmBots/DM-H65-1EC
+[submodule "4.分立系列/DM-S3519-1EC"]
+	path = 4.分立系列/DM-S3519-1EC
+	url = https://github.com/dmBots/DM-S3519-1EC.git
+[submodule "4.分立系列/DM-S2325-1EC"]
+	path = 4.分立系列/DM-S2325-1EC
+	url = https://github.com/dmBots/DM-S2325-1EC
+[submodule "5.控制例程/电机控制例程"]
+	path = 5.控制例程/电机控制例程
+	url = https://github.com/dmBots/motor-control-routine.git
+
