@@ -1,0 +1,17 @@
+拉取主仓库和子仓库
+git clone https://gitee.com/kit-miao/damiao.git
+cd damiao/
+git submodule init
+git submodule update --recursive --remote
+
+更新主仓库
+git add .
+git commit -m "update"
+git push origin master
+
+更新子仓库
+子仓库分支都切换到master
+可以切换到子仓库的文件夹
+git add .
+git commit -m "update"
+git push origin master
