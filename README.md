@@ -8,6 +8,30 @@ English-first entry point for the DAMIAO documentation mirror. This repository i
 - Some subtree documents are already bilingual, while others are still Chinese-only or partially translated.
 - Missing English content must stay as `TBD` or `Translation pending`; do not guess or fabricate it.
 
+## Quick Download
+
+1. If you want the full mirror, clone the parent repository and then sync all submodules.
+
+```c
+git clone https://github.com/dmBots/dmBot.git
+cd dmBot/
+git submodule init
+git submodule update --recursive --remote
+```
+
+2. If you only need one subtree, enter that folder and clone or sync it on its own.
+
+```c
+git clone <url>
+```
+
+3. After entering a submodule, check its own README and document index for the latest workflow notes.
+
+## Common Entry Points
+
+- [Customer Help Center](https://gl1po2nscb.feishu.cn/wiki/MZ32w0qnnizTpOkNvAZcJ9SlnXb)
+- [Motor Firmware Mirror](https://github.com/dmBots/motor-firmware)
+
 ## Repository Scope
 
 Current top-level areas in this repository:
