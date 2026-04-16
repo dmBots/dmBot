@@ -20,7 +20,7 @@
 ## Quick Start
 
 - To download and use USB2CANFD tools, start with [dm-tools/USB2CANFD/README.md](dm-tools/USB2CANFD/README.md), then continue into `SETUP.md`.
-- To run the host software, open [dm-tools/USB2CANFD/上位机/README.md](dm-tools/USB2CANFD/上位机/README.md); it tells you which package to download before you follow `SETUP.md`.
+- To run the host software, open [dm-tools/USB2CANFD/Host Applications/README.md](dm-tools/USB2CANFD/Host Applications/README.md); it tells you which package to download before you follow `SETUP.md`.
 - To flash, switch, or validate `slcan` firmware, open [dm-tools/USB2CANFD/固件/socketcan/slcan固件/README.md](dm-tools/USB2CANFD/固件/socketcan/slcan固件/README.md), then follow `FLASHING.md`.
 - To use SDK materials, start with [dm-tools/USB2CANFD/SDK/README.md](dm-tools/USB2CANFD/SDK/README.md) for the mirrored USB2CANFD path; for the generic device SDK route, open [dm-tools/DM_DeviceSDK/README.md](dm-tools/DM_DeviceSDK/README.md) and continue in Gitee if needed.
 - To confirm whether this repository has the path you need, start with [dm-tools/README.md](dm-tools/README.md), then verify the real path in [../docs/catalog.md](../docs/catalog.md).

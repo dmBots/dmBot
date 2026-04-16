@@ -38,13 +38,17 @@ This file is specifically for cross-repository path mapping and compatibility af
 
 | What you want | GitHub path | Gitee path |
 | --- | --- | --- |
-| Firmware entry | `0.Firmware/固件/README.md` | `0.固件/固件/README.md` |
+| Firmware entry | `0.Firmware/Firmware/README.md` | `0.固件/固件/README.md` |
+| Firmware subtree root | `0.Firmware/Firmware/` | `0.固件/固件/` |
 | Joint motor entry | `1.Joint Motors/README.md` | `1.关节电机/README.md` |
 | Control examples entry | `5.Control Examples/README.md` | `5.控制例程/README.md` |
+| Motor control examples subtree | `5.Control Examples/Motor Control Examples/` | `5.控制例程/电机控制例程/` |
 | Orin board entry | `6.Control Boards/orin-board/README.md` | `6.控制板/orin-board/README.md` |
 | Tools entry | `8.Tools and Host Software/README.md` | `8.工具和上位机/README.md` |
 | `dm-tools` entry | `8.Tools and Host Software/dm-tools/README.md` | `8.工具和上位机/dm-tools/README.md` |
 | `USB2CANFD` entry | `8.Tools and Host Software/dm-tools/USB2CANFD/README.md` | `8.工具和上位机/dm-tools/USB2CANFD/README.md` |
+| `USB2CANFD` host software entry | `8.Tools and Host Software/dm-tools/USB2CANFD/Host Applications/README.md` | `8.工具和上位机/dm-tools/USB2CANFD/上位机/README.md` |
+| User-manual subtree | `9.User Manuals/Documentation/` | `9.使用手册/文档/` |
 | `DM_DeviceSDK` handoff | `8.Tools and Host Software/dm-tools/DM_DeviceSDK/README.md` | `8.工具和上位机/dm-tools/DM_DeviceSDK/README.md` |
 | Open-source series entry | `A.Open Source Series/agv` | `A.达妙开源系列/AGV` |
 
@@ -64,6 +68,31 @@ Gitee keeps the matching Chinese resource-directory names.
 | `Adapter Boards/` | `转接板/` | `转接板/` |
 | `Maximum Overload Duration/` | `最大过载时间/` | `最大过载时间/` |
 | `Maximum Overload Curves/` | `最大过载曲线/` | `最大过载曲线/` |
+| `Firmware/` | `固件/` | `固件/` |
+| `Documentation/` | `文档/` | `文档/` |
+| `Motor Control Examples/` | `电机控制例程/` | `电机控制例程/` |
+| `Host Applications/` | `上位机/` | `上位机/` |
+| `3D Files/` | `3D文件/` | `3D文件/` |
+| `Datasheets/` | `数据手册/` | `数据手册/` |
+| `Schematics/` | `原理图/` | `原理图/` |
+| `Customer Enclosure Files/` | `客户外壳文件/` | `客户外壳文件/` |
+| `LCD Module/` | `LCD模块/` | `LCD模块/` |
+| `3D Enclosure/` | `3D外壳/` | `3D外壳/` |
+| `Package Library - Reference Only/` | `封装库-仅供参考/` | `封装库-仅供参考/` |
+| `01.Models and Drawings/` | `01.模型及图纸/` | `01.模型及图纸/` |
+| `03.Host Software/` | `03.上位机/` | `03.上位机/` |
+| `Enable UART/` | `使能UART方法/` | `使能UART方法/` |
+| `USB3.0 Device Tree Changes/` | `USB3.0设备树修改/` | `USB3.0设备树修改/` |
+| `XML Files/` | `XML文件/` | `XML文件/` |
+| `Module Configuration Tool/` | `模块配置工具/` | `模块配置工具/` |
+| `Communication Protocol/` | `通讯协议/` | `通讯协议/` |
+| `2D Annotations/` | `2D标注/` | `2D标注/` |
+| `Deprecated/` | `弃用的/` | `弃用的/` |
+| `Community Open-Source Enclosure/` | `网友分享-开源外壳/` | `网友分享-开源外壳/` |
+| `V3 Open-Source Enclosure/` | `V3开源外壳/` | `V3开源外壳/` |
+| `IMU BMI088 Module/` | `IMU BMI088模块/` | `IMU BMI088模块/` |
+| `CAN Function Test/` | `CAN功能测试/` | `CAN功能测试/` |
+| `Customer-made Enclosure/` | `客户自制外壳/` | `客户自制外壳/` |
 
 ## Compatibility Notes
 

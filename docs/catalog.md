@@ -13,7 +13,7 @@ This catalog records only the real folders and subtree paths that currently exis
 ## 0. Firmware
 
 - Status: `ZH`
-- Path: `0.Firmware/固件`
+- Path: `0.Firmware/Firmware`
 - Notes: firmware packages, update logs, and firmware notes.
 
 ## 1. Joint Motors
@@ -61,7 +61,7 @@ This catalog records only the real folders and subtree paths that currently exis
 ## 5. Control Examples
 
 - Status: `ZH / EN partial`
-- Path: `5.Control Examples/电机控制例程`
+- Path: `5.Control Examples/Motor Control Examples`
 - Notes: examples are maintained by language and runtime; customers should start with the category README before opening a specific example.
 
 ## 6. Control Boards
@@ -90,7 +90,7 @@ This catalog records only the real folders and subtree paths that currently exis
 ## 9. User Manuals
 
 - Status: `ZH`
-- Path: `9.User Manuals/文档`
+- Path: `9.User Manuals/Documentation`
 - Notes: manuals and support-material entry point.
 
 ## 10. Direct Drive Motors

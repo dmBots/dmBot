@@ -2,14 +2,14 @@
 
 ## Overview
 - This folder is the entry point for customer-facing manuals, protocol notes, and helper documentation.
-- If you are looking for onboarding PDFs, MIT-mode notes, debug-tool manuals, or reports, start with [文档/README.md](文档/README.md).
+- If you are looking for onboarding PDFs, MIT-mode notes, debug-tool manuals, or reports, start with [Documentation/README.md](Documentation/README.md).
 
 ## Documentation / Resources
-- [文档/README.md](文档/README.md) - main manual entry; start here to choose the right PDF
+- [Documentation/README.md](Documentation/README.md) - main manual entry; start here to choose the right PDF
 - [../docs/getting-started.md](../docs/getting-started.md) - first-visit repository guide
 
 ## Quick Start
-- Open [文档/README.md](文档/README.md) first.
+- Open [Documentation/README.md](Documentation/README.md) first.
 - Then choose the PDF or report that matches your task.
 
 ## Status

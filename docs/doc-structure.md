@@ -57,5 +57,5 @@ This file explains what each document layer is responsible for, and how governan
 - The root README keeps quick download, help-center, and firmware entry points.
 - `6.Control Boards/orin-board/USAGE.md` carries flashing, device tree, CSI, UART, Wi-Fi, and CAN workflows.
 - `6.Control Boards/dm-mc01/USAGE.md` and `6.Control Boards/dm-mc02/USAGE.md` carry board usage notes.
-- `5.Control Examples/电机控制例程/orin载板can控制达妙电机例程/USAGE.md` carries install, build, and CAN setup steps.
+- `5.Control Examples/Motor Control Examples/orin载板can控制达妙电机例程/USAGE.md` carries install, build, and CAN setup steps.
 - `A.Open Source Series` keeps project-specific subtree repos in GitHub, while the matching Gitee path remains `A.达妙开源系列`.

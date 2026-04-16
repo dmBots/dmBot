@@ -1,5 +1,5 @@
-[submodule "0.Firmware/固件"]
-	path = 0.Firmware/固件
+[submodule "0.Firmware/Firmware"]
+	path = 0.Firmware/Firmware
 	url = https://github.com/dmBots/motor-firmware.git
 [submodule "1.Joint Motors/DM-J4310-2EC"]
 	path = 1.Joint Motors/DM-J4310-2EC
@@ -53,8 +53,8 @@
 [submodule "4.Discrete Series/DM-S2325-1EC"]
 	path = 4.Discrete Series/DM-S2325-1EC
 	url = https://github.com/dmBots/DM-S2325-1EC
-[submodule "5.Control Examples/电机控制例程"]
-	path = 5.Control Examples/电机控制例程
+[submodule "5.Control Examples/Motor Control Examples"]
+	path = 5.Control Examples/Motor Control Examples
 	url = https://github.com/dmBots/motor-control-routine.git
 
 [submodule "6.Control Boards/dm-mc01"]
@@ -78,8 +78,8 @@
 [submodule "8.Tools and Host Software/dm-tools"]
 	path = 8.Tools and Host Software/dm-tools
 	url = https://github.com/dmBots/dm-tools.git
-[submodule "9.User Manuals/文档"]
-	path = 9.User Manuals/文档
+[submodule "9.User Manuals/Documentation"]
+	path = 9.User Manuals/Documentation
 	url = https://github.com/dmBots/damiao-document
 [submodule "A.Open Source Series/wheel-legged"]
 	path = A.Open Source Series/wheel-legged
