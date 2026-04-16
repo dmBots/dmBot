@@ -47,8 +47,26 @@ This file is specifically for cross-repository path mapping and compatibility af
 | `USB2CANFD` entry | `8.Tools and Host Software/dm-tools/USB2CANFD/README.md` | `8.工具和上位机/dm-tools/USB2CANFD/README.md` |
 | `DM_DeviceSDK` handoff | `8.Tools and Host Software/dm-tools/DM_DeviceSDK/README.md` | `8.工具和上位机/dm-tools/DM_DeviceSDK/README.md` |
 
+## Common Resource Directory Mapping
+
+GitHub now uses English resource-directory names inside the migrated public subrepos.
+Gitee keeps the matching Chinese resource-directory names.
+
+| GitHub resource directory | Older GitHub resource directory | Gitee resource directory |
+| --- | --- | --- |
+| `Manual/` | `说明书/` | `说明书/` |
+| `2D Drawings/` | `2D图纸/` | `2D图纸/` |
+| `3D Models/` | `3D模型/` | `3D模型/` |
+| `Performance Curves/` | `性能曲线/` | `性能曲线/` |
+| `Motor Characteristic Curves/` | `电机特性曲线/` | `电机特性曲线/` |
+| `Efficiency Curves/` | `效率曲线/` | `效率曲线/` |
+| `Adapter Boards/` | `转接板/` | `转接板/` |
+| `Maximum Overload Duration/` | `最大过载时间/` | `最大过载时间/` |
+| `Maximum Overload Curves/` | `最大过载曲线/` | `最大过载曲线/` |
+
 ## Compatibility Notes
 
 - Older GitHub links or bookmarks that still use the former Chinese top-level category path should be treated as retired.
+- Older GitHub links or bookmarks that still point to Chinese resource-directory names inside a migrated subrepo should also be treated as retired.
 - Re-enter the repository from the root [README.md](../README.md), [getting-started.md](getting-started.md), or [catalog.md](catalog.md) if a copied path no longer matches.
 - If the GitHub path exists only as an entry layer or handoff page, continue through [mirror-scope.md](mirror-scope.md) instead of guessing a deeper path.

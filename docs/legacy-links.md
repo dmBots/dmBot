@@ -57,6 +57,23 @@ If you need the full mapping, use [path-mapping.md](path-mapping.md). The compat
 | `6.控制板` | `6.Control Boards` | category path renamed in GitHub only |
 | `8.工具和上位机` | `8.Tools and Host Software` | category path renamed in GitHub only |
 
+## GitHub Resource Directory Migration
+
+GitHub now also uses English names for common resource-only directories inside the migrated public subrepos.
+Gitee keeps the original Chinese directory names for those same resource folders.
+
+| Older GitHub resource directory | Current GitHub resource directory | Notes |
+| --- | --- | --- |
+| `说明书/` | `Manual/` | customer-facing manual folder |
+| `2D图纸/` | `2D Drawings/` | mechanical drawing folder |
+| `3D模型/` | `3D Models/` | integration model folder |
+| `性能曲线/` | `Performance Curves/` | general performance-curve folder |
+| `电机特性曲线/` | `Motor Characteristic Curves/` | motor-characteristic curve folder |
+| `效率曲线/` | `Efficiency Curves/` | efficiency-curve folder |
+| `转接板/` | `Adapter Boards/` | adapter-board resource folder |
+| `最大过载时间/` | `Maximum Overload Duration/` | overload-duration reference folder |
+| `最大过载曲线/` | `Maximum Overload Curves/` | overload-curve resource folder |
+
 ## Public Handoff Notes
 - `8.Tools and Host Software/dm-tools/DM_DeviceSDK/README.md` now serves as a public GitHub handoff page; the full SDK tree remains Gitee-first.
 - `8.Tools and Host Software/dm-tools/USB2CANFD_Dual/README.md` and `固件/socketcan/README.md` now explicitly describe the mirrored scope and Gitee handoff.

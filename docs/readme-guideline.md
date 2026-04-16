@@ -24,6 +24,7 @@ This file defines the standard subtree README format. The validated template und
 - `README.en.md` is the lightweight English companion for Gitee Chinese-first pages, not a second full README.
 - `README.zh.md` is the lightweight Chinese companion for GitHub English-first pages; if the fuller Chinese entry remains Gitee-first, state that handoff explicitly.
 - GitHub local links must use GitHub's real English top-level category path. Gitee links must keep Gitee's Chinese path. Use [path-mapping.md](path-mapping.md) when you need the cross-repository mapping.
+- In GitHub subrepos, generic resource-only folders should also use English canonical names such as `Manual/`, `2D Drawings/`, `3D Models/`, and `Performance Curves/` when the folder is not part of a build or code workflow.
 - Incomplete English content must stay as `TBD` or `Translation pending`.
 - Do not invent Chinese or English content to fill a gap.
 
@@ -51,10 +52,10 @@ This file defines the standard subtree README format. The validated template und
 - This folder is the documentation entry for <MODEL-NAME>.
 
 ## Documentation / Resources
-- [Manual/](说明书/)
-- [2D Drawings/](2D图纸/)
-- [3D Model/](3D模型/)
-- [Performance Curves/](性能曲线/)
+- [Manual/](Manual/)
+- [2D Drawings/](2D Drawings/)
+- [3D Models/](3D Models/)
+- [Performance Curves/](Performance Curves/)
 - [USAGE.md](USAGE.md) (if a workflow doc has been split out)
 
 ## Quick Start

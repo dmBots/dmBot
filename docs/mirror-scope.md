@@ -7,6 +7,7 @@
 ## Path Model
 - GitHub now uses English top-level category paths such as `0.Firmware`, `1.Joint Motors`, `5.Control Examples`, `6.Control Boards`, and `8.Tools and Host Software`.
 - Gitee keeps Chinese top-level category paths such as `0.固件`, `1.关节电机`, `5.控制例程`, `6.控制板`, and `8.工具和上位机`.
+- In migrated GitHub subrepos, common resource-only folders also use English names such as `Manual/`, `2D Drawings/`, `3D Models/`, and `Performance Curves/`, while Gitee keeps the matching Chinese folders.
 - When you need to map GitHub paths to the matching Gitee paths, or an older GitHub bookmark still uses the former Chinese top-level path, use [path-mapping.md](path-mapping.md).
 
 ## What Customers Should Find In Both Repositories
@@ -22,6 +23,7 @@
 - The fuller `gs_usb_drives` adaptation notes under Gitee `8.工具和上位机/dm-tools/gs_usb_drives/`
 - The fuller public `B.Canopen/Canopen/` package
 - Chinese-first model details and legacy materials that have not been fully mirrored yet
+- Chinese resource-directory names still remain in Gitee even when the matching GitHub subrepo has already switched those folders to English
 
 ## What To Do When GitHub Only Has The Entry Layer
 1. Start with the root README to identify the right category.
