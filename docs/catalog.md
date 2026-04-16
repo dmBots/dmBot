@@ -1,6 +1,6 @@
 # Repository Catalog
 
-If this is your first visit, start with [getting-started.md](getting-started.md).  
+If this is your first visit, start with [getting-started.md](getting-started.md).
 This file answers only one question: where the real folders and subtree paths are.
 
 Notes:
@@ -13,104 +13,104 @@ This catalog records only the real folders and subtree paths that currently exis
 ## 0. Firmware
 
 - Status: `ZH`
-- Path: `0.固件/固件`
+- Path: `0.Firmware/固件`
 - Notes: firmware packages, update logs, and firmware notes.
 
 ## 1. Joint Motors
 
 - Status: `ZH / EN partial`
 - Path:
-  - `1.关节电机/DM-J10010-2EC`
-  - `1.关节电机/DM-J10010L-2EC`
-  - `1.关节电机/DM-J3507-2EC`
-  - `1.关节电机/DM-J4310-2EC`
-  - `1.关节电机/DM-J4310P-2EC`
-  - `1.关节电机/DM-J4340-2EC`
-  - `1.关节电机/DM-J4340P-2EC`
-  - `1.关节电机/DM-J6006-2EC`
-  - `1.关节电机/DM-J6248P-2EC`
-  - `1.关节电机/DM-J8006-2EC`
-  - `1.关节电机/DM-J8009-2EC`
-  - `1.关节电机/DM-J8009P-2EC`
+  - `1.Joint Motors/DM-J10010-2EC`
+  - `1.Joint Motors/DM-J10010L-2EC`
+  - `1.Joint Motors/DM-J3507-2EC`
+  - `1.Joint Motors/DM-J4310-2EC`
+  - `1.Joint Motors/DM-J4310P-2EC`
+  - `1.Joint Motors/DM-J4340-2EC`
+  - `1.Joint Motors/DM-J4340P-2EC`
+  - `1.Joint Motors/DM-J6006-2EC`
+  - `1.Joint Motors/DM-J6248P-2EC`
+  - `1.Joint Motors/DM-J8006-2EC`
+  - `1.Joint Motors/DM-J8009-2EC`
+  - `1.Joint Motors/DM-J8009P-2EC`
 - Notes: product materials live inside each model folder.
 
-## 2. Hollow Motors
+## 2. Hollow Shaft Motors
 
 - Status: `ZH`
-- Path: `2.中空电机/DM-G6220`
-- Notes: hollow-motor entry point.
+- Path: `2.Hollow Shaft Motors/DM-G6220`
+- Notes: hollow-shaft-motor entry point.
 
 ## 3. Hub Motors
 
 - Status: `ZH / EN partial`
 - Path:
-  - `3.轮毂电机/DM-H3510`
-  - `3.轮毂电机/DM-H6215`
-  - `3.轮毂电机/DM-H65-1EC`
+  - `3.Hub Motors/DM-H3510`
+  - `3.Hub Motors/DM-H6215`
+  - `3.Hub Motors/DM-H65-1EC`
 - Notes: keep the real paths here instead of rebuilding an old static tree in the root README.
 
 ## 4. Discrete Series
 
 - Status: `ZH`
 - Path:
-  - `4.分立系列/DM-S2325-1EC`
-  - `4.分立系列/DM-S3519-1EC`
+  - `4.Discrete Series/DM-S2325-1EC`
+  - `4.Discrete Series/DM-S3519-1EC`
 - Notes: product-material index, not a marketing page.
 
 ## 5. Control Examples
 
 - Status: `ZH / EN partial`
-- Path: `5.控制例程/电机控制例程`
+- Path: `5.Control Examples/电机控制例程`
 - Notes: examples are maintained by language and runtime; customers should start with the category README before opening a specific example.
 
 ## 6. Control Boards
 
 - Status: `ZH / EN partial`
 - Path:
-  - `6.控制板/dm-imu`
-  - `6.控制板/dm-mc01`
-  - `6.控制板/dm-mc02`
-  - `6.控制板/orin-board`
-  - `6.控制板/spine`
+  - `6.Control Boards/dm-imu`
+  - `6.Control Boards/dm-mc01`
+  - `6.Control Boards/dm-mc02`
+  - `6.Control Boards/orin-board`
+  - `6.Control Boards/spine`
 - Notes: board names are part of the public path and should stay stable.
 
-## 7. Motor Drive Board
+## 7. Motor Driver Boards
 
 - Status: `ZH / EN partial`
-- Path: `7.电机驱动板/motor-drive-board`
+- Path: `7.Motor Driver Boards/motor-drive-board`
 - Notes: currently kept as a single navigation node.
 
 ## 8. Tools and Host Software
 
 - Status: `ZH / EN partial`
-- Path: `8.工具和上位机/dm-tools`
+- Path: `8.Tools and Host Software/dm-tools`
 - Notes: customer-facing USB2CANFD, host-software, `slcan`, and SDK paths start from `dm-tools`; broader tool branches may still hand off to Gitee.
 
 ## 9. User Manuals
 
 - Status: `ZH`
-- Path: `9.使用手册/文档`
+- Path: `9.User Manuals/文档`
 - Notes: manuals and support-material entry point.
 
 ## 10. Direct Drive Motors
 
 - Status: `ZH / EN partial`
 - Path:
-  - `10.直驱电机/DM-D5730-1EC`
-  - `10.直驱电机/DM-D5730-1EE`
+  - `10.Direct Drive Motors/DM-D5730-1EC`
+  - `10.Direct Drive Motors/DM-D5730-1EE`
 - Notes: different variants in the same series stay side by side.
 
-## 11. Harmonic Motors
+## 11. Harmonic Drive Motors
 
 - Status: `ZH`
-- Path: `11.谐波电机/DM-JH11-51_101-2EC`
+- Path: `11.Harmonic Drive Motors/DM-JH11-51_101-2EC`
 - Notes: keep only the model path that truly exists.
 
-## B. Canopen
+## B. CANopen
 
 - Status: `ZH / EN handoff`
 - Path: `B.Canopen/Canopen`
-- Notes: GitHub keeps the category entry and handoff page, while the fuller public package currently remains Gitee-first.
+- Notes: GitHub keeps the category entry and handoff page, while the fuller public package currently remains Gitee-first. The `B.Canopen` top-level path is intentionally unchanged because it is already a stable Latin technical label.
 
 ## A. Open-Source Series
 
@@ -119,9 +119,10 @@ This catalog records only the real folders and subtree paths that currently exis
   - `A.达妙开源系列/agv`
   - `A.达妙开源系列/bipedal-robot`
   - `A.达妙开源系列/wheel-legged`
-- Notes: open-source projects are maintained in their own subtree repos and currently remain outside the active sync scope.
+- Notes: open-source projects are maintained in their own subtree repos, remain frozen in this path-migration round, and therefore keep their existing Chinese top-level path in GitHub.
 
 ## Repository-Difference Notes
 
+- GitHub uses English top-level category paths, while Gitee keeps Chinese top-level category paths. See [path-mapping.md](path-mapping.md) for the cross-repository mapping table.
 - Gitee and GitHub may keep real repository-level differences, but the reason must be documented in `docs/sync-policy.md`.
 - Do not put path drift or historical aliases back into the root README. Keep those rules in the sync policy.

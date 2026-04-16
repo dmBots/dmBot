@@ -14,6 +14,7 @@
 ## Quick Start
 - If you want to run examples quickly, start with [电机控制例程/README.md](电机控制例程/README.md).
 - Then choose C++, Python, ROS1, or STM32 based on your runtime.
+- If you arrived from an older Chinese-path GitHub bookmark, see [../docs/path-mapping.md](../docs/path-mapping.md).
 
 ## Status
 - EN: main entry

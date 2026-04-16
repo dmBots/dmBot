@@ -1,85 +1,85 @@
-[submodule "0.固件/固件"]
-	path = 0.固件/固件
+[submodule "0.Firmware/固件"]
+	path = 0.Firmware/固件
 	url = https://github.com/dmBots/motor-firmware.git
-[submodule "1.关节电机/DM-J4310-2EC"]
-	path = 1.关节电机/DM-J4310-2EC
+[submodule "1.Joint Motors/DM-J4310-2EC"]
+	path = 1.Joint Motors/DM-J4310-2EC
 	url = https://github.com/dmBots/DM-J4310-2EC.git
-[submodule "1.关节电机/DM-J4310P-2EC"]
-	path = 1.关节电机/DM-J4310P-2EC
+[submodule "1.Joint Motors/DM-J4310P-2EC"]
+	path = 1.Joint Motors/DM-J4310P-2EC
 	url = https://github.com/dmBots/DM-J4310P-2EC
-[submodule "1.关节电机/DM-J4340P-2EC"]
-	path = 1.关节电机/DM-J4340P-2EC
+[submodule "1.Joint Motors/DM-J4340P-2EC"]
+	path = 1.Joint Motors/DM-J4340P-2EC
 	url = https://github.com/dmBots/DM-J4340P-2EC
-[submodule "1.关节电机/DM-J4340-2EC"]
-	path = 1.关节电机/DM-J4340-2EC
+[submodule "1.Joint Motors/DM-J4340-2EC"]
+	path = 1.Joint Motors/DM-J4340-2EC
 	url = https://github.com/dmBots/DM-J4340-2EC
-[submodule "1.关节电机/DM-J3507-2EC"]
-	path = 1.关节电机/DM-J3507-2EC
+[submodule "1.Joint Motors/DM-J3507-2EC"]
+	path = 1.Joint Motors/DM-J3507-2EC
 	url = https://github.com/dmBots/DM-J3507-2EC.git
-[submodule "1.关节电机/DM-J6006-2EC"]
-	path = 1.关节电机/DM-J6006-2EC
+[submodule "1.Joint Motors/DM-J6006-2EC"]
+	path = 1.Joint Motors/DM-J6006-2EC
 	url = https://github.com/dmBots/DM-J6006-2EC.git
-[submodule "1.关节电机/DM-J6248P-2EC"]
-	path = 1.关节电机/DM-J6248P-2EC
+[submodule "1.Joint Motors/DM-J6248P-2EC"]
+	path = 1.Joint Motors/DM-J6248P-2EC
 	url = https://github.com/dmBots/DM-J6248P-2EC
-[submodule "1.关节电机/DM-J8006-2EC"]
-	path = 1.关节电机/DM-J8006-2EC
+[submodule "1.Joint Motors/DM-J8006-2EC"]
+	path = 1.Joint Motors/DM-J8006-2EC
 	url = https://github.com/dmBots/DM-J8006-2EC.git
-[submodule "1.关节电机/DM-J8009-2EC"]
-	path = 1.关节电机/DM-J8009-2EC
+[submodule "1.Joint Motors/DM-J8009-2EC"]
+	path = 1.Joint Motors/DM-J8009-2EC
 	url = https://github.com/dmBots/DM-J8009-2EC.git
-[submodule "1.关节电机/DM-J8009P-2EC"]
-	path = 1.关节电机/DM-J8009P-2EC
+[submodule "1.Joint Motors/DM-J8009P-2EC"]
+	path = 1.Joint Motors/DM-J8009P-2EC
 	url = https://github.com/dmBots/DM-J8009P-2EC.git
-[submodule "1.关节电机/DM-J10010-2EC"]
-	path = 1.关节电机/DM-J10010-2EC
+[submodule "1.Joint Motors/DM-J10010-2EC"]
+	path = 1.Joint Motors/DM-J10010-2EC
 	url = https://github.com/dmBots/DM-J10010-2EC.git
-[submodule "1.关节电机/DM-J10010L-2EC"]
-	path = 1.关节电机/DM-J10010L-2EC
+[submodule "1.Joint Motors/DM-J10010L-2EC"]
+	path = 1.Joint Motors/DM-J10010L-2EC
 	url = https://github.com/dmBots/DM-J10010L-2EC.git
-[submodule "2.中空电机/DM-G6220"]
-	path = 2.中空电机/DM-G6220
+[submodule "2.Hollow Shaft Motors/DM-G6220"]
+	path = 2.Hollow Shaft Motors/DM-G6220
 	url = https://github.com/dmBots/DM-G6220.git
-[submodule "3.轮毂电机/DM-H6215"]
-	path = 3.轮毂电机/DM-H6215
+[submodule "3.Hub Motors/DM-H6215"]
+	path = 3.Hub Motors/DM-H6215
 	url = https://github.com/dmBots/DM-H6215.git
-[submodule "3.轮毂电机/DM-H3510"]
-	path = 3.轮毂电机/DM-H3510
+[submodule "3.Hub Motors/DM-H3510"]
+	path = 3.Hub Motors/DM-H3510
 	url = https://github.com/dmBots/DM-H3510.git
 
-[submodule "4.分立系列/DM-S3519-1EC"]
-	path = 4.分立系列/DM-S3519-1EC
+[submodule "4.Discrete Series/DM-S3519-1EC"]
+	path = 4.Discrete Series/DM-S3519-1EC
 	url = https://github.com/dmBots/DM-S3519-1EC.git
-[submodule "4.分立系列/DM-S2325-1EC"]
-	path = 4.分立系列/DM-S2325-1EC
+[submodule "4.Discrete Series/DM-S2325-1EC"]
+	path = 4.Discrete Series/DM-S2325-1EC
 	url = https://github.com/dmBots/DM-S2325-1EC
-[submodule "5.控制例程/电机控制例程"]
-	path = 5.控制例程/电机控制例程
+[submodule "5.Control Examples/电机控制例程"]
+	path = 5.Control Examples/电机控制例程
 	url = https://github.com/dmBots/motor-control-routine.git
 
-[submodule "6.控制板/dm-mc01"]
-	path = 6.控制板/dm-mc01
+[submodule "6.Control Boards/dm-mc01"]
+	path = 6.Control Boards/dm-mc01
 	url = https://github.com/dmBots/dm-mc01.git
-[submodule "6.控制板/dm-mc02"]
-	path = 6.控制板/dm-mc02
+[submodule "6.Control Boards/dm-mc02"]
+	path = 6.Control Boards/dm-mc02
 	url = https://github.com/dmBots/dm-mc02.git
-[submodule "6.控制板/orin-board"]
-	path = 6.控制板/orin-board
+[submodule "6.Control Boards/orin-board"]
+	path = 6.Control Boards/orin-board
 	url = https://github.com/dmBots/orin-board.git
-[submodule "6.控制板/spine"]
-	path = 6.控制板/spine
+[submodule "6.Control Boards/spine"]
+	path = 6.Control Boards/spine
 	url = https://github.com/dmBots/spine.git
-[submodule "6.控制板/dm-imu"]
-	path = 6.控制板/dm-imu
+[submodule "6.Control Boards/dm-imu"]
+	path = 6.Control Boards/dm-imu
 	url = https://github.com/dmBots/dm-imu.git
-[submodule "7.电机驱动板/motor-drive-board"]
-	path = 7.电机驱动板/motor-drive-board
+[submodule "7.Motor Driver Boards/motor-drive-board"]
+	path = 7.Motor Driver Boards/motor-drive-board
 	url = https://github.com/dmBots/motor-drive-board
-[submodule "8.工具和上位机/dm-tools"]
-	path = 8.工具和上位机/dm-tools
+[submodule "8.Tools and Host Software/dm-tools"]
+	path = 8.Tools and Host Software/dm-tools
 	url = https://github.com/dmBots/dm-tools.git
-[submodule "9.使用手册/文档"]
-	path = 9.使用手册/文档
+[submodule "9.User Manuals/文档"]
+	path = 9.User Manuals/文档
 	url = https://github.com/dmBots/damiao-document
 [submodule "A.达妙开源系列/wheel-legged"]
 	path = A.达妙开源系列/wheel-legged
@@ -90,15 +90,15 @@
 [submodule "A.达妙开源系列/agv"]
 	path = A.达妙开源系列/agv
 	url = https://github.com/dmBots/agv.git
-[submodule "10.直驱电机/DM-D5730-1EC"]
-	path = 10.直驱电机/DM-D5730-1EC
+[submodule "10.Direct Drive Motors/DM-D5730-1EC"]
+	path = 10.Direct Drive Motors/DM-D5730-1EC
 	url = https://github.com/dmBots/DM-D5730-1EC
-[submodule "10.直驱电机/DM-D5730-1EE"]
-	path = 10.直驱电机/DM-D5730-1EE
+[submodule "10.Direct Drive Motors/DM-D5730-1EE"]
+	path = 10.Direct Drive Motors/DM-D5730-1EE
 	url = https://github.com/dmBots/DM-D5730-1EE
-[submodule "11.谐波电机/DM-JH11-51_101-2EC"]
-	path = 11.谐波电机/DM-JH11-51_101-2EC
+[submodule "11.Harmonic Drive Motors/DM-JH11-51_101-2EC"]
+	path = 11.Harmonic Drive Motors/DM-JH11-51_101-2EC
 	url = https://github.com/dmBots/DM-JH11-51_101-2EC
-[submodule "3.轮毂电机/DM-H65-1EC"]
-	path = 3.轮毂电机/DM-H65-1EC
+[submodule "3.Hub Motors/DM-H65-1EC"]
+	path = 3.Hub Motors/DM-H65-1EC
 	url = https://github.com/dmBots/DM-H65-1EC

@@ -1,7 +1,7 @@
-# Harmonic Motors
+# Harmonic Drive Motors
 
 ## Overview
-- This folder is the entry point for harmonic-motor materials.
+- This folder is the entry point for harmonic-drive-motor materials.
 - The current public model in this category is `DM-JH11-51_101-2EC`.
 
 ## Documentation / Resources

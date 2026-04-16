@@ -1,27 +1,29 @@
 # Document Structure and Governance Matrix
 
-If you are just trying to find materials, start with [getting-started.md](getting-started.md) or [catalog.md](catalog.md).  
+If you are just trying to find materials, start with [getting-started.md](getting-started.md) or [catalog.md](catalog.md).
 This file explains what each document layer is responsible for, and how governance should avoid deleting valuable information when README pages are tightened.
 
 ## Document Layers
 
-- Root README  
+- Root README
   Repository-level entry point. It should answer what the repository is, how to download it, and where to find help and materials.
-- Category README  
+- Category README
   Category-level entry point. It should answer which direction a customer should open first in that category.
-- Subtree README  
+- Subtree README
   Directory-level entry point. It should answer what the folder is, where the resources are, and where the workflow moved.
-- `docs/catalog.md`  
+- `docs/catalog.md`
   Real folder and submodule index.
-- `docs/getting-started.md`  
+- `docs/getting-started.md`
   Customer-facing first-visit guide.
-- `docs/readme-guideline.md`  
+- `docs/readme-guideline.md`
   README template and migration rules.
-- `docs/sync-policy.md`  
+- `docs/sync-policy.md`
   Cross-repository sync rules, canonical path rules, and review gates.
-- `docs/legacy-links.md`  
+- `docs/path-mapping.md`
+  Cross-repository top-level path mapping and compatibility notes for older GitHub Chinese bookmarks.
+- `docs/legacy-links.md`
   Archive of historical high-value entry points and migration destinations.
-- `USAGE.md` / `WORKFLOW.md` / `SETUP.md` / `FLASHING.md` / `PLATFORM.md`  
+- `USAGE.md` / `WORKFLOW.md` / `SETUP.md` / `FLASHING.md` / `PLATFORM.md`
   Workflow content moved out of README.
 
 ## Governance Matrix
@@ -53,7 +55,7 @@ This file explains what each document layer is responsible for, and how governan
 ## Current Examples
 
 - The root README keeps quick download, help-center, and firmware entry points.
-- `6.控制板/orin-board/USAGE.md` carries flashing, device tree, CSI, UART, Wi-Fi, and CAN workflows.
-- `6.控制板/dm-mc01/USAGE.md` and `6.控制板/dm-mc02/USAGE.md` carry board usage notes.
-- `5.控制例程/电机控制例程/orin载板can控制达妙电机例程/USAGE.md` carries install, build, and CAN setup steps.
+- `6.Control Boards/orin-board/USAGE.md` carries flashing, device tree, CSI, UART, Wi-Fi, and CAN workflows.
+- `6.Control Boards/dm-mc01/USAGE.md` and `6.Control Boards/dm-mc02/USAGE.md` carry board usage notes.
+- `5.Control Examples/电机控制例程/orin载板can控制达妙电机例程/USAGE.md` carries install, build, and CAN setup steps.
 - `A.达妙开源系列` remains frozen for content sync and is outside this public-readability round.

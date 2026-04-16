@@ -24,6 +24,7 @@
 ## Quick Start
 - Identify the motor model first, then open the matching folder.
 - Inside that folder, read its `README.md` first and then follow links to manuals, drawings, curves, or workflow pages.
+- If you arrived from an older Chinese-path GitHub bookmark, see [../docs/path-mapping.md](../docs/path-mapping.md).
 
 ## Status
 - EN: main entry

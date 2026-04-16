@@ -2,36 +2,40 @@
 
 [EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/docs/README.md)
 
-This folder is the customer-facing and maintainer-facing entry for repository documentation.  
+This folder is the customer-facing and maintainer-facing entry for repository documentation.
 If this is your first visit, start with [getting-started.md](getting-started.md).
 
 ## Start Here
 
-- [getting-started.md](getting-started.md)  
+- [getting-started.md](getting-started.md)
   Best for first-time visitors. It explains where to start, how to find product materials, and how to read the document layers.
-- [catalog.md](catalog.md)  
+- [catalog.md](catalog.md)
   Use this to find the real folder and submodule paths.
-- [mirror-scope.md](mirror-scope.md)  
+- [mirror-scope.md](mirror-scope.md)
   Use this when you need to understand what GitHub mirrors directly and what still mainly lives in Gitee.
+- [path-mapping.md](path-mapping.md)
+  Use this when you need to map GitHub English top-level paths to the matching Gitee Chinese paths, or when an older GitHub bookmark still uses the former Chinese category path.
 
 ## Customer-Facing Docs
 
-- [getting-started.md](getting-started.md)  
+- [getting-started.md](getting-started.md)
   First-visit path for customers.
-- [catalog.md](catalog.md)  
+- [catalog.md](catalog.md)
   Shows the current product categories, subtrees, and real paths.
-- [mirror-scope.md](mirror-scope.md)  
+- [mirror-scope.md](mirror-scope.md)
   Explains what is mirrored in GitHub, what still mainly lives in Gitee, and where to go when a GitHub path is incomplete.
-- [legacy-links.md](legacy-links.md)  
+- [path-mapping.md](path-mapping.md)
+  Maps GitHub English category paths to the matching Gitee Chinese paths and records the retired GitHub Chinese top-level paths.
+- [legacy-links.md](legacy-links.md)
   Shows where valuable historical README content moved after README cleanup.
 
 ## Governance and Structure
 
-- [doc-structure.md](doc-structure.md)  
+- [doc-structure.md](doc-structure.md)
   Explains what belongs in README, docs, and workflow files.
-- [readme-guideline.md](readme-guideline.md)  
+- [readme-guideline.md](readme-guideline.md)
   Defines the README template and when workflow content must move out.
-- [sync-policy.md](sync-policy.md)  
+- [sync-policy.md](sync-policy.md)
   Defines cross-repository sync rules, path consistency, and review gates.
 
 ## Contribution Entry
@@ -43,5 +47,6 @@ If this is your first visit, start with [getting-started.md](getting-started.md)
 
 - If you want to find materials fast, open [catalog.md](catalog.md).
 - If you are unsure whether a GitHub path is complete enough, open [mirror-scope.md](mirror-scope.md).
+- If you are switching between GitHub and Gitee, or an older GitHub bookmark no longer matches the current top-level path, open [path-mapping.md](path-mapping.md).
 - If you want to understand how a directory should be used, open that directory's `README.md` first, then follow links to `USAGE.md`, `WORKFLOW.md`, `SETUP.md`, `FLASHING.md`, or `PLATFORM.md`.
 - If you are trying to locate content that used to live in an older README, check [legacy-links.md](legacy-links.md).

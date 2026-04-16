@@ -1,7 +1,7 @@
-# Motor Drive Board
+# Motor Driver Boards
 
 ## Overview
-- This folder is the category entry for motor-drive-board materials.
+- This folder is the category entry for motor-driver-board materials.
 - The current GitHub path continues through [motor-drive-board/README.md](motor-drive-board/README.md), then branches by board model.
 
 ## Documentation / Resources

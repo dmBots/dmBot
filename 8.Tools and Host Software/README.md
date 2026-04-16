@@ -25,6 +25,7 @@
 - To use SDK materials, start with [dm-tools/USB2CANFD/SDK/README.md](dm-tools/USB2CANFD/SDK/README.md) for the mirrored USB2CANFD path; for the generic device SDK route, open [dm-tools/DM_DeviceSDK/README.md](dm-tools/DM_DeviceSDK/README.md) and continue in Gitee if needed.
 - To confirm whether this repository has the path you need, start with [dm-tools/README.md](dm-tools/README.md), then verify the real path in [../docs/catalog.md](../docs/catalog.md).
 - If GitHub looks incomplete, open [../docs/mirror-scope.md](../docs/mirror-scope.md) and continue in Gitee instead of guessing.
+- If you arrived from an older Chinese-path GitHub bookmark, see [../docs/path-mapping.md](../docs/path-mapping.md) before guessing the new top-level path.
 - If you are not sure what `README.md`, `SETUP.md`, `WORKFLOW.md`, or `FLASHING.md` are for: README chooses the path, `SETUP.md` handles install and run preparation, `WORKFLOW.md` handles usage sequence, `FLASHING.md` handles firmware work, and SDK README pages help you choose language or platform first.
 
 ## Status

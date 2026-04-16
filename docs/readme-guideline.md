@@ -1,6 +1,6 @@
 # README Guideline
 
-This file defines the standard subtree README format. The validated template under `1.关节电机`, and any future subtree copy, should follow it.
+This file defines the standard subtree README format. The validated template under `1.Joint Motors`, and any future subtree copy, should follow it.
 
 ## Standard Structure
 
@@ -23,6 +23,7 @@ This file defines the standard subtree README format. The validated template und
 - Add a language-switch line directly under the H1: Gitee uses `中文 | [EN](./README.en.md)`, while GitHub uses `[EN](./README.md) | [中文](./README.zh.md)`, with a cross-repo link when it helps.
 - `README.en.md` is the lightweight English companion for Gitee Chinese-first pages, not a second full README.
 - `README.zh.md` is the lightweight Chinese companion for GitHub English-first pages; if the fuller Chinese entry remains Gitee-first, state that handoff explicitly.
+- GitHub local links must use GitHub's real English top-level category path. Gitee links must keep Gitee's Chinese path. Use [path-mapping.md](path-mapping.md) when you need the cross-repository mapping.
 - Incomplete English content must stay as `TBD` or `Translation pending`.
 - Do not invent Chinese or English content to fill a gap.
 

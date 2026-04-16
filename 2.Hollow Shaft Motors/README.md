@@ -1,7 +1,7 @@
-# Hollow Motors
+# Hollow Shaft Motors
 
 ## Overview
-- This folder is the entry point for hollow-motor materials.
+- This folder is the entry point for hollow-shaft-motor materials.
 - The current public model in this category is `DM-G6220`.
 
 ## Documentation / Resources

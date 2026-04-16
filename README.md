@@ -2,7 +2,7 @@
 
 [EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/README.md)
 
-This is the GitHub-facing documentation mirror for DAMIAO.  
+This is the GitHub-facing documentation mirror for DAMIAO.
 Its job is not to hold every manual inline, but to help customers quickly answer: what this repository is, how to download it, where to find materials, and where detailed workflows live.
 
 ## Project Overview
@@ -13,18 +13,20 @@ Its job is not to hold every manual inline, but to help customers quickly answer
 
 ## First Visit
 
-1. Start with [docs/getting-started.md](docs/getting-started.md)  
+1. Start with [docs/getting-started.md](docs/getting-started.md)
    It explains where to start, how to find materials by category, and how to read the document layers.
-2. Then open [docs/mirror-scope.md](docs/mirror-scope.md)  
+2. Then open [docs/mirror-scope.md](docs/mirror-scope.md)
    It explains what GitHub mirrors directly, what still mainly lives in Gitee, and what to do when a path looks incomplete.
-3. Then open [docs/catalog.md](docs/catalog.md)  
+3. If you arrived from an older Chinese-path GitHub bookmark, open [docs/path-mapping.md](docs/path-mapping.md)
+   It maps the old GitHub Chinese category paths to the current English top-level paths and shows the matching Gitee Chinese paths.
+4. Then open [docs/catalog.md](docs/catalog.md)
    This is the canonical index of current paths and subtrees.
-4. Then enter the relevant category README  
+5. Then enter the relevant category README
    For example:
-   - [1.关节电机/README.md](1.关节电机/README.md)
-   - [5.控制例程/README.md](5.控制例程/README.md)
-   - [6.控制板/README.md](6.控制板/README.md)
-   - [8.工具和上位机/README.md](8.工具和上位机/README.md)
+   - [1.Joint Motors/README.md](1.Joint Motors/README.md)
+   - [5.Control Examples/README.md](5.Control Examples/README.md)
+   - [6.Control Boards/README.md](6.Control Boards/README.md)
+   - [8.Tools and Host Software/README.md](8.Tools and Host Software/README.md)
 
 ## Quick Download
 
@@ -49,14 +51,16 @@ git submodule update --recursive --remote
 
 ## Common Material Paths
 
-- [1.关节电机](1.关节电机/README.md)  
+- [1.Joint Motors](1.Joint Motors/README.md)
   Find materials by motor model.
-- [5.控制例程](5.控制例程/README.md)  
+- [5.Control Examples](5.Control Examples/README.md)
   Find examples by language, platform, and runtime.
-- [6.控制板](6.控制板/README.md)  
+- [6.Control Boards](6.Control Boards/README.md)
   Find control-board, IMU, and Orin carrier documents.
-- [8.工具和上位机](8.工具和上位机/README.md)  
+- [8.Tools and Host Software](8.Tools and Host Software/README.md)
   Download USB2CANFD tools, run the host software, flash `slcan` firmware, and choose the right SDK entry from here. If the GitHub mirror looks incomplete, follow [docs/mirror-scope.md](docs/mirror-scope.md).
+- [docs/path-mapping.md](docs/path-mapping.md)
+  Use this when you are switching between GitHub and Gitee, or when an older GitHub bookmark still uses the former Chinese top-level path.
 
 ## Documentation Entry
 
@@ -64,6 +68,7 @@ git submodule update --recursive --remote
 - [docs/README.md](docs/README.md) - documentation hub
 - [docs/catalog.md](docs/catalog.md) - current folder and subtree index
 - [docs/mirror-scope.md](docs/mirror-scope.md) - what is mirrored in GitHub vs. what remains Gitee-first
+- [docs/path-mapping.md](docs/path-mapping.md) - GitHub English top-level paths vs. Gitee Chinese paths
 - [docs/doc-structure.md](docs/doc-structure.md) - document-layer model and public-readiness check
 - [docs/legacy-links.md](docs/legacy-links.md) - historical high-value entry archive
 - [docs/sync-policy.md](docs/sync-policy.md) - cross-repository sync rules
@@ -71,7 +76,9 @@ git submodule update --recursive --remote
 ## Language Policy
 
 - Keep this repository English-first.
-- Preserve real folder names and path segments, even when they are Chinese.
+- GitHub uses English top-level category paths, while Gitee keeps Chinese top-level category paths.
+- Use this repository's real checkout path as the canonical GitHub path; do not mix it with Gitee path text in local links.
+- When you need the cross-repository mapping, use [docs/path-mapping.md](docs/path-mapping.md) instead of inventing aliases.
 - Use `TBD` or `Translation pending` for missing English content.
 - Do not fill missing content with guessed wording.
 

@@ -7,6 +7,7 @@ This document is the review gate for cross-repository maintenance.
 - Gitee is the Chinese primary repository.
 - GitHub is the English-facing showcase repository.
 - The two repositories should stay semantically aligned, while each keeps its own language policy.
+- GitHub uses English top-level category paths. Gitee keeps Chinese top-level category paths. Each repository must use its own real checkout path as canonical.
 
 ## Must Sync
 
@@ -24,6 +25,7 @@ When a change affects these items, update both repositories in the same change s
 
 - README language and section headings
 - Repository-specific folder names that truly exist in only one repo
+- Top-level category paths: GitHub uses English, Gitee uses Chinese
 - `TBD` or `Translation pending` markers
 - Chinese-only or English-only subtree docs until translation is ready
 - Platform-specific links and display text
@@ -48,6 +50,7 @@ When a change affects these items, update both repositories in the same change s
 - `docs/catalog.md` is the canonical path index.
 - `docs/readme-guideline.md` is the canonical subtree README template guide.
 - `docs/doc-structure.md` records the document-layer model and migration matrix.
+- `docs/path-mapping.md` records GitHub English top-level paths vs. Gitee Chinese top-level paths and older GitHub Chinese-path compatibility notes.
 - `docs/legacy-links.md` records historical high-value entries and their destinations.
 - Keep the catalog factual and short.
 - Do not copy long marketing text into the catalog.
@@ -79,6 +82,7 @@ A subtree README change may merge only if:
 - Path, section, and submodule names must match the real checkout.
 - If a legacy alias exists, note it here and keep it out of the root README.
 - When a path changes, update the catalog, the README, and the submodule entry together.
+- If GitHub and Gitee intentionally use different real top-level paths, keep each repository-local path canonical and record the mapping in `docs/path-mapping.md`.
 
 ## Canonical Path Constraints
 
@@ -86,7 +90,7 @@ A subtree README change may merge only if:
 - The `.gitmodules` section name must match the canonical `path` value.
 - Root README links and `docs/catalog.md` entries must use the same canonical path text as `.gitmodules`.
 - Do not publish deprecated aliases in reader-facing files. If an alias is needed temporarily for compatibility, keep it out of README and catalog and mark it deprecated here.
-- If the same module has different real paths across Gitee and GitHub, treat each repository-local path as canonical for that repository and document the difference instead of inventing a shared alias.
+- If the same module has different real paths across Gitee and GitHub, treat each repository-local path as canonical for that repository and document the difference in `docs/path-mapping.md` instead of inventing a shared alias.
 - New submodules must be added with the canonical path from day one; do not add an alias first and rename later.
 - Any alias removal must be reviewed together with the README and catalog changes so link drift does not reappear.
 

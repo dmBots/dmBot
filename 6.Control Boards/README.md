@@ -17,6 +17,7 @@
 - If you need Orin carrier-board materials, start with [orin-board/README.md](orin-board/README.md).
 - If you need controller-board documents, start with `dm-mc01` or `dm-mc02`.
 - If you need IMU materials, open `dm-imu`.
+- If you arrived from an older Chinese-path GitHub bookmark, see [../docs/path-mapping.md](../docs/path-mapping.md).
 
 ## Status
 - EN: main entry
