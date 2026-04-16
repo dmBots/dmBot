@@ -1,5 +1,7 @@
 # Control Boards
 
+[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/6.控制板/README.md)
+
 ## Overview
 - This folder is the entry point for control-board, IMU, and Orin carrier documents.
 - If you already know the board name, open that folder directly.

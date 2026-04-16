@@ -1,5 +1,7 @@
 # Tools and Host Software
 
+[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/8.工具和上位机/README.md)
+
 ## Overview
 
 - This folder is the customer-facing task entry for USB2CANFD tools, host software, firmware switching, and SDK materials in the GitHub mirror.

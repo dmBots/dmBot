@@ -20,7 +20,9 @@ This file defines the standard subtree README format. The validated template und
 
 - Gitee is Chinese-first and uses Chinese in `README.md`.
 - GitHub is English-first and uses English in `README.md`.
-- `README.en.md` is supplemental, not a second full README.
+- Add a language-switch line directly under the H1: Gitee uses `中文 | [EN](./README.en.md)`, while GitHub uses `[EN](./README.md) | [中文](./README.zh.md)`, with a cross-repo link when it helps.
+- `README.en.md` is the lightweight English companion for Gitee Chinese-first pages, not a second full README.
+- `README.zh.md` is the lightweight Chinese companion for GitHub English-first pages; if the fuller Chinese entry remains Gitee-first, state that handoff explicitly.
 - Incomplete English content must stay as `TBD` or `Translation pending`.
 - Do not invent Chinese or English content to fill a gap.
 

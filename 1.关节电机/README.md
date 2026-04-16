@@ -1,5 +1,7 @@
 # Joint Motors
 
+[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/1.关节电机/README.md)
+
 ## Overview
 - This folder is the entry point for joint-motor materials.
 - If you already know the model number, open that model folder directly.

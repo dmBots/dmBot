@@ -1,5 +1,7 @@
 # Control Examples
 
+[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/5.控制例程/README.md)
+
 ## Overview
 - This folder is the category entry for control examples.
 - The main content currently lives under [电机控制例程/](电机控制例程/), where examples are split by language, platform, and runtime.

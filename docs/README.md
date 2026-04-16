@@ -1,5 +1,7 @@
 # Documentation Hub
 
+[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/docs/README.md)
+
 This folder is the customer-facing and maintainer-facing entry for repository documentation.  
 If this is your first visit, start with [getting-started.md](getting-started.md).
 

@@ -1,5 +1,7 @@
 # DAMIAO
 
+[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/README.md)
+
 This is the GitHub-facing documentation mirror for DAMIAO.  
 Its job is not to hold every manual inline, but to help customers quickly answer: what this repository is, how to download it, where to find materials, and where detailed workflows live.
 

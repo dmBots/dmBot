@@ -1,5 +1,7 @@
 # B. Canopen
 
+[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/B.Canopen/README.md)
+
 ## Overview
 - This folder is the GitHub-side entry for Canopen-related materials.
 - The fuller Canopen tree currently remains Gitee-first, so this page exists to keep customers from hitting a dead end.
