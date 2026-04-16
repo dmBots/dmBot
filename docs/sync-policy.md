@@ -47,6 +47,8 @@ When a change affects these items, update both repositories in the same change s
 
 - `docs/catalog.md` is the canonical path index.
 - `docs/readme-guideline.md` is the canonical subtree README template guide.
+- `docs/doc-structure.md` records the document-layer model and migration matrix.
+- `docs/legacy-links.md` records historical high-value entries and their destinations.
 - Keep the catalog factual and short.
 - Do not copy long marketing text into the catalog.
 - Add new reference docs under `docs/` only when they are ready to be maintained.
@@ -63,6 +65,14 @@ A subtree README change may merge only if:
 - Template filler such as `xxxx` or the old Gitee boilerplate has been removed.
 - `README.md` uses the correct repository language policy.
 - The change matches `docs/readme-guideline.md`.
+
+## README Content Migration Gate
+
+- If a README contains download instructions, submodule clone/update steps, firmware entry links, customer help center links, branch-switching notes, flashing steps, device-tree changes, CSI / UART / Wi-Fi configuration, environment setup, external references, real usage instructions, or repository maintenance notes, do not delete them directly.
+- Move detailed content into `USAGE.md`, `WORKFLOW.md`, `SETUP.md`, `FLASHING.md`, or `docs/usage.md`.
+- README should keep only entry-level notes, resource indexes, and jump links.
+- Historical entry information should be recorded in `docs/legacy-links.md` first.
+- If a workflow is migrated, review the README, the destination doc, and `docs/legacy-links.md` together.
 
 ## .gitmodules and Catalog Rules
 
@@ -96,6 +106,7 @@ A subtree README change may merge only if:
 - [ ] `README.md` / `README.en.md` follow `docs/readme-guideline.md`
 - [ ] README resource links point to real directories only
 - [ ] Missing translations are marked as `TBD` or `Translation pending`
+- [ ] Valuable workflow content has been migrated or intentionally preserved with a jump link
 - [ ] Root README links to `docs/catalog.md` and `docs/sync-policy.md`
 - [ ] Any path drift is reflected in both repositories
 

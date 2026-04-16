@@ -1,101 +1,79 @@
 # DAMIAO
 
-English-first entry point for the DAMIAO documentation mirror. This repository is intentionally thin: product details live in the sub-repositories, while this repo keeps navigation, cataloging, and governance.
+This is the GitHub-facing documentation mirror for DAMIAO.  
+Its job is not to hold every manual inline, but to help customers quickly answer: what this repository is, how to download it, where to find materials, and where detailed workflows live.
 
 ## Project Overview
 
 - GitHub is the English-facing showcase repository.
-- Some subtree documents are already bilingual, while others are still Chinese-only or partially translated.
-- Missing English content must stay as `TBD` or `Translation pending`; do not guess or fabricate it.
+- Detailed materials stay in the subtree repositories and workflow pages.
+- When a README only keeps an entry summary, the detailed steps usually live in `USAGE.md`, `WORKFLOW.md`, `SETUP.md`, `FLASHING.md`, or `PLATFORM.md`.
+
+## First Visit
+
+1. Start with [docs/getting-started.md](docs/getting-started.md)  
+   It explains where to start, how to find materials by category, and how to read the document layers.
+2. Then open [docs/mirror-scope.md](docs/mirror-scope.md)  
+   It explains what GitHub mirrors directly, what still mainly lives in Gitee, and what to do when a path looks incomplete.
+3. Then open [docs/catalog.md](docs/catalog.md)  
+   This is the canonical index of current paths and subtrees.
+4. Then enter the relevant category README  
+   For example:
+   - [1.关节电机/README.md](1.关节电机/README.md)
+   - [5.控制例程/README.md](5.控制例程/README.md)
+   - [6.控制板/README.md](6.控制板/README.md)
+   - [8.工具和上位机/README.md](8.工具和上位机/README.md)
 
 ## Quick Download
 
-1. If you want the full mirror, clone the parent repository and then sync all submodules.
+### Clone The Full Repository
 
-```c
+```bash
 git clone https://github.com/dmBots/dmBot.git
-cd dmBot/
+cd dmBot
 git submodule init
 git submodule update --recursive --remote
 ```
 
-2. If you only need one subtree, enter that folder and clone or sync it on its own.
+### Use A Single Subtree
 
-```c
-git clone <url>
-```
-
-3. After entering a submodule, check its own README and document index for the latest workflow notes.
+- Locate the relevant subtree in this repository first.
+- Then follow that subtree's own README and workflow pages for the latest instructions.
 
 ## Common Entry Points
 
 - [Customer Help Center](https://gl1po2nscb.feishu.cn/wiki/MZ32w0qnnizTpOkNvAZcJ9SlnXb)
 - [Motor Firmware Mirror](https://github.com/dmBots/motor-firmware)
 
-## Repository Scope
+## Common Material Paths
 
-Current top-level areas in this repository:
-
-- `0.固件/固件`
-- `1.关节电机/DM-J10010-2EC`
-- `1.关节电机/DM-J10010L-2EC`
-- `1.关节电机/DM-J3507-2EC`
-- `1.关节电机/DM-J4310-2EC`
-- `1.关节电机/DM-J4310P-2EC`
-- `1.关节电机/DM-J4340-2EC`
-- `1.关节电机/DM-J4340P-2EC`
-- `1.关节电机/DM-J6006-2EC`
-- `1.关节电机/DM-J6248P-2EC`
-- `1.关节电机/DM-J8006-2EC`
-- `1.关节电机/DM-J8009-2EC`
-- `1.关节电机/DM-J8009P-2EC`
-- `2.中空电机/DM-G6220`
-- `3.轮毂电机/DM-H3510`
-- `3.轮毂电机/DM-H6215`
-- `3.轮毂电机/DM-H65-1EC`
-- `4.分立系列/DM-S2325-1EC`
-- `4.分立系列/DM-S3519-1EC`
-- `5.控制例程/电机控制例程`
-- `6.控制板/dm-mc01`
-- `6.控制板/dm-mc02`
-- `6.控制板/orin-board`
-- `6.控制板/spine`
-- `6.控制板/dm-imu`
-- `7.电机驱动板/motor-drive-board`
-- `8.工具和上位机/dm-tools`
-- `9.使用手册/文档`
-- `10.直驱电机/DM-D5730-1EC`
-- `10.直驱电机/DM-D5730-1EE`
-- `11.谐波电机/DM-JH11-51_101-2EC`
-- `A.达妙开源系列/agv`
-- `A.达妙开源系列/bipedal-robot`
-- `A.达妙开源系列/wheel-legged`
+- [1.关节电机](1.关节电机/README.md)  
+  Find materials by motor model.
+- [5.控制例程](5.控制例程/README.md)  
+  Find examples by language, platform, and runtime.
+- [6.控制板](6.控制板/README.md)  
+  Find control-board, IMU, and Orin carrier documents.
+- [8.工具和上位机](8.工具和上位机/README.md)  
+  Download USB2CANFD tools, run the host software, flash `slcan` firmware, and choose the right SDK entry from here. If the GitHub mirror looks incomplete, follow [docs/mirror-scope.md](docs/mirror-scope.md).
 
 ## Documentation Entry
 
-- [docs/README.md](docs/README.md)
-- [docs/catalog.md](docs/catalog.md)
-- [docs/sync-policy.md](docs/sync-policy.md)
-
-## Repository Catalog
-
-See [docs/catalog.md](docs/catalog.md) for the current folder and submodule index. The catalog is the canonical source for paths and status notes.
+- [docs/getting-started.md](docs/getting-started.md) - best first stop for customers
+- [docs/README.md](docs/README.md) - documentation hub
+- [docs/catalog.md](docs/catalog.md) - current folder and subtree index
+- [docs/mirror-scope.md](docs/mirror-scope.md) - what is mirrored in GitHub vs. what remains Gitee-first
+- [docs/doc-structure.md](docs/doc-structure.md) - document-layer model and public-readiness check
+- [docs/legacy-links.md](docs/legacy-links.md) - historical high-value entry archive
+- [docs/sync-policy.md](docs/sync-policy.md) - cross-repository sync rules
 
 ## Language Policy
 
 - Keep this repository English-first.
 - Preserve real folder names and path segments, even when they are Chinese.
 - Use `TBD` or `Translation pending` for missing English content.
-- Do not backfill untranslated sections with guessed wording.
+- Do not fill missing content with guessed wording.
 
 ## Contribution
 
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a change.
-- Use [`.github/pull_request_template.md`](.github/pull_request_template.md) when submitting a PR.
-- If a change touches a path, folder name, or submodule entry, update [docs/catalog.md](docs/catalog.md) and [docs/sync-policy.md](docs/sync-policy.md) in the same change set.
-
-## Status / Notes
-
-- This page is intentionally a thin entry point, not a full manual.
-- Any path drift should be fixed in [docs/catalog.md](docs/catalog.md) first.
-- Repository-specific gaps should stay marked as `TBD` until verified.
+- If a change touches a path, folder name, or subtree entry, update [docs/catalog.md](docs/catalog.md) and [docs/sync-policy.md](docs/sync-policy.md) in the same change set.

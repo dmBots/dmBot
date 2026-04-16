@@ -24,6 +24,14 @@ This file defines the standard subtree README format. The validated template und
 - Incomplete English content must stay as `TBD` or `Translation pending`.
 - Do not invent Chinese or English content to fill a gap.
 
+## Migration Rules
+
+- If a README contains download instructions, submodule clone/update steps, firmware entry links, customer help center links, branch-switching notes, flashing steps, device-tree changes, CSI / UART / Wi-Fi configuration, environment setup, external references, real usage instructions, or repository maintenance notes, do not delete them directly.
+- Move the detailed content into `USAGE.md`, `WORKFLOW.md`, `SETUP.md`, `FLASHING.md`, or `docs/usage.md`, and leave a short jump link in the README.
+- If the content is a historical entry rather than a current workflow, record it first in `docs/legacy-links.md`.
+- README should stay as an entry page with helpful jumps, not a long-form manual.
+- When a folder contains both entry notes and workflow notes, keep the entry in README and move the workflow out.
+
 ## Forbidden
 
 - Do not keep `xxxx`, `Gitee Feature`, `Software Architecture`, `Installation`, `Instructions`, `Contribution`, or similar boilerplate.
@@ -44,6 +52,7 @@ This file defines the standard subtree README format. The validated template und
 - [2D Drawings/](2D图纸/)
 - [3D Model/](3D模型/)
 - [Performance Curves/](性能曲线/)
+- [USAGE.md](USAGE.md) (if a workflow doc has been split out)
 
 ## Quick Start
 - This folder does not define a separate quick-start flow.
@@ -59,4 +68,5 @@ This file defines the standard subtree README format. The validated template und
 - If a folder has a real technical note, put it in `Overview` and keep it entry-level.
 - If a resource folder does not exist, do not list it.
 - If a single sentence is enough, use a single sentence.
+- If a workflow doc exists, keep the jump in README and do not delete the value content without migration.
 - After changing a subtree README, check `docs/sync-policy.md` before merging.
