@@ -32,7 +32,7 @@ This file is specifically for cross-repository path mapping and compatibility af
 | `10.Direct Drive Motors` | `10.直驱电机` | `10.直驱电机` | direct-drive motor category |
 | `11.Harmonic Drive Motors` | `11.谐波电机` | `11.谐波电机` | harmonic-drive motor category |
 | `B.Canopen` | `B.Canopen` | `B.Canopen` | unchanged because it is already a stable Latin technical path |
-| `A.达妙开源系列` | `A.达妙开源系列` | `A.达妙开源系列` | frozen in this round and intentionally unchanged |
+| `A.Open Source Series` | `A.达妙开源系列` | `A.达妙开源系列` | GitHub now uses an English top-level path; Gitee keeps the Chinese path |
 
 ## Common Cross-Repository Examples
 
@@ -46,6 +46,7 @@ This file is specifically for cross-repository path mapping and compatibility af
 | `dm-tools` entry | `8.Tools and Host Software/dm-tools/README.md` | `8.工具和上位机/dm-tools/README.md` |
 | `USB2CANFD` entry | `8.Tools and Host Software/dm-tools/USB2CANFD/README.md` | `8.工具和上位机/dm-tools/USB2CANFD/README.md` |
 | `DM_DeviceSDK` handoff | `8.Tools and Host Software/dm-tools/DM_DeviceSDK/README.md` | `8.工具和上位机/dm-tools/DM_DeviceSDK/README.md` |
+| Open-source series entry | `A.Open Source Series/agv` | `A.达妙开源系列/AGV` |
 
 ## Common Resource Directory Mapping
 

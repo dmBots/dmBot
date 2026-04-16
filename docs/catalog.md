@@ -22,6 +22,7 @@ This catalog records only the real folders and subtree paths that currently exis
 - Path:
   - `1.Joint Motors/DM-J10010-2EC`
   - `1.Joint Motors/DM-J10010L-2EC`
+  - `1.Joint Motors/DM-J10422P-2EC`
   - `1.Joint Motors/DM-J3507-2EC`
   - `1.Joint Motors/DM-J4310-2EC`
   - `1.Joint Motors/DM-J4310P-2EC`
@@ -116,10 +117,10 @@ This catalog records only the real folders and subtree paths that currently exis
 
 - Status: `ZH / EN partial`
 - Path:
-  - `A.达妙开源系列/agv`
-  - `A.达妙开源系列/bipedal-robot`
-  - `A.达妙开源系列/wheel-legged`
-- Notes: open-source projects are maintained in their own subtree repos, remain frozen in this path-migration round, and therefore keep their existing Chinese top-level path in GitHub.
+  - `A.Open Source Series/agv`
+  - `A.Open Source Series/bipedal-robot`
+  - `A.Open Source Series/wheel-legged`
+- Notes: GitHub uses the English `A.Open Source Series` top-level path, while Gitee keeps `A.达妙开源系列`. The project subtrees remain maintained in their own repos.
 
 ## Repository-Difference Notes
 

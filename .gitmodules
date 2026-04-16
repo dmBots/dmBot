@@ -81,14 +81,14 @@
 [submodule "9.User Manuals/文档"]
 	path = 9.User Manuals/文档
 	url = https://github.com/dmBots/damiao-document
-[submodule "A.达妙开源系列/wheel-legged"]
-	path = A.达妙开源系列/wheel-legged
+[submodule "A.Open Source Series/wheel-legged"]
+	path = A.Open Source Series/wheel-legged
 	url = https://github.com/dmBots/wheel-legged.git
-[submodule "A.达妙开源系列/bipedal-robot"]
-	path = A.达妙开源系列/bipedal-robot
+[submodule "A.Open Source Series/bipedal-robot"]
+	path = A.Open Source Series/bipedal-robot
 	url = https://github.com/dmBots/bipedal-robot.git
-[submodule "A.达妙开源系列/agv"]
-	path = A.达妙开源系列/agv
+[submodule "A.Open Source Series/agv"]
+	path = A.Open Source Series/agv
 	url = https://github.com/dmBots/agv.git
 [submodule "10.Direct Drive Motors/DM-D5730-1EC"]
 	path = 10.Direct Drive Motors/DM-D5730-1EC
@@ -102,3 +102,6 @@
 [submodule "3.Hub Motors/DM-H65-1EC"]
 	path = 3.Hub Motors/DM-H65-1EC
 	url = https://github.com/dmBots/DM-H65-1EC
+[submodule "1.Joint Motors/DM-J10422P-2EC"]
+	path = 1.Joint Motors/DM-J10422P-2EC
+	url = https://github.com/dmBots/DM-J10422P-2EC.git
