@@ -2,30 +2,30 @@
 
 [EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/README.md)
 
-`dmBot` is the GitHub-facing English showcase repository for DAMIAO.  
-The homepage is README-first: it should answer where to start, what this repo covers, when to switch back to Gitee, and where detailed workflow docs live.
+`dmBot` is the GitHub English repository for DAMIAO.
+The root README provides repository role, primary entry paths, repository differences, and common guidance.
 
 ## Repository Role
 
-- English-facing showcase: high-frequency English entry for products, control examples, boards, tools, and public handoff paths.
-- Not the full archive: fuller Chinese materials, deeper history, and some broader branches still remain Gitee-first.
-- README pages choose the path; detailed install, build, flashing, runtime, and platform steps stay in folder-local `USAGE.md`, `SETUP.md`, `WORKFLOW.md`, `FLASHING.md`, `BUILD.md`, `PLATFORM.md`, `UPDATE.md`, and `FIRMWARE-NOTES.md`.
+- English public entry repository: primary English entry for products, control examples, boards, tools, and public continuation paths.
+- Not the full archive: more complete Chinese materials, deeper history, and some broader branches remain Gitee-first.
+- README pages provide navigation; detailed install, build, flashing, runtime, and platform steps stay in folder-local `USAGE.md`, `SETUP.md`, `WORKFLOW.md`, `FLASHING.md`, `BUILD.md`, `PLATFORM.md`, `UPDATE.md`, and `FIRMWARE-NOTES.md`.
 
 ## Start Here By Task
 
 ### Customers And Developers
 
 - Looking for a motor model: start with [1.Joint Motors](1.Joint Motors/README.md).
-- Need control examples quickly: start with [5.Control Examples](5.Control Examples/README.md).
+- Need control examples: start with [5.Control Examples](5.Control Examples/README.md).
 - Need control boards, IMU, or Orin carrier entry pages: start with [6.Control Boards](6.Control Boards/README.md).
 - Need USB2CANFD, host software, firmware switching, or SDK paths: start with [8.Tools and Host Software](8.Tools and Host Software/README.md).
 - Need Canopen materials: start with [B.Canopen](B.Canopen/README.md).
 
-### When GitHub Looks Incomplete
+### If GitHub Coverage Is Not Enough
 
 - Read [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md) first.
 - If you arrived from an older Chinese-path bookmark, use [docs/repository/path-mapping.md](docs/repository/path-mapping.md).
-- When you need the fuller Chinese source, continue in [Gitee damiao](https://gitee.com/kit-miao/damiao/blob/master/README.md).
+- When you need the more complete Chinese source, continue in [Gitee damiao](https://gitee.com/kit-miao/damiao/blob/master/README.md).
 
 ### Maintainers And Contributors
 
@@ -58,7 +58,7 @@ The homepage is README-first: it should answer where to start, what this repo co
 | `9.User Manuals` | public manuals and support materials | [`9.User Manuals/README.md`](9.User Manuals/README.md) |
 | `10.Direct Drive Motors` | direct-drive motor materials | matching subtree under `10.Direct Drive Motors/` |
 | `11.Harmonic Drive Motors` | harmonic-drive motor materials | matching subtree under `11.Harmonic Drive Motors/` |
-| `A.Open Source Series` | frozen zone in this phase | matching subtree README |
+| `A.Open Source Series` | maintained in its current structure | matching subtree README |
 | `B.Canopen` | Canopen public entry | [`B.Canopen/README.md`](B.Canopen/README.md) |
 
 ## Clone And Sync
@@ -70,24 +70,24 @@ git submodule update --init --recursive --remote
 ```
 
 - If you only need one subtree, locate it here first and then follow that subtree's own README and workflow docs.
-- Do not guess missing GitHub paths from older Chinese bookmarks; use `path-mapping` and the local README entry pages.
+- For older Chinese-path GitHub bookmarks, use `path-mapping` and the local README entry pages.
 
-## GitHub Vs. Gitee In One Minute
+## Repository Differences
 
-- `dmBot` is the English showcase and high-frequency entry layer.
-- `damiao` is the Chinese primary repository and the fuller Chinese source.
-- `orin-board` stays scope-stable only in this phase and is not part of deeper naming cleanup here.
-- `A.Open Source Series` remains frozen in this phase.
+- `dmBot` is the English public entry repository.
+- `damiao` is the Chinese primary repository and the more complete Chinese source.
+- `orin-board` keeps its current directory and documentation pattern.
+- `A.Open Source Series` is maintained in its current structure.
 
 ## Common Questions
 
 - Why does GitHub have fewer materials than Gitee?  
-  Because GitHub is the showcase layer, not the full archive. Read [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md).
+  GitHub is the English entry repository rather than the full archive. Read [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md).
 - What should I do if an old Chinese-path GitHub bookmark no longer works?  
-  Use [docs/repository/path-mapping.md](docs/repository/path-mapping.md) instead of guessing.
+  Use [docs/repository/path-mapping.md](docs/repository/path-mapping.md).
 - What is the difference between `README.md` and `USAGE.md` / `SETUP.md` / `WORKFLOW.md`?  
-  README chooses the path; workflow docs carry the actual steps.
-- Where should I go for the fuller Chinese source?  
+  README provides navigation; workflow docs provide the actual steps.
+- Where should I go for the more complete Chinese source?
   Go to [Gitee damiao](https://gitee.com/kit-miao/damiao/blob/master/README.md).
 
 ## Support And Security
@@ -99,6 +99,6 @@ git submodule update --init --recursive --remote
 ## Maintainers And Contributors
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) - README rules, document placement, and sync gates
-- [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md) - coverage boundaries and handoff rules
+- [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md) - coverage boundaries and cross-repository continuation guidance
 - [docs/repository/path-mapping.md](docs/repository/path-mapping.md) - path conversion and old-bookmark handling
-- Do not push install, build, flashing, or platform steps back into the root README; keep them inside folder-local workflow docs.
+- Keep install, build, flashing, and platform procedures in folder-local workflow docs rather than in the root README.

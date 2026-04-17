@@ -1,7 +1,7 @@
 # Contributing
 
 Thanks for helping keep DAMIAO maintainable.  
-This version pulls the repository-level documentation rules back into one contributor entry so maintainers do not have to bounce across several governance pages.
+This file consolidates contributor-facing repository rules so maintainers can determine document placement, synchronization, and README scope from one page.
 
 ## Decide The Change Layer First
 
@@ -16,26 +16,33 @@ This version pulls the repository-level documentation rules back into one contri
 
 ## Repository Roles And Scope Boundaries
 
-- `damiao`: Chinese primary repository and fuller Chinese source.
-- `dmBot`: English showcase repository and high-frequency English entry layer.
+- `damiao`: Chinese primary repository and the more complete Chinese source.
+- `dmBot`: English public entry repository with high-frequency English paths.
 - Keep entry semantics aligned across both repositories, but allow language and coverage depth to differ.
-- `orin-board` stays scope-stable only in this phase and is not part of deeper cleanup.
-- `A.Open Source Series` remains frozen in this phase.
+- `orin-board` keeps its current directory and documentation pattern.
+- `A.Open Source Series` is maintained in its current structure.
 
 ## README Rules
 
 ### Root README
 
 - Answer what the repository is, where to start, how to clone, why GitHub and Gitee differ, and the common questions.
-- Reduce repo-level jumping instead of sending readers through several thin docs pages.
+- Provide necessary repository-level guidance directly instead of spreading it across several thin pages.
 - Do not push install, build, flashing, or platform steps back into the root README.
 
 ### Category And Subtree README Files
 
 - Prefer the four-part pattern: `Overview`, `Documentation / Resources`, `Quick Start`, `Status`.
-- README files are entry pages only: they should route, index, and hand off.
+- README files are entry pages only: they should route, index, and direct readers to the next page.
 - If a workflow moved into a local workflow doc, leave a clear README jump instead of deleting the path.
 - If English is incomplete, mark it as `Translation pending` rather than guessing content.
+
+## Copy Style
+
+- Public pages should use factual, concise, user-facing language.
+- Avoid internal or conversational phrases such as `this phase`, `trim`, `deep cleanup`, `where to look first`, `how to download`, or `do not guess` when a neutral statement can express the same meaning.
+- README and repository-level pages should explain scope, available content, and the next link, rather than documenting internal design rationale.
+- Chinese pages should remain professional and restrained. English pages should remain neutral, repository-facing, and user-facing.
 
 ## Which Repo-Level Docs Still Stay Separate
 
@@ -45,7 +52,7 @@ Only a small repo-level set should stay separate:
 - [docs/repository/path-mapping.md](docs/repository/path-mapping.md)
 - [SECURITY.md](SECURITY.md)
 
-If a repo-level explanation can reasonably live in root README or this file, merge it there instead of creating another thin governance page.
+If a repo-level explanation can reasonably live in root README or this file, merge it there instead of creating another thin page.
 
 ## Sync Gates
 
@@ -69,7 +76,7 @@ Keep both repositories aligned in meaning when a change touches:
 
 ## Before You Submit
 
-- Keep changes small and path-based.
+- Keep changes clear, specific, and tied to real paths.
 - Do not fill translation gaps with guessed content.
 - Keep link text aligned with the real path.
 - Make sure root or category README files did not grow install, build, flashing, or environment prose again.

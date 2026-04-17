@@ -1,6 +1,6 @@
 # Path Mapping
 
-This page answers path conversion only: current GitHub English paths, older Chinese-path GitHub bookmarks, and the matching Gitee Chinese paths.
+This page explains the mapping between current GitHub English paths, older Chinese-path GitHub bookmarks, and the matching Gitee Chinese paths.
 
 ## Usage Rules
 
@@ -41,12 +41,12 @@ This page answers path conversion only: current GitHub English paths, older Chin
 
 ## Legacy Notes
 
-- Repo-level first-visit guidance now lives in root [README.md](../../README.md), not in separate start pages.
-- Long workflow and install content continues to live in folder-local workflow docs.
-- If an old bookmark no longer matches, re-enter through root README instead of guessing.
+- Repository-level first-visit guidance is provided in root [README.md](../../README.md).
+- Detailed workflow and installation content remains in folder-local workflow docs.
+- If an old bookmark no longer matches, re-enter through root README and continue from the current entry pages.
 
 ## If You Still Cannot Find The Path
 
 1. Start again from root [README.md](../../README.md).
 2. Use the category or subtree README to confirm the next hop.
-3. If the page is only a supported handoff, check [mirror-scope.md](mirror-scope.md) and continue in Gitee.
+3. If the page is only a supported continuation page, check [mirror-scope.md](mirror-scope.md) and continue in Gitee.

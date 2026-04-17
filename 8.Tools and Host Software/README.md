@@ -4,29 +4,27 @@
 
 ## Overview
 
-- This folder is the customer-facing task entry for USB2CANFD tools, host software, firmware switching, and SDK materials in the GitHub mirror.
-- If you do not know which file to open first, start with [dm-tools/README.md](dm-tools/README.md); it routes by customer task instead of by raw directory tree.
-- GitHub mirrors the high-frequency paths, but some broader tool branches still remain Gitee-first. Use [../docs/repository/mirror-scope.md](../docs/repository/mirror-scope.md) when a path seems incomplete.
+- This folder provides the entry point for USB2CANFD tools, host software, firmware switching, and SDK materials in the GitHub repository.
+- Start with [dm-tools/README.md](dm-tools/README.md) for the main tool paths.
+- For branches that remain Gitee-first, see [../docs/repository/mirror-scope.md](../docs/repository/mirror-scope.md).
 
 ## Documentation / Resources
 
-- [dm-tools/README.md](dm-tools/README.md) - main task router under `8`; start here if you are not sure whether you need tools, host software, firmware, or SDK materials
+- [dm-tools/README.md](dm-tools/README.md) - main entry under `8`; use this page to identify the relevant tools, host software, firmware, or SDK path
 - [dm-tools/USB2CANFD/README.md](dm-tools/USB2CANFD/README.md) - main USB2CANFD entry for setup, host software, firmware, and SDK paths
-- [dm-tools/DM_DeviceSDK/README.md](dm-tools/DM_DeviceSDK/README.md) - GitHub handoff entry for the generic device SDK path that still mainly lives in Gitee
+- [dm-tools/DM_DeviceSDK/README.md](dm-tools/DM_DeviceSDK/README.md) - entry page for the generic device SDK path that is primarily maintained in Gitee
 - [../README.md](../README.md) - repository homepage; use it when you need the top-level task map first
 - [../docs/repository/mirror-scope.md](../docs/repository/mirror-scope.md) - explains GitHub vs. Gitee coverage and where to continue
 - [../docs/repository/path-mapping.md](../docs/repository/path-mapping.md) - English / Chinese path conversion
 
 ## Quick Start
 
-- To download and use USB2CANFD tools, start with [dm-tools/USB2CANFD/README.md](dm-tools/USB2CANFD/README.md), then continue into `SETUP.md`.
-- To run the host software, open [dm-tools/USB2CANFD/Host Applications/README.md](dm-tools/USB2CANFD/Host Applications/README.md); it tells you which package to download before you follow `SETUP.md`.
-- To flash, switch, or validate `slcan` firmware, open [dm-tools/USB2CANFD/固件/socketcan/slcan固件/README.md](dm-tools/USB2CANFD/固件/socketcan/slcan固件/README.md), then follow `FLASHING.md`.
-- To use SDK materials, start with [dm-tools/USB2CANFD/SDK/README.md](dm-tools/USB2CANFD/SDK/README.md) for the mirrored USB2CANFD path; for the generic device SDK route, open [dm-tools/DM_DeviceSDK/README.md](dm-tools/DM_DeviceSDK/README.md) and continue in Gitee if needed.
-- To confirm whether this repository has the path you need, start with [dm-tools/README.md](dm-tools/README.md), then go back to [../README.md](../README.md) if you still need the top-level task map.
-- If GitHub looks incomplete, open [../docs/repository/mirror-scope.md](../docs/repository/mirror-scope.md) and continue in Gitee instead of guessing.
-- If you arrived from an older Chinese-path GitHub bookmark, see [../docs/repository/path-mapping.md](../docs/repository/path-mapping.md) before guessing the new top-level path.
-- If you are not sure what `README.md`, `SETUP.md`, `WORKFLOW.md`, or `FLASHING.md` are for: README chooses the path, `SETUP.md` handles install and run preparation, `WORKFLOW.md` handles usage sequence, `FLASHING.md` handles firmware work, and SDK README pages help you choose language or platform first.
+- For USB2CANFD tools and basic connectivity, start with [dm-tools/USB2CANFD/README.md](dm-tools/USB2CANFD/README.md), then continue into `SETUP.md`.
+- For host software packages, open [dm-tools/USB2CANFD/Host Applications/README.md](dm-tools/USB2CANFD/Host Applications/README.md), then follow `SETUP.md`.
+- For `slcan` firmware flashing, switching, or validation, open [dm-tools/USB2CANFD/固件/socketcan/slcan固件/README.md](dm-tools/USB2CANFD/固件/socketcan/slcan固件/README.md), then follow `FLASHING.md`.
+- For SDK materials, use [dm-tools/USB2CANFD/SDK/README.md](dm-tools/USB2CANFD/SDK/README.md) for the mirrored USB2CANFD path or [dm-tools/DM_DeviceSDK/README.md](dm-tools/DM_DeviceSDK/README.md) for the broader device SDK path.
+- For repository coverage questions, use [dm-tools/README.md](dm-tools/README.md) together with [../docs/repository/mirror-scope.md](../docs/repository/mirror-scope.md).
+- README provides navigation; `SETUP.md` provides installation and runtime preparation; `WORKFLOW.md` provides usage sequence; `FLASHING.md` provides firmware procedures.
 
 ## Status
 

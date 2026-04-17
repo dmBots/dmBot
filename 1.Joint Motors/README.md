@@ -3,9 +3,9 @@
 [EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/1.关节电机/README.md)
 
 ## Overview
-- This folder is the entry point for joint-motor materials.
+- This folder provides the entry point for joint-motor materials.
 - If you already know the model number, open that model folder directly.
-- If you are unsure which model you need, go back to [../README.md](../README.md) and use the repository map first.
+- If you need to confirm the category first, go back to [../README.md](../README.md) and use the repository map.
 
 ## Documentation / Resources
 - [DM-J10010-2EC/](DM-J10010-2EC/)
@@ -25,7 +25,7 @@
 ## Quick Start
 - Identify the motor model first, then open the matching folder.
 - Inside that folder, read its `README.md` first and then follow links to manuals, drawings, curves, or workflow pages.
-- If you arrived from an older Chinese-path GitHub bookmark, see [../docs/repository/path-mapping.md](../docs/repository/path-mapping.md).
+- For older Chinese-path GitHub bookmarks, see [../docs/repository/path-mapping.md](../docs/repository/path-mapping.md).
 
 ## Status
 - EN: main entry
