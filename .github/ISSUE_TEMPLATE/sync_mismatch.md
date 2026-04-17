@@ -5,7 +5,7 @@ title: "[sync] "
 labels: maintenance
 ---
 
-> Before opening this issue, read [docs/catalog.md](../../docs/catalog.md) and [docs/sync-policy.md](../../docs/sync-policy.md).
+> Before opening this issue, read [docs/start-here/catalog.md](../../docs/start-here/catalog.md) and [docs/governance/sync-policy.md](../../docs/governance/sync-policy.md).
 
 ## Affected repository
 

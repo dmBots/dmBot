@@ -9,8 +9,8 @@
 ## Sync Impact
 
 - [ ] README updated
-- [ ] docs/catalog.md updated
-- [ ] docs/sync-policy.md updated
+- [ ] docs/start-here/catalog.md updated
+- [ ] docs/governance/sync-policy.md updated
 - [ ] .github templates updated
 - [ ] Path or submodule name changed
 

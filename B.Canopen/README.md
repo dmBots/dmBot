@@ -1,4 +1,4 @@
-# B. Canopen
+﻿# B. Canopen
 
 [EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/B.Canopen/README.md)
 
@@ -8,7 +8,7 @@
 
 ## Documentation / Resources
 - [Canopen/README.md](Canopen/README.md) - GitHub handoff entry for the Canopen tree
-- [../docs/mirror-scope.md](../docs/mirror-scope.md) - coverage guide for GitHub vs. Gitee
+- [../docs/repository/mirror-scope.md](../docs/repository/mirror-scope.md) - coverage guide for GitHub vs. Gitee
 - [Gitee: full B.Canopen tree](https://gitee.com/kit-miao/damiao/tree/master/B.Canopen) - continue here for the full public materials
 
 ## Quick Start
@@ -19,3 +19,4 @@
 - EN: GitHub handoff entry
 - ZH: fuller materials remain Gitee-first
 - TBD: GitHub-side coverage may expand later
+

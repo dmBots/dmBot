@@ -1,4 +1,4 @@
-# User Manuals
+﻿# User Manuals
 
 ## Overview
 - This folder is the entry point for customer-facing manuals, protocol notes, and helper documentation.
@@ -6,7 +6,7 @@
 
 ## Documentation / Resources
 - [Documentation/README.md](Documentation/README.md) - main manual entry; start here to choose the right PDF
-- [../docs/getting-started.md](../docs/getting-started.md) - first-visit repository guide
+- [../README.md](../README.md) - repository homepage; use it when you need the top-level task map first
 
 ## Quick Start
 - Open [Documentation/README.md](Documentation/README.md) first.
@@ -16,3 +16,4 @@
 - EN: main entry
 - ZH: source materials exist in the subtree
 - TBD: manual-level details are maintained inside the document folder
+
