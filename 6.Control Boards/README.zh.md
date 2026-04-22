@@ -4,6 +4,7 @@
 
 本页提供 GitHub `6.Control Boards` 的中文对照入口。
 
+- DM-FC01 资料请参见 [dm-fc01/](dm-fc01/)。
 - GitHub 英文主版请看 [README.md](./README.md)。
 - 完整中文资料请参见 [Gitee 中文页](https://gitee.com/kit-miao/damiao/blob/master/6.控制板/README.md)。
 - DM-Orin 资料请参见 [orin-board/README.md](orin-board/README.md)；`orin-board` 保持现有目录和说明方式。

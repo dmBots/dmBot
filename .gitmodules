@@ -72,6 +72,9 @@
 [submodule "6.Control Boards/dm-imu"]
 	path = 6.Control Boards/dm-imu
 	url = https://github.com/dmBots/dm-imu.git
+[submodule "6.Control Boards/dm-fc01"]
+	path = 6.Control Boards/dm-fc01
+	url = https://github.com/dmBots/dm-fc01.git
 [submodule "7.Motor Driver Boards/motor-drive-board"]
 	path = 7.Motor Driver Boards/motor-drive-board
 	url = https://github.com/dmBots/motor-drive-board

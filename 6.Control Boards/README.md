@@ -8,6 +8,7 @@
 - `orin-board` keeps its current directory and documentation pattern.
 
 ## Documentation / Resources
+- [dm-fc01/](dm-fc01/)
 - [dm-imu/](dm-imu/)
 - [dm-mc01/](dm-mc01/)
 - [dm-mc02/](dm-mc02/)
@@ -15,6 +16,7 @@
 - [spine/](spine/)
 
 ## Quick Start
+- DM-FC01 materials are available in `dm-fc01`.
 - Orin carrier-board materials are available in [orin-board/README.md](orin-board/README.md).
 - Controller-board documents are available in `dm-mc01` or `dm-mc02`.
 - IMU materials are available in `dm-imu`.
