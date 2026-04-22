@@ -105,3 +105,6 @@
 [submodule "1.Joint Motors/DM-J10422P-2EC"]
 	path = 1.Joint Motors/DM-J10422P-2EC
 	url = https://github.com/dmBots/DM-J10422P-2EC.git
+[submodule "A.Open Source Series/Seeed-reBot-DevArm"]
+	path = A.Open Source Series/Seeed-reBot-DevArm
+	url = https://github.com/Seeed-Projects/reBot-DevArm.git

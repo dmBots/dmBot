@@ -31,4 +31,4 @@
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 - [SECURITY.md](SECURITY.md)
 - `orin-board` 保持现有目录和说明方式。
-- `A.Open Source Series` 按现有结构维护。
+- `A.Open Source Series` 保持现有结构，`Seeed-reBot-DevArm` 等外部项目通过子仓入口指向原始仓库。

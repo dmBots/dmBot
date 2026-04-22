@@ -58,7 +58,7 @@ The root README provides repository role, primary entry paths, repository differ
 | `9.User Manuals` | public manuals and support materials | [`9.User Manuals/README.md`](9.User Manuals/README.md) |
 | `10.Direct Drive Motors` | direct-drive motor materials | matching subtree under `10.Direct Drive Motors/` |
 | `11.Harmonic Drive Motors` | harmonic-drive motor materials | matching subtree under `11.Harmonic Drive Motors/` |
-| `A.Open Source Series` | maintained in its current structure | matching subtree README |
+| `A.Open Source Series` | open-source project entry including `Seeed-reBot-DevArm` | matching subtree README |
 | `B.Canopen` | Canopen public entry | [`B.Canopen/README.md`](B.Canopen/README.md) |
 
 ## Clone And Sync
@@ -77,7 +77,7 @@ git submodule update --init --recursive --remote
 - `dmBot` is the English public entry repository.
 - `damiao` is the Chinese primary repository and the more complete Chinese source.
 - `orin-board` keeps its current directory and documentation pattern.
-- `A.Open Source Series` is maintained in its current structure.
+- `A.Open Source Series` keeps its current structure, including external project entries such as `Seeed-reBot-DevArm`.
 
 ## Common Questions
 
