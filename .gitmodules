@@ -37,6 +37,9 @@
 [submodule "1.Joint Motors/DM-J10010L-2EC"]
 	path = 1.Joint Motors/DM-J10010L-2EC
 	url = https://github.com/dmBots/DM-J10010L-2EC.git
+[submodule "1.Joint Motors/DM-J8520P-2EC"]
+	path = 1.Joint Motors/DM-J8520P-2EC
+	url = https://github.com/dmBots/DM-J8520P-2EC.git
 [submodule "2.Hollow Shaft Motors/DM-G6220"]
 	path = 2.Hollow Shaft Motors/DM-G6220
 	url = https://github.com/dmBots/DM-G6220.git
@@ -46,6 +49,9 @@
 [submodule "3.Hub Motors/DM-H3510"]
 	path = 3.Hub Motors/DM-H3510
 	url = https://github.com/dmBots/DM-H3510.git
+[submodule "3.Hub Motors/DM-H55"]
+	path = 3.Hub Motors/DM-H55
+	url = https://github.com/dmBots/DM-H55.git
 
 [submodule "4.Discrete Series/DM-S3519-1EC"]
 	path = 4.Discrete Series/DM-S3519-1EC
@@ -102,6 +108,12 @@
 [submodule "11.Harmonic Drive Motors/DM-JH11-51_101-2EC"]
 	path = 11.Harmonic Drive Motors/DM-JH11-51_101-2EC
 	url = https://github.com/dmBots/DM-JH11-51_101-2EC
+[submodule "11.Harmonic Drive Motors/DM-JH14-51_101-2EC"]
+	path = 11.Harmonic Drive Motors/DM-JH14-51_101-2EC
+	url = https://github.com/dmBots/DM-JH14-51_101-2EC.git
+[submodule "11.Harmonic Drive Motors/DM-JH17-51_101-2EC"]
+	path = 11.Harmonic Drive Motors/DM-JH17-51_101-2EC
+	url = https://github.com/dmBots/DM-JH17-51_101-2EC.git
 [submodule "3.Hub Motors/DM-H65-1EC"]
 	path = 3.Hub Motors/DM-H65-1EC
 	url = https://github.com/dmBots/DM-H65-1EC

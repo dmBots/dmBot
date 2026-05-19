@@ -6,6 +6,7 @@
 
 ## Documentation / Resources
 - [DM-H3510/README.md](DM-H3510/README.md) - DM-H3510 entry
+- [DM-H55/README.md](DM-H55/README.md) - DM-H55 entry
 - [DM-H6215/README.md](DM-H6215/README.md) - DM-H6215 entry
 - [DM-H65-1EC/README.md](DM-H65-1EC/README.md) - DM-H65-1EC entry
 

@@ -21,6 +21,7 @@
 - [DM-J8006-2EC/](DM-J8006-2EC/)
 - [DM-J8009-2EC/](DM-J8009-2EC/)
 - [DM-J8009P-2EC/](DM-J8009P-2EC/)
+- [DM-J8520P-2EC/](DM-J8520P-2EC/)
 
 ## Quick Start
 - Identify the motor model first, then open the matching folder.
