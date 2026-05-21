@@ -99,6 +99,9 @@
 [submodule "A.Open Source Series/agv"]
 	path = A.Open Source Series/agv
 	url = https://github.com/dmBots/agv.git
+[submodule "A.Open Source Series/open-dog"]
+	path = A.Open Source Series/open-dog
+	url = https://github.com/dmBots/open-dog.git
 [submodule "10.Direct Drive Motors/DM-D5730-1EC"]
 	path = 10.Direct Drive Motors/DM-D5730-1EC
 	url = https://github.com/dmBots/DM-D5730-1EC
