@@ -126,3 +126,6 @@
 [submodule "A.Open Source Series/Seeed-reBot-DevArm"]
 	path = A.Open Source Series/Seeed-reBot-DevArm
 	url = https://github.com/Seeed-Projects/reBot-DevArm.git
+[submodule "A.Open Source Series/Robotics_Tutorial"]
+	path = A.Open Source Series/Robotics_Tutorial
+	url = https://github.com/Michael-Jetson/Robotics_Tutorial.git
