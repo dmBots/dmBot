@@ -4,16 +4,16 @@
 
 ## Overview
 - This folder provides the category entry for control examples.
-- For motor-control examples, start with [Motor Control Examples/README.md](Motor Control Examples/README.md).
-- The main content currently lives under [Motor Control Examples/](Motor Control Examples/), where examples are split by language, platform, and runtime.
+- For motor-control examples, start with [Motor Control Examples/README.md](https://github.com/dmBots/motor-control-routine).
+- The main content currently lives under [Motor Control Examples/](https://github.com/dmBots/motor-control-routine), where examples are split by language, platform, and runtime.
 
 ## Documentation / Resources
-- [Motor Control Examples/README.md](Motor Control Examples/README.md)
+- [Motor Control Examples/README.md](https://github.com/dmBots/motor-control-routine)
 - [../README.md](../README.md) - repository homepage; use it when you need the top-level task map first
 - [../docs/repository/path-mapping.md](../docs/repository/path-mapping.md) - GitHub / Gitee path conversion
 
 ## Quick Start
-- Start with [Motor Control Examples/README.md](Motor Control Examples/README.md).
+- Start with [Motor Control Examples/README.md](https://github.com/dmBots/motor-control-routine).
 - Then choose C++, Python, ROS1, or STM32 based on your runtime.
 - For older Chinese-path GitHub bookmarks, see [../docs/repository/path-mapping.md](../docs/repository/path-mapping.md).
 

@@ -10,12 +10,12 @@ git submodule update --init --recursive
 
 | Project | Notes |
 | --- | --- |
-| [open-dog](open-dog/) | DAMIAO OpenDog01 open-source quadruped robot materials |
-| [Robotics_Tutorial](Robotics_Tutorial/) | Open-source robotics tutorials for motion control, simulation, and reinforcement learning |
-| [wheel-legged](wheel-legged/) | Wheel-legged open-source project materials |
-| [bipedal-robot](bipedal-robot/) | Bipedal robot open-source project materials |
-| [agv](agv/) | AGV open-source project materials |
-| [Seeed-reBot-DevArm](Seeed-reBot-DevArm/) | External Seeed reBot DevArm open-source project entry |
+| [open-dog](https://github.com/dmBots/open-dog) | DAMIAO OpenDog01 open-source quadruped robot materials |
+| [Robotics_Tutorial](https://github.com/Michael-Jetson/Robotics_Tutorial) | Open-source robotics tutorials for motion control, simulation, and reinforcement learning |
+| [wheel-legged](https://github.com/dmBots/wheel-legged) | Wheel-legged open-source project materials |
+| [bipedal-robot](https://github.com/dmBots/bipedal-robot) | Bipedal robot open-source project materials |
+| [agv](https://github.com/dmBots/agv) | AGV open-source project materials |
+| [Seeed-reBot-DevArm](https://github.com/Seeed-Projects/reBot-DevArm) | External Seeed reBot DevArm open-source project entry |
 
 ## Robotics Tutorial
 

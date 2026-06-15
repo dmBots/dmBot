@@ -5,10 +5,10 @@
 - The current public model in this category is `DM-G6220`.
 
 ## Documentation / Resources
-- [DM-G6220/README.md](DM-G6220/README.md) - DM-G6220 entry for manuals, tutorials, and model files
+- [DM-G6220/README.md](https://github.com/dmBots/DM-G6220) - DM-G6220 entry for manuals, tutorials, and model files
 
 ## Quick Start
-- If you need hollow-motor materials, start with [DM-G6220/README.md](DM-G6220/README.md).
+- If you need hollow-motor materials, start with [DM-G6220/README.md](https://github.com/dmBots/DM-G6220).
 
 ## Status
 - EN: main entry

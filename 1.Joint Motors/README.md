@@ -8,20 +8,20 @@
 - If you need to confirm the category first, go back to [../README.md](../README.md) and use the repository map.
 
 ## Documentation / Resources
-- [DM-J10010-2EC/](DM-J10010-2EC/)
-- [DM-J10010L-2EC/](DM-J10010L-2EC/)
-- [DM-J10422P-2EC/](DM-J10422P-2EC/)
-- [DM-J3507-2EC/](DM-J3507-2EC/)
-- [DM-J4310-2EC/](DM-J4310-2EC/)
-- [DM-J4310P-2EC/](DM-J4310P-2EC/)
-- [DM-J4340-2EC/](DM-J4340-2EC/)
-- [DM-J4340P-2EC/](DM-J4340P-2EC/)
-- [DM-J6006-2EC/](DM-J6006-2EC/)
-- [DM-J6248P-2EC/](DM-J6248P-2EC/)
-- [DM-J8006-2EC/](DM-J8006-2EC/)
-- [DM-J8009-2EC/](DM-J8009-2EC/)
-- [DM-J8009P-2EC/](DM-J8009P-2EC/)
-- [DM-J8520P-2EC/](DM-J8520P-2EC/)
+- [DM-J10010-2EC/](https://github.com/dmBots/DM-J10010-2EC)
+- [DM-J10010L-2EC/](https://github.com/dmBots/DM-J10010L-2EC)
+- [DM-J10422P-2EC/](https://github.com/dmBots/DM-J10422P-2EC)
+- [DM-J3507-2EC/](https://github.com/dmBots/DM-J3507-2EC)
+- [DM-J4310-2EC/](https://github.com/dmBots/DM-J4310-2EC)
+- [DM-J4310P-2EC/](https://github.com/dmBots/DM-J4310P-2EC)
+- [DM-J4340-2EC/](https://github.com/dmBots/DM-J4340-2EC)
+- [DM-J4340P-2EC/](https://github.com/dmBots/DM-J4340P-2EC)
+- [DM-J6006-2EC/](https://github.com/dmBots/DM-J6006-2EC)
+- [DM-J6248P-2EC/](https://github.com/dmBots/DM-J6248P-2EC)
+- [DM-J8006-2EC/](https://github.com/dmBots/DM-J8006-2EC)
+- [DM-J8009-2EC/](https://github.com/dmBots/DM-J8009-2EC)
+- [DM-J8009P-2EC/](https://github.com/dmBots/DM-J8009P-2EC)
+- [DM-J8520P-2EC/](https://github.com/dmBots/DM-J8520P-2EC)
 
 ## Quick Start
 - Identify the motor model first, then open the matching folder.

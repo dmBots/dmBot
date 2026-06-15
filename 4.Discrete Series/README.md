@@ -5,8 +5,8 @@
 - The current public materials are organized by model folder.
 
 ## Documentation / Resources
-- [DM-S2325-1EC/README.md](DM-S2325-1EC/README.md) - DM-S2325-1EC entry
-- [DM-S3519-1EC/README.md](DM-S3519-1EC/README.md) - DM-S3519-1EC entry
+- [DM-S2325-1EC/README.md](https://github.com/dmBots/DM-S2325-1EC) - DM-S2325-1EC entry
+- [DM-S3519-1EC/README.md](https://github.com/dmBots/DM-S3519-1EC) - DM-S3519-1EC entry
 
 ## Quick Start
 - Open the matching model folder first.

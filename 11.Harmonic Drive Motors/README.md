@@ -5,9 +5,9 @@
 - The current public models in this category are `DM-JH11-51_101-2EC`, `DM-JH14-51_101-2EC`, and `DM-JH17-51_101-2EC`.
 
 ## Documentation / Resources
-- [DM-JH11-51_101-2EC/README.md](DM-JH11-51_101-2EC/README.md) - harmonic-motor entry
-- [DM-JH14-51_101-2EC/README.md](DM-JH14-51_101-2EC/README.md) - harmonic-motor entry
-- [DM-JH17-51_101-2EC/README.md](DM-JH17-51_101-2EC/README.md) - harmonic-motor entry
+- [DM-JH11-51_101-2EC/README.md](https://github.com/dmBots/DM-JH11-51_101-2EC) - harmonic-motor entry
+- [DM-JH14-51_101-2EC/README.md](https://github.com/dmBots/DM-JH14-51_101-2EC) - harmonic-motor entry
+- [DM-JH17-51_101-2EC/README.md](https://github.com/dmBots/DM-JH17-51_101-2EC) - harmonic-motor entry
 
 ## Quick Start
 - Start with the matching model `README.md`, then continue into the manual, drawing, and model folders.

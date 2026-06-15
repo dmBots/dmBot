@@ -8,16 +8,16 @@
 - `orin-board` keeps its current directory and documentation pattern.
 
 ## Documentation / Resources
-- [dm-fc01/](dm-fc01/)
-- [dm-imu/](dm-imu/)
-- [dm-mc01/](dm-mc01/)
-- [dm-mc02/](dm-mc02/)
-- [orin-board/](orin-board/)
-- [spine/](spine/)
+- [dm-fc01/](https://github.com/dmBots/dm-fc01)
+- [dm-imu/](https://github.com/dmBots/dm-imu)
+- [dm-mc01/](https://github.com/dmBots/dm-mc01)
+- [dm-mc02/](https://github.com/dmBots/dm-mc02)
+- [orin-board/](https://github.com/dmBots/orin-board)
+- [spine/](https://github.com/dmBots/spine)
 
 ## Quick Start
 - DM-FC01 materials are available in `dm-fc01`.
-- Orin carrier-board materials are available in [orin-board/README.md](orin-board/README.md).
+- Orin carrier-board materials are available in [orin-board/README.md](https://github.com/dmBots/orin-board).
 - Controller-board documents are available in `dm-mc01` or `dm-mc02`.
 - IMU materials are available in `dm-imu`.
 - For older Chinese-path GitHub bookmarks, see [../docs/repository/path-mapping.md](../docs/repository/path-mapping.md).

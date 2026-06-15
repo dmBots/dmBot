@@ -2,14 +2,14 @@
 
 ## Overview
 - This folder is the category entry for motor-driver-board materials.
-- The current GitHub path continues through [motor-drive-board/README.md](motor-drive-board/README.md), then branches by board model.
+- The current GitHub path continues through [motor-drive-board/README.md](https://github.com/dmBots/motor-drive-board), then branches by board model.
 
 ## Documentation / Resources
-- [motor-drive-board/README.md](motor-drive-board/README.md) - main drive-board entry for DM43 / DM60 / DM80 / DM100
+- [motor-drive-board/README.md](https://github.com/dmBots/motor-drive-board) - main drive-board entry for DM43 / DM60 / DM80 / DM100
 - [../README.md](../README.md) - repository homepage; use it when you need the top-level task map first
 
 ## Quick Start
-- Start with [motor-drive-board/README.md](motor-drive-board/README.md).
+- Start with [motor-drive-board/README.md](https://github.com/dmBots/motor-drive-board).
 - Then open the matching board-model folder for drawings, models, or revision files.
 
 ## Status

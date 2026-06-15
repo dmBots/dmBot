@@ -5,8 +5,8 @@
 - The current public materials are organized by model folder.
 
 ## Documentation / Resources
-- [DM-D5730-1EC/README.md](DM-D5730-1EC/README.md) - DM-D5730-1EC entry
-- [DM-D5730-1EE/README.md](DM-D5730-1EE/README.md) - DM-D5730-1EE entry
+- [DM-D5730-1EC/README.md](https://github.com/dmBots/DM-D5730-1EC) - DM-D5730-1EC entry
+- [DM-D5730-1EE/README.md](https://github.com/dmBots/DM-D5730-1EE) - DM-D5730-1EE entry
 
 ## Quick Start
 - Identify whether you need `DM-D5730-1EC` or `DM-D5730-1EE`.

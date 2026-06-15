@@ -46,7 +46,7 @@ The root README provides repository role, primary entry paths, repository differ
 
 | Path | What It Contains | First Stop |
 | --- | --- | --- |
-| `0.Firmware` | public firmware materials and notes | [`0.Firmware/Firmware/README.md`](0.Firmware/Firmware/README.md) |
+| `0.Firmware` | public firmware materials and notes | [`0.Firmware/Firmware/README.md`](https://github.com/dmBots/motor-firmware) |
 | `1.Joint Motors` | joint-motor model materials | [`1.Joint Motors/README.md`](1.Joint Motors/README.md) |
 | `2.Hollow Shaft Motors` | hollow-shaft motor materials | matching subtree under `2.Hollow Shaft Motors/` |
 | `3.Hub Motors` | hub-motor materials | matching subtree under `3.Hub Motors/` |
