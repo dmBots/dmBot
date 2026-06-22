@@ -77,7 +77,7 @@
 	url = https://github.com/dmBots/spine.git
 [submodule "6.Control Boards/dm-imu"]
 	path = 6.Control Boards/dm-imu
-	url = https://github.com/dmBots/dm-imu.git
+	url = https://github.com/dmBots/DM-IMU.git
 [submodule "6.Control Boards/dm-fc01"]
 	path = 6.Control Boards/dm-fc01
 	url = https://github.com/dmBots/dm-fc01.git
