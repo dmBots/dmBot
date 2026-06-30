@@ -1,8 +1,8 @@
 # Open Source Projects
 
-本目录是父仓导航层，实际资料通过子模块挂载。
+This directory is a parent-repository navigation layer. Actual materials are mounted as submodules.
 
-## 子仓库
+## Subrepositories
 
 - agv - agv
 - balance_robot - balance_robot
