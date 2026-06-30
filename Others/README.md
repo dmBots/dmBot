@@ -1,8 +1,7 @@
-﻿# Others
+# Others
 
-This folder is an English navigation layer. The actual materials are mounted as Git submodules.
+本目录是父仓导航层，实际资料通过子模块挂载。
 
-## Repositories
+## 子仓库
 
-- No repositories currently listed.
-
+- 暂无子仓库。
