@@ -1,131 +1,250 @@
-[submodule "0.Firmware/Firmware"]
-	path = 0.Firmware/Firmware
-	url = https://github.com/dmBots/motor-firmware.git
-[submodule "1.Joint Motors/DM-J4310-2EC"]
-	path = 1.Joint Motors/DM-J4310-2EC
-	url = https://github.com/dmBots/DM-J4310-2EC.git
-[submodule "1.Joint Motors/DM-J4310P-2EC"]
-	path = 1.Joint Motors/DM-J4310P-2EC
-	url = https://github.com/dmBots/DM-J4310P-2EC
-[submodule "1.Joint Motors/DM-J4340P-2EC"]
-	path = 1.Joint Motors/DM-J4340P-2EC
-	url = https://github.com/dmBots/DM-J4340P-2EC
-[submodule "1.Joint Motors/DM-J4340-2EC"]
-	path = 1.Joint Motors/DM-J4340-2EC
-	url = https://github.com/dmBots/DM-J4340-2EC
-[submodule "1.Joint Motors/DM-J3507-2EC"]
-	path = 1.Joint Motors/DM-J3507-2EC
-	url = https://github.com/dmBots/DM-J3507-2EC.git
-[submodule "1.Joint Motors/DM-J6006-2EC"]
-	path = 1.Joint Motors/DM-J6006-2EC
-	url = https://github.com/dmBots/DM-J6006-2EC.git
-[submodule "1.Joint Motors/DM-J6248P-2EC"]
-	path = 1.Joint Motors/DM-J6248P-2EC
-	url = https://github.com/dmBots/DM-J6248P-2EC
-[submodule "1.Joint Motors/DM-J8006-2EC"]
-	path = 1.Joint Motors/DM-J8006-2EC
-	url = https://github.com/dmBots/DM-J8006-2EC.git
-[submodule "1.Joint Motors/DM-J8009-2EC"]
-	path = 1.Joint Motors/DM-J8009-2EC
-	url = https://github.com/dmBots/DM-J8009-2EC.git
-[submodule "1.Joint Motors/DM-J8009P-2EC"]
-	path = 1.Joint Motors/DM-J8009P-2EC
-	url = https://github.com/dmBots/DM-J8009P-2EC.git
-[submodule "1.Joint Motors/DM-J10010-2EC"]
-	path = 1.Joint Motors/DM-J10010-2EC
-	url = https://github.com/dmBots/DM-J10010-2EC.git
-[submodule "1.Joint Motors/DM-J10010L-2EC"]
-	path = 1.Joint Motors/DM-J10010L-2EC
-	url = https://github.com/dmBots/DM-J10010L-2EC.git
-[submodule "1.Joint Motors/DM-J8520P-2EC"]
-	path = 1.Joint Motors/DM-J8520P-2EC
-	url = https://github.com/dmBots/DM-J8520P-2EC.git
-[submodule "2.Hollow Shaft Motors/DM-G6220"]
-	path = 2.Hollow Shaft Motors/DM-G6220
-	url = https://github.com/dmBots/DM-G6220.git
-[submodule "3.Hub Motors/DM-H6215"]
-	path = 3.Hub Motors/DM-H6215
-	url = https://github.com/dmBots/DM-H6215.git
-[submodule "3.Hub Motors/DM-H3510"]
-	path = 3.Hub Motors/DM-H3510
-	url = https://github.com/dmBots/DM-H3510.git
-[submodule "3.Hub Motors/DM-H55"]
-	path = 3.Hub Motors/DM-H55
-	url = https://github.com/dmBots/DM-H55.git
-
-[submodule "4.Discrete Series/DM-S3519-1EC"]
-	path = 4.Discrete Series/DM-S3519-1EC
-	url = https://github.com/dmBots/DM-S3519-1EC.git
-[submodule "4.Discrete Series/DM-S2325-1EC"]
-	path = 4.Discrete Series/DM-S2325-1EC
-	url = https://github.com/dmBots/DM-S2325-1EC
-[submodule "5.Control Examples/Motor Control Examples"]
-	path = 5.Control Examples/Motor Control Examples
-	url = https://github.com/dmBots/motor-control-routine.git
-
-[submodule "6.Control Boards/dm-mc01"]
-	path = 6.Control Boards/dm-mc01
-	url = https://github.com/dmBots/dm-mc01.git
-[submodule "6.Control Boards/dm-mc02"]
-	path = 6.Control Boards/dm-mc02
-	url = https://github.com/dmBots/dm-mc02.git
-[submodule "6.Control Boards/orin-board"]
-	path = 6.Control Boards/orin-board
-	url = https://github.com/dmBots/orin-board.git
-[submodule "6.Control Boards/spine"]
-	path = 6.Control Boards/spine
-	url = https://github.com/dmBots/spine.git
-[submodule "6.Control Boards/dm-imu"]
-	path = 6.Control Boards/dm-imu
-	url = https://github.com/dmBots/DM-IMU.git
-[submodule "6.Control Boards/dm-fc01"]
-	path = 6.Control Boards/dm-fc01
+﻿[submodule "Development Boards/Control Boards/DM-FC01"]
+	path = Development Boards/Control Boards/DM-FC01
 	url = https://github.com/dmBots/dm-fc01.git
-[submodule "7.Motor Driver Boards/motor-drive-board"]
-	path = 7.Motor Driver Boards/motor-drive-board
-	url = https://github.com/dmBots/motor-drive-board
-[submodule "8.Tools and Host Software/dm-tools"]
-	path = 8.Tools and Host Software/dm-tools
-	url = https://github.com/dmBots/dm-tools.git
-[submodule "9.User Manuals/Documentation"]
-	path = 9.User Manuals/Documentation
-	url = https://github.com/dmBots/damiao-document
-[submodule "A.Open Source Series/wheel-legged"]
-	path = A.Open Source Series/wheel-legged
-	url = https://github.com/dmBots/wheel-legged.git
-[submodule "A.Open Source Series/bipedal-robot"]
-	path = A.Open Source Series/bipedal-robot
-	url = https://github.com/dmBots/bipedal-robot.git
-[submodule "A.Open Source Series/agv"]
-	path = A.Open Source Series/agv
-	url = https://github.com/dmBots/agv.git
-[submodule "A.Open Source Series/open-dog"]
-	path = A.Open Source Series/open-dog
-	url = https://github.com/dmBots/open-dog.git
-[submodule "10.Direct Drive Motors/DM-D5730-1EC"]
-	path = 10.Direct Drive Motors/DM-D5730-1EC
-	url = https://github.com/dmBots/DM-D5730-1EC
-[submodule "10.Direct Drive Motors/DM-D5730-1EE"]
-	path = 10.Direct Drive Motors/DM-D5730-1EE
-	url = https://github.com/dmBots/DM-D5730-1EE
-[submodule "11.Harmonic Drive Motors/DM-JH11-51_101-2EC"]
-	path = 11.Harmonic Drive Motors/DM-JH11-51_101-2EC
-	url = https://github.com/dmBots/DM-JH11-51_101-2EC
-[submodule "11.Harmonic Drive Motors/DM-JH14-51_101-2EC"]
-	path = 11.Harmonic Drive Motors/DM-JH14-51_101-2EC
+	branch = master
+
+[submodule "Development Boards/Control Boards/DM-MC01"]
+	path = Development Boards/Control Boards/DM-MC01
+	url = https://github.com/dmBots/dm-mc01.git
+	branch = master
+
+[submodule "Development Boards/Control Boards/DM-MC02"]
+	path = Development Boards/Control Boards/DM-MC02
+	url = https://github.com/dmBots/DM-MC02.git
+	branch = master
+
+[submodule "Development Boards/Control Boards/Spine"]
+	path = Development Boards/Control Boards/Spine
+	url = https://github.com/dmBots/spine.git
+	branch = master
+
+[submodule "Development Boards/Edge Computing Boards/orin-board"]
+	path = Development Boards/Edge Computing Boards/orin-board
+	url = https://github.com/dmBots/orin-board.git
+	branch = master
+
+[submodule "Development Boards/Motor Driver Board"]
+	path = Development Boards/Motor Driver Board
+	url = https://github.com/dmBots/motor-drive-board.git
+	branch = master
+
+[submodule "Firmware/Motor Firmware"]
+	path = Firmware/Motor Firmware
+	url = https://github.com/dmBots/motor-firmware.git
+	branch = master
+
+[submodule "Modules/Communication Modules/DM-LinkX-4C"]
+	path = Modules/Communication Modules/DM-LinkX-4C
+	url = https://github.com/dmBots/dm-linkx-4c.git
+	branch = master
+
+[submodule "Modules/Communication Modules/USB2CAN"]
+	path = Modules/Communication Modules/USB2CAN
+	url = https://github.com/dmBots/usb-2-can.git
+	branch = master
+
+[submodule "Modules/Communication Modules/USB2CANFD"]
+	path = Modules/Communication Modules/USB2CANFD
+	url = https://github.com/dmBots/usb2canfd.git
+	branch = main
+
+[submodule "Modules/Communication Modules/USB2CANFD-Dual"]
+	path = Modules/Communication Modules/USB2CANFD-Dual
+	url = https://github.com/dmBots/usb2canfd-dual.git
+	branch = main
+
+[submodule "Modules/Other Modules"]
+	path = Modules/Other Modules
+	url = https://github.com/dmBots/other-modules.git
+	branch = main
+
+[submodule "Modules/Sensor Modules/DM-IMU"]
+	path = Modules/Sensor Modules/DM-IMU
+	url = https://github.com/dmBots/DM-IMU.git
+	branch = master
+
+[submodule "Motor Products/Direct Drive Motors/DM-D5730-1EC"]
+	path = Motor Products/Direct Drive Motors/DM-D5730-1EC
+	url = https://github.com/dmBots/DM-D5730-1EC.git
+	branch = master
+
+[submodule "Motor Products/Direct Drive Motors/DM-D5730-1EE"]
+	path = Motor Products/Direct Drive Motors/DM-D5730-1EE
+	url = https://github.com/dmBots/DM-D5730-1EE.git
+	branch = master
+
+[submodule "Motor Products/Discrete Series/DM-S2325-1EC"]
+	path = Motor Products/Discrete Series/DM-S2325-1EC
+	url = https://github.com/dmBots/DM-S2325-1EC.git
+	branch = master
+
+[submodule "Motor Products/Discrete Series/DM-S3519-1EC"]
+	path = Motor Products/Discrete Series/DM-S3519-1EC
+	url = https://github.com/dmBots/DM-S3519-1EC.git
+	branch = master
+
+[submodule "Motor Products/Harmonic Drive Motors/DM-JH11-51_101-2EC"]
+	path = Motor Products/Harmonic Drive Motors/DM-JH11-51_101-2EC
+	url = https://github.com/dmBots/DM-JH11-51_101-2EC.git
+	branch = master
+
+[submodule "Motor Products/Harmonic Drive Motors/DM-JH14-51_101-2EC"]
+	path = Motor Products/Harmonic Drive Motors/DM-JH14-51_101-2EC
 	url = https://github.com/dmBots/DM-JH14-51_101-2EC.git
-[submodule "11.Harmonic Drive Motors/DM-JH17-51_101-2EC"]
-	path = 11.Harmonic Drive Motors/DM-JH17-51_101-2EC
+	branch = master
+
+[submodule "Motor Products/Harmonic Drive Motors/DM-JH17-51_101-2EC"]
+	path = Motor Products/Harmonic Drive Motors/DM-JH17-51_101-2EC
 	url = https://github.com/dmBots/DM-JH17-51_101-2EC.git
-[submodule "3.Hub Motors/DM-H65-1EC"]
-	path = 3.Hub Motors/DM-H65-1EC
-	url = https://github.com/dmBots/DM-H65-1EC
-[submodule "1.Joint Motors/DM-J10422P-2EC"]
-	path = 1.Joint Motors/DM-J10422P-2EC
+	branch = master
+
+[submodule "Motor Products/Hollow Shaft Motors/DM-G6220"]
+	path = Motor Products/Hollow Shaft Motors/DM-G6220
+	url = https://github.com/dmBots/DM-G6220.git
+	branch = master
+
+[submodule "Motor Products/Hub Motors/DM-H3510"]
+	path = Motor Products/Hub Motors/DM-H3510
+	url = https://github.com/dmBots/DM-H3510.git
+	branch = master
+
+[submodule "Motor Products/Hub Motors/DM-H55"]
+	path = Motor Products/Hub Motors/DM-H55
+	url = https://github.com/dmBots/DM-H55.git
+	branch = master
+
+[submodule "Motor Products/Hub Motors/DM-H6215"]
+	path = Motor Products/Hub Motors/DM-H6215
+	url = https://github.com/dmBots/DM-H6215.git
+	branch = master
+
+[submodule "Motor Products/Hub Motors/DM-H65-1EC"]
+	path = Motor Products/Hub Motors/DM-H65-1EC
+	url = https://github.com/dmBots/DM-H65-1EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J10010-2EC"]
+	path = Motor Products/Joint Motors/DM-J10010-2EC
+	url = https://github.com/dmBots/DM-J10010-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J10010L-2EC"]
+	path = Motor Products/Joint Motors/DM-J10010L-2EC
+	url = https://github.com/dmBots/DM-J10010L-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J10422P-2EC"]
+	path = Motor Products/Joint Motors/DM-J10422P-2EC
 	url = https://github.com/dmBots/DM-J10422P-2EC.git
-[submodule "A.Open Source Series/Seeed-reBot-DevArm"]
-	path = A.Open Source Series/Seeed-reBot-DevArm
-	url = https://github.com/Seeed-Projects/reBot-DevArm.git
-[submodule "A.Open Source Series/Robotics_Tutorial"]
-	path = A.Open Source Series/Robotics_Tutorial
-	url = https://github.com/Michael-Jetson/Robotics_Tutorial.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J3507-2EC"]
+	path = Motor Products/Joint Motors/DM-J3507-2EC
+	url = https://github.com/dmBots/DM-J3507-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J4310-2EC"]
+	path = Motor Products/Joint Motors/DM-J4310-2EC
+	url = https://github.com/dmBots/DM-J4310-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J4310P-2EC"]
+	path = Motor Products/Joint Motors/DM-J4310P-2EC
+	url = https://github.com/dmBots/DM-J4310P-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J4340-2EC"]
+	path = Motor Products/Joint Motors/DM-J4340-2EC
+	url = https://github.com/dmBots/DM-J4340-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J4340P-2EC"]
+	path = Motor Products/Joint Motors/DM-J4340P-2EC
+	url = https://github.com/dmBots/DM-J4340P-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J6006-2EC"]
+	path = Motor Products/Joint Motors/DM-J6006-2EC
+	url = https://github.com/dmBots/DM-J6006-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J6248P-2EC"]
+	path = Motor Products/Joint Motors/DM-J6248P-2EC
+	url = https://github.com/dmBots/DM-J6248P-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J8006-2EC"]
+	path = Motor Products/Joint Motors/DM-J8006-2EC
+	url = https://github.com/dmBots/DM-J8006-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J8009-2EC"]
+	path = Motor Products/Joint Motors/DM-J8009-2EC
+	url = https://github.com/dmBots/DM-J8009-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J8009P-2EC"]
+	path = Motor Products/Joint Motors/DM-J8009P-2EC
+	url = https://github.com/dmBots/DM-J8009P-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J8520P-2EC"]
+	path = Motor Products/Joint Motors/DM-J8520P-2EC
+	url = https://github.com/dmBots/DM-J8520P-2EC.git
+	branch = master
+
+[submodule "Open Source Projects/agv"]
+	path = Open Source Projects/agv
+	url = https://github.com/dmBots/agv.git
+	branch = master
+
+[submodule "Open Source Projects/balance_robot"]
+	path = Open Source Projects/balance_robot
+	url = https://github.com/dmBots/balance_robot.git
+	branch = master
+
+[submodule "Open Source Projects/bipedal-robot"]
+	path = Open Source Projects/bipedal-robot
+	url = https://github.com/dmBots/bipedal-robot.git
+	branch = master
+
+[submodule "Open Source Projects/open-dog"]
+	path = Open Source Projects/open-dog
+	url = https://github.com/dmBots/open-dog.git
+	branch = master
+
+[submodule "Open Source Projects/wheel-legged"]
+	path = Open Source Projects/wheel-legged
+	url = https://github.com/dmBots/wheel-legged.git
+	branch = main
+
+[submodule "SDK/Module Communication SDK/DM_DeviceSDK"]
+	path = SDK/Module Communication SDK/DM_DeviceSDK
+	url = https://github.com/dmBots/dm-device-sdk.git
+	branch = master
+
+[submodule "SDK/Module Communication SDK/gs_usb_drives"]
+	path = SDK/Module Communication SDK/gs_usb_drives
+	url = https://github.com/dmBots/gs-usb-drivers.git
+	branch = main
+
+[submodule "SDK/Motor Control Examples"]
+	path = SDK/Motor Control Examples
+	url = https://github.com/dmBots/motor-control-routine.git
+	branch = master
+
+[submodule "SDK/Motor SDK"]
+	path = SDK/Motor SDK
+	url = https://github.com/dmBots/motor-sdk.git
+	branch = main
+
+[submodule "Tools and Host Software/Motor Debugging Tool"]
+	path = Tools and Host Software/Motor Debugging Tool
+	url = https://github.com/dmBots/motor-debugging-tool.git
+	branch = master
+
+[submodule "Tools and Host Software/USB2CANFD Upgrade Tool"]
+	path = Tools and Host Software/USB2CANFD Upgrade Tool
+	url = https://github.com/dmBots/usb2canfd-upgrade-tool.git
+	branch = main
+

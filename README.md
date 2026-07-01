@@ -1,104 +1,84 @@
-# DAMIAO
+﻿# DAMIAO Public Materials
 
-[EN](./README.md) | [中文](./README.zh.md) | [Gitee 中文](https://gitee.com/kit-miao/damiao/blob/master/README.md)
+[Gitee Chinese repository](https://gitee.com/kit-miao/damiao) | [GitHub English repository](https://github.com/dmBots/dmBot)
 
-`dmBot` is the GitHub English repository for DAMIAO.
-The root README provides repository role, primary entry paths, repository differences, and common guidance.
+This is the English public entry repository for DAMIAO materials. The maintained source is the Chinese network source, and this repository is generated from that governed source with English navigation paths.
 
-## Repository Role
+## Start Here
 
-- English public entry repository: primary English entry for products, control examples, boards, tools, and public continuation paths.
-- Not the full archive: more complete Chinese materials, deeper history, and some broader branches remain Gitee-first.
-- README pages provide navigation; detailed install, build, flashing, runtime, and platform steps stay in folder-local `USAGE.md`, `SETUP.md`, `WORKFLOW.md`, `FLASHING.md`, `BUILD.md`, `PLATFORM.md`, `UPDATE.md`, and `FIRMWARE-NOTES.md`.
-
-## Start Here By Task
-
-### Customers And Developers
-
-- Looking for a motor model: start with [1.Joint Motors](1.Joint Motors/README.md).
-- Need control examples: start with [5.Control Examples](5.Control Examples/README.md).
-- Need control boards, IMU, or Orin carrier entry pages: start with [6.Control Boards](6.Control Boards/README.md).
-- Need USB2CANFD, host software, firmware switching, or SDK paths: start with [8.Tools and Host Software](8.Tools and Host Software/README.md).
-- Need Canopen materials: start with [B.Canopen](B.Canopen/README.md).
-
-### If GitHub Coverage Is Not Enough
-
-- Read [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md) first.
-- If you arrived from an older Chinese-path bookmark, use [docs/repository/path-mapping.md](docs/repository/path-mapping.md).
-- When you need the more complete Chinese source, continue in [Gitee damiao](https://gitee.com/kit-miao/damiao/blob/master/README.md).
-
-### Maintainers And Contributors
-
-- README rules, document placement, and sync gates now live in [CONTRIBUTING.md](CONTRIBUTING.md).
-- Cross-repository coverage rules stay in [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md).
-- Path conversion and old-bookmark handling stay in [docs/repository/path-mapping.md](docs/repository/path-mapping.md).
-
-## High-Frequency Entry Paths
-
-- [1.Joint Motors](1.Joint Motors/README.md) - find materials by motor model
-- [5.Control Examples](5.Control Examples/README.md) - choose example paths by language, platform, and runtime
-- [6.Control Boards](6.Control Boards/README.md) - controller boards, IMU, and Orin carrier entry points
-- [8.Tools and Host Software](8.Tools and Host Software/README.md) - USB2CANFD tools, host software, firmware, and SDK entry
-- [9.User Manuals](9.User Manuals/README.md) - public manuals and support documents
-- [B.Canopen](B.Canopen/README.md) - Canopen public entry
+- [Motor Products](Motor%20Products/)
+- [Modules](Modules/)
+- [Development Boards](Development%20Boards/)
+- [SDK](SDK/)
+- [Tools and Host Software](Tools%20and%20Host%20Software/)
+- [Firmware](Firmware/)
+- [Open Source Projects](Open%20Source%20Projects/)
+- [Others](Others/)
 
 ## Repository Map
 
-| Path | What It Contains | First Stop |
-| --- | --- | --- |
-| `0.Firmware` | public firmware materials and notes | [`0.Firmware/Firmware/README.md`](https://github.com/dmBots/motor-firmware) |
-| `1.Joint Motors` | joint-motor model materials | [`1.Joint Motors/README.md`](1.Joint Motors/README.md) |
-| `2.Hollow Shaft Motors` | hollow-shaft motor materials | matching subtree under `2.Hollow Shaft Motors/` |
-| `3.Hub Motors` | hub-motor materials | matching subtree under `3.Hub Motors/` |
-| `4.Discrete Series` | discrete-series materials | matching subtree under `4.Discrete Series/` |
-| `5.Control Examples` | control examples by language and runtime | [`5.Control Examples/README.md`](5.Control Examples/README.md) |
-| `6.Control Boards` | controller boards, IMU, Orin carrier, spine | [`6.Control Boards/README.md`](6.Control Boards/README.md) |
-| `7.Motor Driver Boards` | driver-board entry paths | [`7.Motor Driver Boards/README.md`](7.Motor Driver Boards/README.md) |
-| `8.Tools and Host Software` | tools, host software, firmware switching, and SDK entry | [`8.Tools and Host Software/README.md`](8.Tools and Host Software/README.md) |
-| `9.User Manuals` | public manuals and support materials | [`9.User Manuals/README.md`](9.User Manuals/README.md) |
-| `10.Direct Drive Motors` | direct-drive motor materials | matching subtree under `10.Direct Drive Motors/` |
-| `11.Harmonic Drive Motors` | harmonic-drive motor materials | matching subtree under `11.Harmonic Drive Motors/` |
-| `A.Open Source Series` | open-source project entry including `Seeed-reBot-DevArm` | matching subtree README |
-| `B.Canopen` | Canopen public entry | [`B.Canopen/README.md`](B.Canopen/README.md) |
+| GitHub path | Repository |
+| --- | --- |
+| `Development Boards/Control Boards/DM-FC01` | [dm-fc01](https://github.com/dmBots/dm-fc01) |
+| `Development Boards/Control Boards/DM-MC01` | [dm-mc01](https://github.com/dmBots/dm-mc01) |
+| `Development Boards/Control Boards/DM-MC02` | [DM-MC02](https://github.com/dmBots/DM-MC02) |
+| `Development Boards/Control Boards/Spine` | [spine](https://github.com/dmBots/spine) |
+| `Development Boards/Edge Computing Boards/orin-board` | [orin-board](https://github.com/dmBots/orin-board) |
+| `Development Boards/Motor Driver Board` | [motor-drive-board](https://github.com/dmBots/motor-drive-board) |
+| `Firmware/Motor Firmware` | [motor-firmware](https://github.com/dmBots/motor-firmware) |
+| `Modules/Communication Modules/DM-LinkX-4C` | [dm-linkx-4c](https://github.com/dmBots/dm-linkx-4c) |
+| `Modules/Communication Modules/USB2CAN` | [usb-2-can](https://github.com/dmBots/usb-2-can) |
+| `Modules/Communication Modules/USB2CANFD` | [usb2canfd](https://github.com/dmBots/usb2canfd) |
+| `Modules/Communication Modules/USB2CANFD-Dual` | [usb2canfd-dual](https://github.com/dmBots/usb2canfd-dual) |
+| `Modules/Other Modules` | [other-modules](https://github.com/dmBots/other-modules) |
+| `Modules/Sensor Modules/DM-IMU` | [DM-IMU](https://github.com/dmBots/DM-IMU) |
+| `Motor Products/Direct Drive Motors/DM-D5730-1EC` | [DM-D5730-1EC](https://github.com/dmBots/DM-D5730-1EC) |
+| `Motor Products/Direct Drive Motors/DM-D5730-1EE` | [DM-D5730-1EE](https://github.com/dmBots/DM-D5730-1EE) |
+| `Motor Products/Discrete Series/DM-S2325-1EC` | [DM-S2325-1EC](https://github.com/dmBots/DM-S2325-1EC) |
+| `Motor Products/Discrete Series/DM-S3519-1EC` | [DM-S3519-1EC](https://github.com/dmBots/DM-S3519-1EC) |
+| `Motor Products/Harmonic Drive Motors/DM-JH11-51_101-2EC` | [DM-JH11-51_101-2EC](https://github.com/dmBots/DM-JH11-51_101-2EC) |
+| `Motor Products/Harmonic Drive Motors/DM-JH14-51_101-2EC` | [DM-JH14-51_101-2EC](https://github.com/dmBots/DM-JH14-51_101-2EC) |
+| `Motor Products/Harmonic Drive Motors/DM-JH17-51_101-2EC` | [DM-JH17-51_101-2EC](https://github.com/dmBots/DM-JH17-51_101-2EC) |
+| `Motor Products/Hollow Shaft Motors/DM-G6220` | [DM-G6220](https://github.com/dmBots/DM-G6220) |
+| `Motor Products/Hub Motors/DM-H3510` | [DM-H3510](https://github.com/dmBots/DM-H3510) |
+| `Motor Products/Hub Motors/DM-H55` | [DM-H55](https://github.com/dmBots/DM-H55) |
+| `Motor Products/Hub Motors/DM-H6215` | [DM-H6215](https://github.com/dmBots/DM-H6215) |
+| `Motor Products/Hub Motors/DM-H65-1EC` | [DM-H65-1EC](https://github.com/dmBots/DM-H65-1EC) |
+| `Motor Products/Joint Motors/DM-J10010-2EC` | [DM-J10010-2EC](https://github.com/dmBots/DM-J10010-2EC) |
+| `Motor Products/Joint Motors/DM-J10010L-2EC` | [DM-J10010L-2EC](https://github.com/dmBots/DM-J10010L-2EC) |
+| `Motor Products/Joint Motors/DM-J10422P-2EC` | [DM-J10422P-2EC](https://github.com/dmBots/DM-J10422P-2EC) |
+| `Motor Products/Joint Motors/DM-J3507-2EC` | [DM-J3507-2EC](https://github.com/dmBots/DM-J3507-2EC) |
+| `Motor Products/Joint Motors/DM-J4310-2EC` | [DM-J4310-2EC](https://github.com/dmBots/DM-J4310-2EC) |
+| `Motor Products/Joint Motors/DM-J4310P-2EC` | [DM-J4310P-2EC](https://github.com/dmBots/DM-J4310P-2EC) |
+| `Motor Products/Joint Motors/DM-J4340-2EC` | [DM-J4340-2EC](https://github.com/dmBots/DM-J4340-2EC) |
+| `Motor Products/Joint Motors/DM-J4340P-2EC` | [DM-J4340P-2EC](https://github.com/dmBots/DM-J4340P-2EC) |
+| `Motor Products/Joint Motors/DM-J6006-2EC` | [DM-J6006-2EC](https://github.com/dmBots/DM-J6006-2EC) |
+| `Motor Products/Joint Motors/DM-J6248P-2EC` | [DM-J6248P-2EC](https://github.com/dmBots/DM-J6248P-2EC) |
+| `Motor Products/Joint Motors/DM-J8006-2EC` | [DM-J8006-2EC](https://github.com/dmBots/DM-J8006-2EC) |
+| `Motor Products/Joint Motors/DM-J8009-2EC` | [DM-J8009-2EC](https://github.com/dmBots/DM-J8009-2EC) |
+| `Motor Products/Joint Motors/DM-J8009P-2EC` | [DM-J8009P-2EC](https://github.com/dmBots/DM-J8009P-2EC) |
+| `Motor Products/Joint Motors/DM-J8520P-2EC` | [DM-J8520P-2EC](https://github.com/dmBots/DM-J8520P-2EC) |
+| `Open Source Projects/agv` | [agv](https://github.com/dmBots/agv) |
+| `Open Source Projects/balance_robot` | [balance_robot](https://github.com/dmBots/balance_robot) |
+| `Open Source Projects/bipedal-robot` | [bipedal-robot](https://github.com/dmBots/bipedal-robot) |
+| `Open Source Projects/open-dog` | [open-dog](https://github.com/dmBots/open-dog) |
+| `Open Source Projects/wheel-legged` | [wheel-legged](https://github.com/dmBots/wheel-legged) |
+| `SDK/Module Communication SDK/DM_DeviceSDK` | [dm-device-sdk](https://github.com/dmBots/dm-device-sdk) |
+| `SDK/Module Communication SDK/gs_usb_drives` | [gs-usb-drivers](https://github.com/dmBots/gs-usb-drivers) |
+| `SDK/Motor Control Examples` | [motor-control-routine](https://github.com/dmBots/motor-control-routine) |
+| `SDK/Motor SDK` | [motor-sdk](https://github.com/dmBots/motor-sdk) |
+| `Tools and Host Software/Motor Debugging Tool` | [motor-debugging-tool](https://github.com/dmBots/motor-debugging-tool) |
+| `Tools and Host Software/USB2CANFD Upgrade Tool` | [usb2canfd-upgrade-tool](https://github.com/dmBots/usb2canfd-upgrade-tool) |
 
-## Clone And Sync
+## Clone
 
 ```bash
 git clone https://github.com/dmBots/dmBot.git
 cd dmBot
-git submodule update --init --recursive --remote
+git submodule update --init --recursive
 ```
 
-- If you only need one subtree, locate it here first and then follow that subtree's own README and workflow docs.
-- For older Chinese-path GitHub bookmarks, use `path-mapping` and the local README entry pages.
+## Maintenance Rule
 
-## Repository Differences
+The network source is the only maintenance source. Do not manually maintain a second copy of public materials inside local folders. Publish changes through the governance script.
 
-- `dmBot` is the English public entry repository.
-- `damiao` is the Chinese primary repository and the more complete Chinese source.
-- `orin-board` keeps its current directory and documentation pattern.
-- `A.Open Source Series` keeps its current structure, including external project entries such as `Seeed-reBot-DevArm`.
-
-## Common Questions
-
-- Why does GitHub have fewer materials than Gitee?  
-  GitHub is the English entry repository rather than the full archive. Read [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md).
-- What should I do if an old Chinese-path GitHub bookmark no longer works?  
-  Use [docs/repository/path-mapping.md](docs/repository/path-mapping.md).
-- What is the difference between `README.md` and `USAGE.md` / `SETUP.md` / `WORKFLOW.md`?  
-  README provides navigation; workflow docs provide the actual steps.
-- Where should I go for the more complete Chinese source?
-  Go to [Gitee damiao](https://gitee.com/kit-miao/damiao/blob/master/README.md).
-
-## Support And Security
-
-- [Customer Help Center](https://gl1po2nscb.feishu.cn/wiki/MZ32w0qnnizTpOkNvAZcJ9SlnXb)
-- [Motor Firmware Mirror](https://github.com/dmBots/motor-firmware)
-- [SECURITY.md](SECURITY.md)
-
-## Maintainers And Contributors
-
-- [CONTRIBUTING.md](CONTRIBUTING.md) - README rules, document placement, and sync gates
-- [docs/repository/mirror-scope.md](docs/repository/mirror-scope.md) - coverage boundaries and cross-repository continuation guidance
-- [docs/repository/path-mapping.md](docs/repository/path-mapping.md) - path conversion and old-bookmark handling
-- Keep install, build, flashing, and platform procedures in folder-local workflow docs rather than in the root README.
