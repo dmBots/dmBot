@@ -1,4 +1,4 @@
-﻿[submodule "Development Boards/Control Boards/DM-FC01"]
+[submodule "Development Boards/Control Boards/DM-FC01"]
 	path = Development Boards/Control Boards/DM-FC01
 	url = https://github.com/dmBots/dm-fc01.git
 	branch = master
