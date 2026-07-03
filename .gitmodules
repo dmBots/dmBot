@@ -218,6 +218,11 @@
 	url = https://github.com/dmBots/wheel-legged.git
 	branch = main
 
+[submodule "other/automation-tests/dm-materials-e2e-20260703-144629"]
+	path = other/automation-tests/dm-materials-e2e-20260703-144629
+	url = https://github.com/dmBots/dm-materials-e2e-20260703-144629.git
+	branch = master
+
 [submodule "SDK/Module Communication SDK/DM_DeviceSDK"]
 	path = SDK/Module Communication SDK/DM_DeviceSDK
 	url = https://github.com/dmBots/dm-device-sdk.git
