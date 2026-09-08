@@ -168,6 +168,16 @@
 	url = https://github.com/dmBots/DM-J6006-2EC.git
 	branch = master
 
+[submodule "Motor Products/Joint Motors/DM-J6216L-2EC"]
+	path = Motor Products/Joint Motors/DM-J6216L-2EC
+	url = https://github.com/dmBots/DM-J6216L-2EC.git
+	branch = master
+
+[submodule "Motor Products/Joint Motors/DM-J6216P-2EC"]
+	path = Motor Products/Joint Motors/DM-J6216P-2EC
+	url = https://github.com/dmBots/DM-J6216P-2EC.git
+	branch = master
+
 [submodule "Motor Products/Joint Motors/DM-J6248P-2EC"]
 	path = Motor Products/Joint Motors/DM-J6248P-2EC
 	url = https://github.com/dmBots/DM-J6248P-2EC.git

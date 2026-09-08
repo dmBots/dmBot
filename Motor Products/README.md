@@ -25,6 +25,8 @@ This directory is a parent-repository navigation layer. Actual materials are mou
 - Joint Motors/DM-J4340-2EC - DM-J4340-2EC
 - Joint Motors/DM-J4340P-2EC - DM-J4340P-2EC
 - Joint Motors/DM-J6006-2EC - DM-J6006-2EC
+- Joint Motors/DM-J6216L-2EC - DM-J6216L-2EC
+- Joint Motors/DM-J6216P-2EC - DM-J6216P-2EC
 - Joint Motors/DM-J6248P-2EC - DM-J6248P-2EC
 - Joint Motors/DM-J8006-2EC - DM-J8006-2EC
 - Joint Motors/DM-J8009-2EC - DM-J8009-2EC
