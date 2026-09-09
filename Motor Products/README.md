@@ -12,6 +12,7 @@ This directory is a parent-repository navigation layer. Actual materials are mou
 - Harmonic Drive Motors/DM-JH14-51_101-2EC - DM-JH14-51_101-2EC
 - Harmonic Drive Motors/DM-JH17-51_101-2EC - DM-JH17-51_101-2EC
 - Hollow Shaft Motors/DM-G6220 - DM-G6220
+- Hollow Shaft Motors/DM-G8518 - DM-G8518
 - Hub Motors/DM-H3510 - DM-H3510
 - Hub Motors/DM-H55 - DM-H55
 - Hub Motors/DM-H6215 - DM-H6215

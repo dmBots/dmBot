@@ -103,6 +103,11 @@
 	url = https://github.com/dmBots/DM-G6220.git
 	branch = master
 
+[submodule "Motor Products/Hollow Shaft Motors/DM-G8518"]
+	path = Motor Products/Hollow Shaft Motors/DM-G8518
+	url = https://github.com/dmBots/DM-G8518.git
+	branch = master
+
 [submodule "Motor Products/Hub Motors/DM-H3510"]
 	path = Motor Products/Hub Motors/DM-H3510
 	url = https://github.com/dmBots/DM-H3510.git
