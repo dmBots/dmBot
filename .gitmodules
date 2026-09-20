@@ -223,6 +223,11 @@
 	url = https://github.com/dmBots/bipedal-robot.git
 	branch = master
 
+[submodule "Open Source Projects/7-axis-harmonic-drive-robotic-arm"]
+	path = Open Source Projects/7-axis-harmonic-drive-robotic-arm
+	url = https://github.com/dmBots/7-axis-harmonic-drive-robotic-arm.git
+	branch = master
+
 [submodule "Open Source Projects/open-dog"]
 	path = Open Source Projects/open-dog
 	url = https://github.com/dmBots/open-dog.git
