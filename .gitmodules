@@ -267,3 +267,7 @@
 	path = Tools and Host Software/USB2CANFD Upgrade Tool
 	url = https://github.com/dmBots/usb2canfd-upgrade-tool.git
 	branch = main
+[submodule "Motor Products/Harmonic Drive Motors/DM-JH20-51_101-2EC"]
+	path = Motor Products/Harmonic Drive Motors/DM-JH20-51_101-2EC
+	url = https://github.com/dmBots/DM-JH20-51_101-2EC.git
+	branch = master
