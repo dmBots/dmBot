@@ -123,11 +123,6 @@
 	url = https://github.com/dmBots/DM-H6215.git
 	branch = master
 
-[submodule "Motor Products/Hub Motors/DM-H65-1EC"]
-	path = Motor Products/Hub Motors/DM-H65-1EC
-	url = https://github.com/dmBots/DM-H65-1EC.git
-	branch = master
-
 [submodule "Motor Products/Joint Motors/DM-J10010-2EC"]
 	path = Motor Products/Joint Motors/DM-J10010-2EC
 	url = https://github.com/dmBots/DM-J10010-2EC.git
@@ -270,4 +265,8 @@
 [submodule "Motor Products/Harmonic Drive Motors/DM-JH20-51_101-2EC"]
 	path = Motor Products/Harmonic Drive Motors/DM-JH20-51_101-2EC
 	url = https://github.com/dmBots/DM-JH20-51_101-2EC.git
+	branch = master
+[submodule "Motor Products/Hub Motors/DM-H65"]
+	path = Motor Products/Hub Motors/DM-H65
+	url = https://github.com/dmBots/DM-H65-1EC.git
 	branch = master
