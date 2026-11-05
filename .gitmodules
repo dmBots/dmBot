@@ -268,5 +268,5 @@
 	branch = master
 [submodule "Motor Products/Hub Motors/DM-H65"]
 	path = Motor Products/Hub Motors/DM-H65
-	url = https://github.com/dmBots/DM-H65-1EC.git
+	url = https://github.com/dmBots/H65-1EC.git
 	branch = master
