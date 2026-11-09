@@ -148,6 +148,11 @@
 	url = https://github.com/dmBots/DM-J4310-2EC.git
 	branch = master
 
+[submodule "Motor Products/Joint Motors/DM-J4310M-2EC"]
+	path = Motor Products/Joint Motors/DM-J4310M-2EC
+	url = https://github.com/dmBots/DM-J4310M-2EC.git
+	branch = main
+
 [submodule "Motor Products/Joint Motors/DM-J4310P-2EC"]
 	path = Motor Products/Joint Motors/DM-J4310P-2EC
 	url = https://github.com/dmBots/DM-J4310P-2EC.git
